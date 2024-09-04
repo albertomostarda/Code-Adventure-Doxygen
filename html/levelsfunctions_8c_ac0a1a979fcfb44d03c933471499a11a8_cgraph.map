@@ -1,0 +1,132 @@
+<map id="action_subrun" name="action_subrun">
+<area shape="rect" id="Node000001" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="5,323,108,349"/>
+<area shape="rect" id="Node000002" href="$levelsfunctions_8c.html#ad7cbef53b0c51c5586114246783c1f50" title="Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire." alt="" coords="310,132,373,159"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,320,305,165,308,170,80,324"/>
+<area shape="rect" id="Node000019" href="$levelsfunctions_8c.html#a0b1fef6defbe5895fa1a2ca2f58cf4fb" title="Funzione che permette l’eliminazione dell’ultima azione inserita." alt="" coords="292,323,390,349"/>
+<area shape="poly" id="edge22_Node000001_Node000019" title=" " alt="" coords="108,333,277,333,277,339,108,339"/>
+<area shape="rect" id="Node000020" href="$levelsfunctions_8c.html#a03e3adde4d6e3fcdb6b887522f51b04b" title="Funzione che esegue le azioni scelte dall’utente." alt="" coords="156,1221,244,1248"/>
+<area shape="poly" id="edge25_Node000001_Node000020" title=" " alt="" coords="63,349,197,1205,191,1206,57,350"/>
+<area shape="rect" id="Node000003" href="$levelsfunctions_8c.html#a6aa92c0b026b9700041f50528fdd838a" title="Funzione che permette l’inserimento delle variabili di gioco." alt="" coords="646,81,708,108"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="373,138,631,99,631,104,374,143"/>
+<area shape="rect" id="Node000005" href="$features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="948,436,1027,463"/>
+<area shape="poly" id="edge9_Node000002_Node000005" title=" " alt="" coords="373,142,470,144,535,151,606,162,680,179,754,205,824,239,887,285,918,317,943,354,978,421,973,423,939,357,914,321,884,289,821,244,752,210,679,185,605,167,534,156,469,150,373,147"/>
+<area shape="rect" id="Node000008" href="$levelsfunctions_8c.html#a1c940c42c4047f2798dd5491897208a1" title="Funzione che in base al livello stabilisce quali azioni l’utente può utilizzare." alt="" coords="457,5,547,32"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="350,130,386,87,410,63,437,42,444,37,447,42,440,46,414,67,390,91,355,133"/>
+<area shape="rect" id="Node000009" href="$levelsfunctions_8c.html#a55e1fd2e85959c825eb81bd05f51667f" title="Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore." alt="" coords="458,411,546,437"/>
+<area shape="poly" id="edge10_Node000002_Node000009" title=" " alt="" coords="353,158,488,396,483,398,348,160"/>
+<area shape="rect" id="Node000018" href="$levelsfunctions_8c.html#a31381949258ee57cb466ba4ed466ed76" title="Funzione che stampa il menu delle azioni che il giocatore può aggiungere per far muovere il personagg..." alt="" coords="465,56,539,83"/>
+<area shape="poly" id="edge21_Node000002_Node000018" title=" " alt="" coords="370,129,457,87,459,92,373,134"/>
+<area shape="rect" id="Node000004" href="$levelsfunctions_8c.html#a3128c8319f3a6ce6d72966dad0d390f5" title="Funzione che permette la scelta del valore che avrà la variabile scelta." alt="" coords="800,5,874,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="706,78,792,37,794,41,708,83"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="708,92,748,95,796,104,844,121,867,134,887,150,914,181,935,215,952,252,965,291,981,363,988,420,982,421,976,364,960,292,947,254,931,218,910,184,883,154,864,138,842,126,794,109,747,100,708,97"/>
+<area shape="rect" id="Node000007" href="$levelsfunctions_8c.html#aa10befc0dab98079fee3a4395d399513" title="Funzione che stampa il menu dell’inserimento delle variabili." alt="" coords="790,56,883,83"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="708,87,774,76,775,82,709,92"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="874,30,887,42,918,89,942,141,960,195,972,248,986,347,989,420,984,420,981,348,967,249,955,196,937,143,913,92,883,46,870,34"/>
+<area shape="rect" id="Node000006" href="$levelsfunctions_8c.html#a49160679b1e235d1247f3014f1047551" title="Funzione che stampa il menu della scelta del valore delle variabili." alt="" coords="934,5,1041,32"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="874,16,919,16,919,21,874,21"/>
+<area shape="poly" id="edge20_Node000009_Node000009" title=" " alt="" coords="474,411,469,402,473,392,484,386,502,384,521,387,532,393,529,398,520,392,502,389,485,391,477,396,475,401,479,409"/>
+<area shape="rect" id="Node000010" href="$errors_8c.html#a701449d9896c131360b9fabfbd00e26d" title="Funzione che gestisce il caso in cui venga inserito un ciclo al posto della condizione di un altro ci..." alt="" coords="624,360,730,387"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="546,409,613,389,615,394,548,414"/>
+<area shape="rect" id="Node000011" href="$errors_8c.html#af6cecb4d699b77d07f42aae0d2a1c646" title="Funzione che gestisce il caso in cui un’azione di tipo condizione viene inserita nel contesto sbaglia..." alt="" coords="626,411,728,437"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="547,429,611,430,611,435,547,435"/>
+<area shape="rect" id="Node000012" href="$errors_8c.html#af2976c7a561c76c41f18b45ef34e9de1" title="Funzione che controlla se tutti gli “ALTRIMENTI” siano chiusi correttamente." alt="" coords="629,461,725,488"/>
+<area shape="poly" id="edge14_Node000009_Node000012" title=" " alt="" coords="548,434,615,454,613,459,546,439"/>
+<area shape="rect" id="Node000013" href="$errors_8c.html#ad404093a0eb05672cb5583ed0307221e" title="Funzione che gestisce il caso in cui gli “ALTRIMENTI” non vengano chiusi correttamente." alt="" coords="614,512,740,539"/>
+<area shape="poly" id="edge15_Node000009_Node000013" title=" " alt="" coords="522,436,564,466,615,498,626,503,623,508,612,502,561,470,519,440"/>
+<area shape="rect" id="Node000014" href="$errors_8c.html#a0543ac38be03b2790544f71112dc43c2" title="Funzione che gestisce il caso in cui la struttura “ALTRIMENTI” venga inserita senza il “SE” d’apparte..." alt="" coords="625,563,728,589"/>
+<area shape="poly" id="edge16_Node000009_Node000014" title=" " alt="" coords="514,436,554,490,583,521,615,549,622,553,620,558,612,553,579,525,550,493,510,439"/>
+<area shape="rect" id="Node000015" href="$errors_8c.html#a6ab269cd530b60b6f15ad3e90e11be62" title="Funzione che controlla se tutti i cicli siano chiusi correttamente." alt="" coords="627,613,727,640"/>
+<area shape="poly" id="edge17_Node000009_Node000015" title=" " alt="" coords="511,437,525,469,547,513,577,559,615,599,621,603,617,607,612,603,573,562,542,515,520,471,506,439"/>
+<area shape="rect" id="Node000016" href="$errors_8c.html#ae31134d34dcf6dfdece9226c54fc2029" title="Funzione che controlla se tutti i “SE” siano chiusi correttamente." alt="" coords="636,259,718,285"/>
+<area shape="poly" id="edge18_Node000009_Node000016" title=" " alt="" coords="510,409,550,355,579,323,612,295,620,290,623,294,615,299,583,327,554,358,514,412"/>
+<area shape="rect" id="Node000017" href="$errors_8c.html#a51de34299031696007e908f0491d7546" title="Funzione che gestisce il caso in cui venga inserita un “SE” nel posto della condizione di un altro “S..." alt="" coords="634,309,720,336"/>
+<area shape="poly" id="edge19_Node000009_Node000017" title=" " alt="" coords="519,408,561,378,612,346,623,340,626,345,615,350,564,382,522,412"/>
+<area shape="poly" id="edge13_Node000011_Node000009" title=" " alt="" coords="626,418,562,418,562,413,626,413"/>
+<area shape="poly" id="edge23_Node000019_Node000005" title=" " alt="" coords="364,320,430,286,474,267,524,250,577,237,632,230,687,232,741,244,778,260,814,281,878,330,931,380,968,423,964,426,927,384,875,334,811,285,776,265,739,249,687,237,632,235,578,242,525,255,476,272,432,291,367,324"/>
+<area shape="poly" id="edge24_Node000019_Node000009" title=" " alt="" coords="369,348,464,400,461,405,366,352"/>
+<area shape="poly" id="edge81_Node000020_Node000005" title=" " alt="" coords="204,1220,237,1149,264,1101,299,1052,340,1005,387,965,413,950,441,938,470,931,501,928,678,928,716,924,752,913,784,896,813,873,839,845,863,813,903,742,933,666,955,592,979,478,985,479,961,593,938,668,907,745,867,816,843,848,816,877,787,900,754,918,718,929,678,933,501,933,471,936,442,943,415,955,390,970,343,1009,303,1055,269,1104,242,1152,209,1222"/>
+<area shape="poly" id="edge82_Node000020_Node000009" title=" " alt="" coords="199,1221,205,1147,220,1030,247,892,266,821,290,752,334,660,386,573,437,500,478,448,482,451,442,503,391,576,338,662,294,754,271,822,252,893,225,1031,210,1148,205,1221"/>
+<area shape="rect" id="Node000021" href="$herofunctions_8c.html#a12cac3382532a82a02011368a7d5fefb" title="Funzione che permette al personaggio di attaccare i nemici." alt="" coords="808,1449,865,1476"/>
+<area shape="poly" id="edge26_Node000020_Node000021" title=" " alt="" coords="241,1246,794,1445,792,1450,239,1251"/>
+<area shape="rect" id="Node000022" href="$levelsfunctions_8c.html#a38b5906c4133881c0cc39fc8f2535a6d" title="Funzione che controlla se il livello è stato completato o meno." alt="" coords="293,765,389,792"/>
+<area shape="poly" id="edge27_Node000020_Node000022" title=" " alt="" coords="202,1220,236,1094,289,911,327,806,332,808,295,913,241,1095,207,1222"/>
+<area shape="rect" id="Node000031" href="$herofunctions_8c.html#a797fb0df5f8ba411f73a410ea58b149e" title="Funzione che gestisce l’esecuzione delle strutture “MENTRE” e “FAI MENTRE”." alt="" coords="304,1608,378,1635"/>
+<area shape="poly" id="edge39_Node000020_Node000031" title=" " alt="" coords="209,1248,332,1593,327,1594,204,1249"/>
+<area shape="rect" id="Node000036" href="$herofunctions_8c.html#a27c0422fc84201cdb298084150dd8f22" title="Funzione che gestisce l’esecuzione della struttura “ALTRIMENTI”." alt="" coords="467,1701,537,1728"/>
+<area shape="poly" id="edge79_Node000020_Node000036" title=" " alt="" coords="205,1248,214,1329,231,1449,258,1567,275,1614,294,1645,329,1673,370,1692,412,1703,451,1709,451,1715,411,1709,368,1697,326,1677,290,1648,270,1616,253,1569,226,1450,209,1330,200,1249"/>
+<area shape="rect" id="Node000038" href="$herofunctions_8c.html#adfe8fd333960a659e543ac707e59d9e0" title="Funzione che gestisce l’esecuzione della struttura “SE”." alt="" coords="650,1651,704,1677"/>
+<area shape="poly" id="edge80_Node000020_Node000038" title=" " alt="" coords="205,1248,211,1339,226,1477,238,1549,253,1614,272,1668,294,1704,325,1732,355,1751,386,1762,417,1767,450,1766,485,1760,565,1738,612,1714,650,1685,653,1690,614,1719,567,1742,486,1765,450,1771,417,1772,384,1767,353,1756,322,1736,290,1707,267,1670,248,1616,233,1550,221,1478,206,1340,199,1249"/>
+<area shape="rect" id="Node000039" href="$herofunctions_8c.html#ab60720f329b1a441232ceef2c0533ac7" title="Funzione che ruota in senso antiorario la direzione in cui il personaggio deve proseguire." alt="" coords="800,2031,874,2057"/>
+<area shape="poly" id="edge83_Node000020_Node000039" title=" " alt="" coords="204,1249,205,1374,215,1573,225,1678,242,1775,264,1854,278,1885,294,1908,319,1933,347,1954,409,1990,476,2015,546,2032,614,2042,679,2047,784,2046,784,2051,679,2052,614,2048,545,2038,474,2020,406,1995,344,1959,316,1937,290,1911,274,1887,259,1856,236,1776,220,1679,209,1574,199,1374,198,1249"/>
+<area shape="rect" id="Node000040" href="$herofunctions_8c.html#abd89c33473f9813f76eda5d1ae51e332" title="Funzione che ruota in senso orario la direzione in cui il personaggio deve proseguire." alt="" coords="803,1796,870,1823"/>
+<area shape="poly" id="edge84_Node000020_Node000040" title=" " alt="" coords="204,1248,208,1351,222,1509,233,1591,249,1666,269,1728,281,1751,294,1769,320,1792,348,1811,379,1826,411,1838,480,1852,550,1856,619,1853,684,1844,787,1821,789,1827,685,1850,620,1858,550,1862,479,1857,410,1843,377,1831,346,1815,317,1796,290,1772,276,1754,264,1730,244,1668,228,1592,216,1509,203,1351,199,1248"/>
+<area shape="rect" id="Node000041" href="$herofunctions_8c.html#a744b180d904bf51f033419fd86486003" title="Funzione che imposta il numero di passi che il personaggio esegue." alt="" coords="798,1892,876,1919"/>
+<area shape="poly" id="edge85_Node000020_Node000041" title=" " alt="" coords="204,1248,207,1361,219,1538,230,1631,246,1717,267,1787,280,1814,294,1834,319,1858,346,1878,408,1908,474,1926,544,1935,612,1936,677,1932,782,1915,783,1921,677,1937,612,1941,543,1940,473,1931,406,1913,344,1882,315,1862,290,1838,275,1817,262,1789,241,1718,225,1632,213,1539,201,1362,199,1248"/>
+<area shape="rect" id="Node000042" href="$herofunctions_8c.html#aeb5bc2d291b7e4cee1f52da8785cf17c" title="Funzione che imposta il numero di rotazioni che il personaggio esegue." alt="" coords="799,1272,874,1299"/>
+<area shape="poly" id="edge86_Node000020_Node000042" title=" " alt="" coords="244,1221,292,1213,429,1203,489,1205,566,1213,625,1223,684,1237,785,1265,783,1271,683,1242,624,1228,565,1219,489,1210,429,1208,292,1219,245,1227"/>
+<area shape="rect" id="Node000043" href="$herofunctions_8c.html#aeef90800adaf9e97f79a1019d0b83c1f" title="Funzione che permette al personaggio di camminare nella mappa." alt="" coords="812,1069,861,1096"/>
+<area shape="poly" id="edge87_Node000020_Node000043" title=" " alt="" coords="227,1218,292,1186,387,1146,497,1107,555,1091,613,1079,663,1073,713,1072,798,1076,797,1081,713,1077,663,1078,614,1084,557,1096,499,1112,388,1151,295,1191,229,1223"/>
+<area shape="poly" id="edge36_Node000022_Node000005" title=" " alt="" coords="379,763,389,757,403,742,411,728,421,714,437,700,479,681,518,672,553,669,587,671,657,672,696,665,739,650,808,610,872,561,924,512,963,472,967,476,928,516,875,565,811,614,741,654,697,670,658,677,587,676,553,675,518,677,481,686,440,705,425,717,416,731,407,746,392,761,382,767"/>
+<area shape="poly" id="edge37_Node000022_Node000009" title=" " alt="" coords="346,764,486,450,491,453,351,766"/>
+<area shape="rect" id="Node000023" href="$initlevels_8c.html#ae5d1ee659b0afb58c8e19e24dda55575" title="Funzione che inizializza le azioni che il giocatore potrà effettuare nel livello." alt="" coords="462,816,542,843"/>
+<area shape="poly" id="edge28_Node000022_Node000023" title=" " alt="" coords="387,790,448,810,446,815,385,795"/>
+<area shape="rect" id="Node000026" href="$initlevels_8c.html#a07650f28bf7f67edf39f5c8d70ba9ba9" title="Funzione che inizializza la mappa del livello." alt="" coords="467,765,537,792"/>
+<area shape="poly" id="edge31_Node000022_Node000026" title=" " alt="" coords="390,776,451,776,451,781,390,781"/>
+<area shape="rect" id="Node000028" href="$dialfunctions_8c.html#a1a908fa8ef9ce8c17bc34f6c8c37e870" title="Funzione che carica da file i dialoghi." alt="" coords="454,715,550,741"/>
+<area shape="poly" id="edge33_Node000022_Node000028" title=" " alt="" coords="385,762,442,744,443,749,387,767"/>
+<area shape="rect" id="Node000030" href="$dialfunctions_8c.html#aef782b2356ef00c6006c712e4f91fb60" title="Funzione che stampa una singola linea di dialogo al centro della finestra dei dialoghi." alt="" coords="450,867,554,893"/>
+<area shape="poly" id="edge38_Node000022_Node000030" title=" " alt="" coords="359,790,394,821,440,852,449,857,447,862,437,857,391,825,355,795"/>
+<area shape="rect" id="Node000024" href="$initlevels_8c.html#aeeb3e4de8ff0d01304720120fc9a0e5a" title="Funzione che associa a ogni azione esistente nel gioco ( quelle utilizzabili dal giocatore ) un nome ..." alt="" coords="631,816,722,843"/>
+<area shape="poly" id="edge29_Node000023_Node000024" title=" " alt="" coords="543,827,615,827,615,832,543,832"/>
+<area shape="rect" id="Node000025" href="$initlevels_8c.html#a55b23d1f1549090054947473d76f3ddf" title="Funzione che associa a ogni variabile esistente nel gioco ( quelle utilizzabili dal giocatore ) un no..." alt="" coords="643,867,711,893"/>
+<area shape="poly" id="edge30_Node000023_Node000025" title=" " alt="" coords="544,838,629,863,627,869,542,844"/>
+<area shape="rect" id="Node000027" href="$features_8c.html#ad4446bcef11e73ce238dea2e95faee58" title="Funzione che restituisce il percorso in cui si trova l’eseguibile del programma." alt="" coords="804,740,870,767"/>
+<area shape="poly" id="edge32_Node000026_Node000027" title=" " alt="" coords="537,773,788,754,788,760,538,779"/>
+<area shape="rect" id="Node000029" href="$dialfunctions_8c.html#a2d95b26c83050cb280629b762cea6dd1" title="Funzione che restituisce il percorso del file dei dialoghi." alt="" coords="632,715,722,741"/>
+<area shape="poly" id="edge34_Node000028_Node000029" title=" " alt="" coords="550,725,617,725,617,731,550,731"/>
+<area shape="poly" id="edge35_Node000029_Node000027" title=" " alt="" coords="722,732,789,743,788,748,722,738"/>
+<area shape="poly" id="edge40_Node000031_Node000021" title=" " alt="" coords="358,1605,393,1580,437,1556,534,1521,633,1495,722,1477,792,1466,793,1471,723,1482,634,1500,536,1526,439,1561,396,1585,361,1610"/>
+<area shape="poly" id="edge44_Node000031_Node000031" title=" " alt="" coords="316,1609,312,1599,315,1590,325,1584,341,1581,358,1584,368,1591,365,1595,356,1589,341,1587,327,1589,319,1593,317,1599,321,1606"/>
+<area shape="rect" id="Node000032" href="$herofunctions_8c.html#aebea9caf234845655337317a7ce42ef0" title="Funzione che verifica la presenza dei nemici nella casella successiva al personaggio." alt="" coords="788,1531,885,1557"/>
+<area shape="poly" id="edge41_Node000031_Node000032" title=" " alt="" coords="376,1605,438,1585,528,1568,619,1556,773,1544,773,1549,620,1562,529,1574,439,1591,377,1610"/>
+<area shape="rect" id="Node000033" href="$herofunctions_8c.html#a052c249f0570dc03f994d1a2f4a42f69" title="Funzione che verifica se il personaggio sia arrivato al traguardo." alt="" coords="790,1584,883,1611"/>
+<area shape="poly" id="edge42_Node000031_Node000033" title=" " alt="" coords="378,1614,438,1608,621,1599,774,1595,774,1601,622,1604,439,1613,379,1619"/>
+<area shape="rect" id="Node000034" href="$herofunctions_8c.html#a190ec5d79c534ac4a02179c2420a5f44" title="Funzione che verifica la presenza di ostacoli nella casella successiva al personaggio." alt="" coords="933,1120,1042,1147"/>
+<area shape="poly" id="edge43_Node000031_Node000034" title=" " alt="" coords="345,1606,378,1537,404,1494,436,1454,497,1398,563,1347,633,1301,703,1259,833,1193,934,1150,936,1155,836,1198,705,1264,636,1305,566,1351,500,1402,440,1458,409,1497,383,1539,350,1609"/>
+<area shape="rect" id="Node000035" href="$errors_8c.html#a5a7e2b803fb331769499875e7796d0f6" title="Funzione che gestisce il caso in cui il ciclo sia un ciclo infinito." alt="" coords="438,968,566,995"/>
+<area shape="poly" id="edge45_Node000031_Node000035" title=" " alt="" coords="342,1607,375,1429,403,1299,436,1165,462,1079,487,1008,493,1010,467,1081,441,1166,408,1300,380,1430,347,1608"/>
+<area shape="poly" id="edge47_Node000031_Node000036" title=" " alt="" coords="353,1633,391,1662,440,1692,455,1701,452,1705,437,1697,388,1666,350,1637"/>
+<area shape="rect" id="Node000037" href="$herofunctions_8c.html#ab03db0d312684c0b238fe5dce58b0286" title="Funzione che restituisce la posizione delle strutture “FINE_SE”, ”FINE_CICLO” e “FINE_ALTRIMENTI”." alt="" coords="788,1701,885,1728"/>
+<area shape="poly" id="edge72_Node000031_Node000037" title=" " alt="" coords="351,1634,383,1687,408,1716,440,1738,483,1754,529,1763,577,1766,624,1764,712,1750,783,1731,784,1736,713,1755,624,1769,577,1771,529,1768,482,1759,437,1742,405,1720,379,1691,346,1636"/>
+<area shape="poly" id="edge73_Node000031_Node000038" title=" " alt="" coords="379,1629,505,1649,635,1662,634,1668,505,1654,378,1634"/>
+<area shape="poly" id="edge74_Node000031_Node000039" title=" " alt="" coords="346,1635,352,1682,367,1749,396,1823,416,1857,440,1887,479,1921,522,1950,569,1974,617,1993,709,2020,785,2035,784,2040,708,2026,615,1998,567,1979,520,1955,476,1926,436,1891,411,1860,391,1825,362,1751,347,1683,341,1635"/>
+<area shape="poly" id="edge75_Node000031_Node000040" title=" " alt="" coords="349,1634,360,1664,379,1702,405,1741,440,1771,483,1793,529,1808,577,1817,625,1822,715,1822,787,1815,788,1820,715,1828,624,1828,576,1823,527,1813,481,1797,437,1776,401,1744,374,1705,355,1666,344,1636"/>
+<area shape="poly" id="edge76_Node000031_Node000041" title=" " alt="" coords="347,1635,356,1672,373,1723,400,1776,418,1800,440,1821,480,1847,524,1867,571,1883,618,1894,708,1904,782,1906,782,1911,707,1910,617,1899,569,1888,522,1872,478,1852,437,1825,415,1804,396,1779,368,1725,351,1674,342,1636"/>
+<area shape="poly" id="edge77_Node000031_Node000042" title=" " alt="" coords="351,1606,387,1564,437,1517,531,1448,630,1388,720,1339,791,1303,793,1308,723,1343,632,1393,534,1453,440,1521,391,1567,355,1609"/>
+<area shape="poly" id="edge78_Node000031_Node000043" title=" " alt="" coords="341,1607,347,1550,362,1462,390,1362,411,1312,436,1265,474,1210,510,1172,553,1142,613,1112,660,1095,710,1085,797,1079,797,1084,711,1091,662,1101,615,1117,556,1147,513,1176,478,1214,441,1268,416,1314,395,1363,367,1463,352,1550,346,1608"/>
+<area shape="poly" id="edge46_Node000035_Node000005" title=" " alt="" coords="559,993,632,1004,719,1006,764,1001,807,990,848,973,884,947,896,933,907,914,928,862,944,797,957,726,974,583,982,478,987,478,980,584,962,727,949,798,933,863,912,916,900,936,887,951,850,977,809,995,765,1006,719,1011,632,1009,559,998"/>
+<area shape="poly" id="edge48_Node000036_Node000021" title=" " alt="" coords="516,1699,558,1659,612,1613,713,1539,799,1482,802,1487,716,1544,615,1617,561,1663,519,1703"/>
+<area shape="poly" id="edge49_Node000036_Node000031" title=" " alt="" coords="489,1703,437,1673,390,1645,393,1640,440,1668,491,1699"/>
+<area shape="poly" id="edge50_Node000036_Node000037" title=" " alt="" coords="538,1712,772,1712,772,1717,538,1717"/>
+<area shape="poly" id="edge51_Node000036_Node000038" title=" " alt="" coords="537,1709,636,1681,637,1686,539,1714"/>
+<area shape="poly" id="edge67_Node000036_Node000039" title=" " alt="" coords="514,1727,556,1787,616,1860,665,1907,716,1951,805,2019,802,2024,713,1955,661,1911,612,1863,551,1790,510,1730"/>
+<area shape="poly" id="edge68_Node000036_Node000040" title=" " alt="" coords="538,1722,789,1793,788,1799,537,1727"/>
+<area shape="poly" id="edge69_Node000036_Node000041" title=" " alt="" coords="525,1726,615,1784,711,1838,795,1882,793,1887,709,1843,612,1789,522,1731"/>
+<area shape="poly" id="edge70_Node000036_Node000042" title=" " alt="" coords="510,1699,552,1634,612,1550,722,1412,812,1308,816,1312,726,1415,616,1554,557,1637,514,1702"/>
+<area shape="poly" id="edge71_Node000036_Node000043" title=" " alt="" coords="506,1700,547,1597,611,1455,667,1352,724,1253,816,1108,820,1111,729,1256,671,1355,616,1457,552,1599,511,1702"/>
+<area shape="poly" id="edge52_Node000038_Node000021" title=" " alt="" coords="686,1649,786,1517,812,1486,816,1489,790,1520,690,1652"/>
+<area shape="poly" id="edge56_Node000038_Node000031" title=" " alt="" coords="649,1658,527,1639,393,1624,393,1618,528,1633,650,1653"/>
+<area shape="poly" id="edge53_Node000038_Node000032" title=" " alt="" coords="691,1648,733,1611,786,1570,796,1564,799,1568,790,1574,737,1616,695,1652"/>
+<area shape="poly" id="edge54_Node000038_Node000033" title=" " alt="" coords="703,1651,788,1615,790,1619,705,1655"/>
+<area shape="poly" id="edge55_Node000038_Node000034" title=" " alt="" coords="704,1664,744,1666,792,1662,842,1648,864,1636,883,1621,906,1587,925,1536,941,1473,954,1403,973,1265,982,1162,987,1163,978,1265,960,1404,946,1474,930,1537,911,1589,887,1624,867,1641,843,1653,793,1667,744,1671,704,1670"/>
+<area shape="poly" id="edge57_Node000038_Node000036" title=" " alt="" coords="651,1667,543,1698,542,1693,649,1662"/>
+<area shape="poly" id="edge58_Node000038_Node000037" title=" " alt="" coords="705,1670,779,1694,777,1699,703,1675"/>
+<area shape="poly" id="edge59_Node000038_Node000038" title=" " alt="" coords="649,1651,644,1642,648,1632,659,1626,677,1624,696,1627,707,1633,704,1638,694,1632,677,1629,660,1631,652,1636,650,1641,654,1649"/>
+<area shape="poly" id="edge60_Node000038_Node000039" title=" " alt="" coords="686,1677,790,1930,826,2015,821,2017,786,1932,681,1679"/>
+<area shape="poly" id="edge61_Node000038_Node000040" title=" " alt="" coords="695,1676,811,1783,808,1787,691,1680"/>
+<area shape="poly" id="edge62_Node000038_Node000041" title=" " alt="" coords="689,1676,790,1833,820,1878,816,1881,786,1836,685,1679"/>
+<area shape="poly" id="edge63_Node000038_Node000042" title=" " alt="" coords="681,1649,821,1312,826,1314,686,1651"/>
+<area shape="poly" id="edge64_Node000038_Node000043" title=" " alt="" coords="679,1650,825,1110,830,1112,684,1651"/>
+<area shape="poly" id="edge66_Node000043_Node000005" title=" " alt="" coords="846,1067,865,1037,883,999,907,925,927,849,956,698,973,568,982,478,987,478,979,568,961,699,932,850,912,927,888,1001,870,1039,850,1070"/>
+<area shape="poly" id="edge65_Node000043_Node000034" title=" " alt="" coords="862,1088,932,1112,930,1117,860,1093"/>
+</map>

@@ -1,0 +1,39 @@
+<map id="addone" name="addone">
+<area shape="rect" id="Node000001" title="Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire." alt="" coords="5,171,69,197"/>
+<area shape="rect" id="Node000002" href="$levelsfunctions_8c.html#a6aa92c0b026b9700041f50528fdd838a" title="Funzione che permette l’inserimento delle variabili di gioco." alt="" coords="131,81,192,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="56,168,128,115,131,120,59,172"/>
+<area shape="rect" id="Node000004" href="$features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="443,5,522,32"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="42,169,69,120,90,92,115,67,151,44,191,26,233,14,276,7,359,3,427,8,427,13,359,9,277,12,234,20,193,31,154,48,118,71,94,95,74,123,47,171"/>
+<area shape="rect" id="Node000007" href="$levelsfunctions_8c.html#a1c940c42c4047f2798dd5491897208a1" title="Funzione che in base al livello stabilisce quali azioni l’utente può utilizzare." alt="" coords="117,171,207,197"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="69,181,101,181,101,187,69,187"/>
+<area shape="rect" id="Node000008" href="$levelsfunctions_8c.html#a55e1fd2e85959c825eb81bd05f51667f" title="Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore." alt="" coords="118,309,206,336"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="52,196,140,296,136,299,48,200"/>
+<area shape="rect" id="Node000017" href="$levelsfunctions_8c.html#a31381949258ee57cb466ba4ed466ed76" title="Funzione che stampa il menu delle azioni che il giocatore può aggiungere per far muovere il personagg..." alt="" coords="125,360,199,387"/>
+<area shape="poly" id="edge20_Node000001_Node000017" title=" " alt="" coords="44,197,69,266,90,308,119,346,121,349,117,352,115,350,86,311,64,268,39,199"/>
+<area shape="rect" id="Node000003" href="$levelsfunctions_8c.html#a3128c8319f3a6ce6d72966dad0d390f5" title="Funzione che permette la scelta del valore che avrà la variabile scelta." alt="" coords="281,107,355,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="194,97,266,109,265,114,193,102"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="182,78,214,59,254,41,299,30,345,23,427,16,427,21,345,28,300,35,256,47,217,63,184,83"/>
+<area shape="rect" id="Node000006" href="$levelsfunctions_8c.html#aa10befc0dab98079fee3a4395d399513" title="Funzione che stampa il menu dell’inserimento delle variabili." alt="" coords="272,56,365,83"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="193,87,256,77,257,82,194,92"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="354,105,380,92,419,67,453,40,456,44,422,71,383,97,357,109"/>
+<area shape="rect" id="Node000005" href="$levelsfunctions_8c.html#a49160679b1e235d1247f3014f1047551" title="Funzione che stampa il menu della scelta del valore delle variabili." alt="" coords="429,107,536,133"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="356,117,414,117,414,123,356,123"/>
+<area shape="poly" id="edge19_Node000008_Node000008" title=" " alt="" coords="140,310,136,301,138,291,147,285,162,283,177,285,186,292,182,296,175,290,162,288,149,290,143,294,141,300,144,308"/>
+<area shape="rect" id="Node000009" href="$errors_8c.html#a701449d9896c131360b9fabfbd00e26d" title="Funzione che gestisce il caso in cui venga inserito un ciclo al posto della condizione di un altro ci..." alt="" coords="265,360,371,387"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="206,334,261,352,260,357,205,339"/>
+<area shape="rect" id="Node000010" href="$errors_8c.html#af6cecb4d699b77d07f42aae0d2a1c646" title="Funzione che gestisce il caso in cui un’azione di tipo condizione viene inserita nel contesto sbaglia..." alt="" coords="268,411,369,437"/>
+<area shape="poly" id="edge11_Node000008_Node000010" title=" " alt="" coords="175,334,209,358,231,382,257,407,253,411,227,385,205,362,172,339"/>
+<area shape="rect" id="Node000011" href="$errors_8c.html#af2976c7a561c76c41f18b45ef34e9de1" title="Funzione che controlla se tutti gli “ALTRIMENTI” siano chiusi correttamente." alt="" coords="270,461,366,488"/>
+<area shape="poly" id="edge13_Node000008_Node000011" title=" " alt="" coords="194,334,209,346,226,373,233,399,239,423,257,448,261,451,258,455,253,451,235,425,228,400,221,376,205,350,191,339"/>
+<area shape="rect" id="Node000012" href="$errors_8c.html#ad404093a0eb05672cb5583ed0307221e" title="Funzione che gestisce il caso in cui gli “ALTRIMENTI” non vengano chiusi correttamente." alt="" coords="255,512,381,539"/>
+<area shape="poly" id="edge14_Node000008_Node000012" title=" " alt="" coords="196,335,209,346,222,367,229,387,232,425,236,461,243,479,257,498,260,501,256,505,253,502,239,482,231,463,227,425,224,388,217,369,205,350,192,339"/>
+<area shape="rect" id="Node000013" href="$errors_8c.html#a0543ac38be03b2790544f71112dc43c2" title="Funzione che gestisce il caso in cui la struttura “ALTRIMENTI” venga inserita senza il “SE” d’apparte..." alt="" coords="266,157,370,184"/>
+<area shape="poly" id="edge15_Node000008_Node000013" title=" " alt="" coords="168,308,200,253,224,222,253,194,259,190,262,194,257,198,228,225,204,256,172,310"/>
+<area shape="rect" id="Node000014" href="$errors_8c.html#a6ab269cd530b60b6f15ad3e90e11be62" title="Funzione che controlla se tutti i cicli siano chiusi correttamente." alt="" coords="268,208,368,235"/>
+<area shape="poly" id="edge16_Node000008_Node000014" title=" " alt="" coords="175,307,209,276,254,244,263,239,266,244,256,249,213,280,179,311"/>
+<area shape="rect" id="Node000015" href="$errors_8c.html#ae31134d34dcf6dfdece9226c54fc2029" title="Funzione che controlla se tutti i “SE” siano chiusi correttamente." alt="" coords="277,259,359,285"/>
+<area shape="poly" id="edge17_Node000008_Node000015" title=" " alt="" coords="205,306,261,287,263,293,206,311"/>
+<area shape="rect" id="Node000016" href="$errors_8c.html#a51de34299031696007e908f0491d7546" title="Funzione che gestisce il caso in cui venga inserita un “SE” nel posto della condizione di un altro “S..." alt="" coords="275,309,361,336"/>
+<area shape="poly" id="edge18_Node000008_Node000016" title=" " alt="" coords="206,320,259,320,259,325,206,325"/>
+<area shape="poly" id="edge12_Node000010_Node000008" title=" " alt="" coords="300,412,253,389,232,368,216,347,220,344,236,364,257,384,302,408"/>
+</map>

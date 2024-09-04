@@ -1,0 +1,7 @@
+<map id="walk" name="walk">
+<area shape="rect" id="Node000001" title="Funzione che permette al personaggio di camminare nella mappa." alt="" coords="5,31,54,57"/>
+<area shape="rect" id="Node000002" href="$herofunctions_8c.html#a190ec5d79c534ac4a02179c2420a5f44" title="Funzione che verifica la presenza di ostacoli nella casella successiva al personaggio." alt="" coords="102,5,210,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,37,86,30,87,35,55,42"/>
+<area shape="rect" id="Node000003" href="$features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="116,56,196,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,46,102,56,101,61,54,51"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="dialfunctions.h" name="dialfunctions.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="269,5,375,32"/>
+<area shape="rect" id="Node000002" href="$dialfunctions_8c.html" title="in cui sono presenti le funzioni per la gestione dei dialoghi" alt="" coords="5,80,111,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,39,105,82,104,77,261,34"/>
+<area shape="rect" id="Node000003" href="$errors_8c.html" title="in cui sono presenti le funzioni che per la gestione degli errori" alt="" coords="135,80,200,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="282,41,196,82,193,77,280,37"/>
+<area shape="rect" id="Node000004" href="$features_8c.html" title="Libreria in cui sono presenti varie funzioni per il funzionamento del programma." alt="" coords="224,80,303,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="304,46,276,81,271,78,300,43"/>
+<area shape="rect" id="Node000005" href="$herofunctions_8c.html" title="in cui sono presenti le funzioni che servono per il funzionamento del personaggio" alt="" coords="327,80,437,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="344,42,374,78,370,81,340,46"/>
+<area shape="rect" id="Node000006" href="$levels_8c.html" title="in cui sono presenti le funzioni e le strutture di dati riguardanti i livelli" alt="" coords="461,80,527,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="367,36,465,77,463,82,365,41"/>
+<area shape="rect" id="Node000007" href="$levelsfunctions_8c.html" title="Libreria in cui sono presenti le funzioni per il funzionamento dei livelli." alt="" coords="552,80,671,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="388,34,561,77,560,82,386,39"/>
+</map>

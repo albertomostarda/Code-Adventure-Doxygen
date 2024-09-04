@@ -1,0 +1,22 @@
+<map id="getDialPath" name="getDialPath">
+<area shape="rect" id="Node000001" title="Funzione che restituisce il percorso del file dei dialoghi." alt="" coords="1016,31,1105,57"/>
+<area shape="rect" id="Node000002" href="$dialfunctions_8c.html#a1a908fa8ef9ce8c17bc34f6c8c37e870" title="Funzione che carica da file i dialoghi." alt="" coords="872,31,968,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1000,47,968,47,968,41,1000,41"/>
+<area shape="rect" id="Node000003" href="$levelsfunctions_8c.html#a38b5906c4133881c0cc39fc8f2535a6d" title="Funzione che controlla se il livello è stato completato o meno." alt="" coords="727,5,824,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="856,36,824,30,825,25,857,30"/>
+<area shape="rect" id="Node000010" href="$levels_8c.html#a991e5e94d639c995a0bc59e8095c903b" title="Funzione che permette la corretta stampa del livello." alt="" coords="604,56,667,83"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="857,52,668,69,667,64,856,47"/>
+<area shape="rect" id="Node000004" href="$levelsfunctions_8c.html#a03e3adde4d6e3fcdb6b887522f51b04b" title="Funzione che esegue le azioni scelte dall’utente." alt="" coords="591,5,679,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="712,21,680,21,680,16,712,16"/>
+<area shape="rect" id="Node000005" href="$levelsfunctions_8c.html#ac0a1a979fcfb44d03c933471499a11a8" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="441,5,543,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="575,21,544,21,544,16,575,16"/>
+<area shape="rect" id="Node000006" href="$levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,5,393,32"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="425,21,393,21,393,16,425,16"/>
+<area shape="rect" id="Node000007" href="$levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,5,263,32"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="296,21,264,21,264,16,296,16"/>
+<area shape="rect" id="Node000008" href="$features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,31,142,57"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="176,34,143,42,142,37,174,29"/>
+<area shape="rect" id="Node000009" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,55,57"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="87,47,55,47,55,41,87,41"/>
+<area shape="poly" id="edge10_Node000010_Node000008" title=" " alt="" coords="588,70,142,48,142,42,588,64"/>
+</map>

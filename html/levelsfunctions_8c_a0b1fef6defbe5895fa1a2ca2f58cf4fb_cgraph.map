@@ -1,0 +1,25 @@
+<map id="delete_action" name="delete_action">
+<area shape="rect" id="Node000001" title="Funzione che permette l’eliminazione dell’ultima azione inserita." alt="" coords="5,120,104,147"/>
+<area shape="rect" id="Node000002" href="$features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="156,83,236,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,118,140,108,142,113,105,123"/>
+<area shape="rect" id="Node000003" href="$levelsfunctions_8c.html#a55e1fd2e85959c825eb81bd05f51667f" title="Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore." alt="" coords="152,157,240,184"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="105,144,137,152,136,158,104,149"/>
+<area shape="poly" id="edge12_Node000003_Node000003" title=" " alt="" coords="171,158,167,149,170,139,180,133,196,131,213,133,222,140,219,144,211,138,196,136,182,138,174,142,172,148,176,156"/>
+<area shape="rect" id="Node000004" href="$errors_8c.html#a701449d9896c131360b9fabfbd00e26d" title="Funzione che gestisce il caso in cui venga inserito un ciclo al posto della condizione di un altro ci..." alt="" coords="298,5,404,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="208,155,238,120,251,98,259,79,269,61,286,42,292,38,295,42,290,46,273,64,264,81,256,100,242,123,212,159"/>
+<area shape="rect" id="Node000005" href="$errors_8c.html#af6cecb4d699b77d07f42aae0d2a1c646" title="Funzione che gestisce il caso in cui un’azione di tipo condizione viene inserita nel contesto sbaglia..." alt="" coords="300,56,402,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="220,155,250,130,287,104,321,87,323,92,289,109,254,134,223,159"/>
+<area shape="rect" id="Node000006" href="$errors_8c.html#af2976c7a561c76c41f18b45ef34e9de1" title="Funzione che controlla se tutti gli “ALTRIMENTI” siano chiusi correttamente." alt="" coords="303,107,399,133"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="238,154,292,136,294,141,240,159"/>
+<area shape="rect" id="Node000007" href="$errors_8c.html#ad404093a0eb05672cb5583ed0307221e" title="Funzione che gestisce il caso in cui gli “ALTRIMENTI” non vengano chiusi correttamente." alt="" coords="288,157,414,184"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="241,168,272,168,272,173,241,173"/>
+<area shape="rect" id="Node000008" href="$errors_8c.html#a0543ac38be03b2790544f71112dc43c2" title="Funzione che gestisce il caso in cui la struttura “ALTRIMENTI” venga inserita senza il “SE” d’apparte..." alt="" coords="300,208,403,235"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="240,182,294,200,292,205,238,187"/>
+<area shape="rect" id="Node000009" href="$errors_8c.html#a6ab269cd530b60b6f15ad3e90e11be62" title="Funzione che controlla se tutti i cicli siano chiusi correttamente." alt="" coords="301,259,401,285"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="213,183,246,213,289,244,299,250,296,254,287,249,243,217,209,186"/>
+<area shape="rect" id="Node000010" href="$errors_8c.html#ae31134d34dcf6dfdece9226c54fc2029" title="Funzione che controlla se tutti i “SE” siano chiusi correttamente." alt="" coords="310,309,392,336"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="206,183,238,237,261,268,290,295,297,301,294,305,286,299,257,271,233,240,201,186"/>
+<area shape="rect" id="Node000011" href="$errors_8c.html#a51de34299031696007e908f0491d7546" title="Funzione che gestisce il caso in cui venga inserita un “SE” nel posto della condizione di un altro “S..." alt="" coords="308,360,394,387"/>
+<area shape="poly" id="edge11_Node000003_Node000011" title=" " alt="" coords="203,183,213,216,231,259,256,305,290,346,296,351,293,356,286,350,252,308,226,262,208,218,198,185"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="301,79,289,85,248,115,216,147,212,143,245,111,287,80,299,74"/>
+</map>

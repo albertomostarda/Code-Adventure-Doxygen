@@ -1,0 +1,5 @@
+<map id="setRotation" name="setRotation">
+<area shape="rect" id="Node000001" title="Funzione che imposta la direzione in cui il personaggio dovrà proseguire." alt="" coords="160,5,248,32"/>
+<area shape="rect" id="Node000002" href="$levelsfunctions_8c.html#a85e28e41a59b5ef12c0f4cb26d9fb40f" title="Funzione che serve alla corretta stampa della mappa. Nello specifico questa funzione stampa i singoli..." alt="" coords="5,5,112,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,21,112,21,112,16,144,16"/>
+</map>

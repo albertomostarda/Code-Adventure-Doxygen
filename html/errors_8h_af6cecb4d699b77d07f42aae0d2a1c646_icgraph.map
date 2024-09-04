@@ -1,0 +1,28 @@
+<map id="conditionError" name="conditionError">
+<area shape="rect" id="Node000001" title="Funzione che gestisce il caso in cui un’azione di tipo condizione viene inserita nel contesto sbaglia..." alt="" coords="1010,68,1111,95"/>
+<area shape="rect" id="Node000002" href="$levelsfunctions_8c.html#a55e1fd2e85959c825eb81bd05f51667f" title="Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore." alt="" coords="874,68,962,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="994,93,962,92,962,87,994,88"/>
+<area shape="poly" id="edge11_Node000002_Node000001" title=" " alt="" coords="978,70,1010,70,1010,75,977,75"/>
+<area shape="poly" id="edge14_Node000002_Node000002" title=" " alt="" coords="941,55,933,49,918,47,904,49,896,53,894,59,898,66,893,69,889,59,892,50,902,44,918,41,935,44,944,51"/>
+<area shape="rect" id="Node000003" href="$levelsfunctions_8c.html#ad7cbef53b0c51c5586114246783c1f50" title="Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire." alt="" coords="604,5,667,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="884,62,856,46,825,33,783,24,740,20,667,19,667,14,741,14,784,19,826,28,858,41,886,57"/>
+<area shape="rect" id="Node000009" href="$levelsfunctions_8c.html#a38b5906c4133881c0cc39fc8f2535a6d" title="Funzione che controlla se il livello è stato completato o meno." alt="" coords="728,43,825,69"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="858,73,825,67,826,62,859,68"/>
+<area shape="rect" id="Node000010" href="$levelsfunctions_8c.html#a03e3adde4d6e3fcdb6b887522f51b04b" title="Funzione che esegue le azioni scelte dall’utente." alt="" coords="591,68,679,95"/>
+<area shape="poly" id="edge15_Node000002_Node000010" title=" " alt="" coords="858,84,680,84,680,79,858,79"/>
+<area shape="rect" id="Node000011" href="$levelsfunctions_8c.html#a0b1fef6defbe5895fa1a2ca2f58cf4fb" title="Funzione che permette l’eliminazione dell’ultima azione inserita." alt="" coords="727,144,826,171"/>
+<area shape="poly" id="edge12_Node000002_Node000011" title=" " alt="" coords="879,105,804,146,802,141,877,100"/>
+<area shape="rect" id="Node000004" href="$levelsfunctions_8c.html#ac0a1a979fcfb44d03c933471499a11a8" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="441,68,543,95"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="590,41,526,70,523,65,588,36"/>
+<area shape="rect" id="Node000005" href="$levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,68,393,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="425,84,393,84,393,79,425,79"/>
+<area shape="rect" id="Node000006" href="$levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,68,263,95"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="296,84,264,84,264,79,296,79"/>
+<area shape="rect" id="Node000007" href="$features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,68,142,95"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="175,84,142,84,142,79,175,79"/>
+<area shape="rect" id="Node000008" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,68,55,95"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="87,84,55,84,55,79,87,79"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="713,70,680,76,679,71,712,65"/>
+<area shape="poly" id="edge10_Node000010_Node000004" title=" " alt="" coords="575,84,544,84,544,79,575,79"/>
+<area shape="poly" id="edge13_Node000011_Node000004" title=" " alt="" coords="712,143,543,97,544,92,713,138"/>
+</map>
