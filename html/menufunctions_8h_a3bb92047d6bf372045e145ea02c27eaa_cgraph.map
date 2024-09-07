@@ -1,0 +1,13 @@
+<map id="selectLvl" name="selectLvl">
+<area shape="rect" id="Node000001" title="Funzione che permette alla selezione del livello di poter funzionare." alt="" coords="5,56,79,83"/>
+<area shape="rect" id="Node000002" href="$menufunctions_8c.html#a5cf20cf8f8b8d7c2aeaaea014d157583" title="Funzione che inizializza il menu." alt="" coords="148,5,225,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,54,132,35,134,40,80,59"/>
+<area shape="rect" id="Node000005" href="$features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="147,56,226,83"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="79,67,131,67,131,72,79,72"/>
+<area shape="rect" id="Node000006" href="$menufunctions_8c.html#a08cf127df4bb7c60b0c901598e90414a" title="Funzione che esegue l’opzione selezionata nel menu della selezione del livello." alt="" coords="127,107,246,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="80,80,133,99,131,104,78,85"/>
+<area shape="rect" id="Node000003" href="$menufunctions_8c.html#a05a367d33384731f27724efe685a50ce" title="Funzione che carica, se esistono, gli ultimi progressi salvati." alt="" coords="294,5,376,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="225,16,279,16,279,21,225,21"/>
+<area shape="rect" id="Node000004" href="$features_8c.html#ad4446bcef11e73ce238dea2e95faee58" title="Funzione che restituisce il percorso in cui si trova l’eseguibile del programma." alt="" coords="424,5,491,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="376,16,409,16,409,21,376,21"/>
+</map>

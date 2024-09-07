@@ -1,0 +1,7 @@
+<map id="init_menu" name="init_menu">
+<area shape="rect" id="Node000001" title="Funzione che inizializza il menu." alt="" coords="5,5,83,32"/>
+<area shape="rect" id="Node000002" href="$menufunctions_8c.html#a05a367d33384731f27724efe685a50ce" title="Funzione che carica, se esistono, gli ultimi progressi salvati." alt="" coords="131,5,213,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,16,115,16,115,21,83,21"/>
+<area shape="rect" id="Node000003" href="$features_8c.html#ad4446bcef11e73ce238dea2e95faee58" title="Funzione che restituisce il percorso in cui si trova l’eseguibile del programma." alt="" coords="261,5,327,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="213,16,246,16,246,21,213,21"/>
+</map>

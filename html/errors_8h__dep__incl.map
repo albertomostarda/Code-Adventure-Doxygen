@@ -1,0 +1,7 @@
+<map id="errors.h" name="errors.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="97,5,162,32"/>
+<area shape="rect" id="Node000002" href="$herofunctions_8c.html" title="in cui sono presenti le funzioni che servono per il funzionamento del personaggio" alt="" coords="5,80,116,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,45,74,81,71,78,106,41"/>
+<area shape="rect" id="Node000003" href="$levelsfunctions_8c.html" title="Libreria in cui sono presenti le funzioni per il funzionamento dei livelli." alt="" coords="140,80,259,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,41,189,78,185,81,150,45"/>
+</map>

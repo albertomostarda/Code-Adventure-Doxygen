@@ -1,0 +1,1553 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Code Adenture: Riferimenti per il file levelsfunctions.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Code Adenture
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Caricamento in corso...</div>
+<div class="SRStatus" id="Searching">Ricerca in corso...</div>
+<div class="SRStatus" id="NoMatches">Nessun risultato</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_948aae705c0747e8432797041efae263.html">copy of prj</a></li><li class="navelem"><a class="el" href="dir_472707efebd640948003f62acf84903d.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funzioni</a>  </div>
+  <div class="headertitle"><div class="title">Riferimenti per il file levelsfunctions.c</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Libreria in cui sono presenti le funzioni per il funzionamento dei livelli.  
+<a href="#details">Continua...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="levelsfunctions_8h_source.html">levelsfunctions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="initlevels_8h_source.html">initlevels.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="levels_8h_source.html">levels.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="herofunctions_8h_source.html">herofunctions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dialfunctions_8h_source.html">dialfunctions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="errors_8h_source.html">errors.h</a>&quot;</code><br />
+<code>#include &lt;ncurses/ncurses.h&gt;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Grafo delle dipendenze di inclusione per levelsfunctions.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c__incl.png" border="0" usemap="#alevelsfunctions_8c" alt=""/></div>
+<map name="alevelsfunctions_8c" id="alevelsfunctions_8c">
+<area shape="rect" title="Libreria in cui sono presenti le funzioni per il funzionamento dei livelli." alt="" coords="496,5,616,32"/>
+<area shape="rect" href="levelsfunctions_8h.html" title=" " alt="" coords="168,80,288,107"/>
+<area shape="poly" title=" " alt="" coords="499,35,301,79,300,73,498,30"/>
+<area shape="rect" title=" " alt="" coords="371,229,499,256"/>
+<area shape="poly" title=" " alt="" coords="496,27,372,41,224,65,153,83,91,103,42,128,25,142,13,156,8,168,13,180,35,196,68,209,110,220,158,227,261,236,355,239,355,245,261,242,158,233,109,225,67,214,32,201,9,183,3,168,8,153,21,138,39,123,89,98,151,77,223,60,372,35,496,22"/>
+<area shape="rect" href="initlevels_8h.html" title=" " alt="" coords="476,80,559,107"/>
+<area shape="poly" title=" " alt="" coords="552,34,534,68,529,65,547,31"/>
+<area shape="rect" href="levels_8h.html" title=" " alt="" coords="622,155,688,181"/>
+<area shape="poly" title=" " alt="" coords="567,31,640,140,636,143,562,34"/>
+<area shape="rect" href="herofunctions_8h.html" title=" " alt="" coords="333,155,443,181"/>
+<area shape="poly" title=" " alt="" coords="535,35,501,56,466,82,434,113,408,144,404,141,430,110,462,78,498,51,532,30"/>
+<area shape="rect" href="dialfunctions_8h.html" title=" " alt="" coords="634,80,739,107"/>
+<area shape="poly" title=" " alt="" coords="580,30,652,70,649,74,578,35"/>
+<area shape="rect" href="errors_8h.html" title=" " alt="" coords="763,80,829,107"/>
+<area shape="poly" title=" " alt="" coords="599,30,749,75,747,80,597,35"/>
+<area shape="rect" title=" " alt="" coords="853,80,910,107"/>
+<area shape="poly" title=" " alt="" coords="617,28,717,49,838,77,837,82,716,54,615,34"/>
+<area shape="poly" title=" " alt="" coords="241,105,276,140,323,179,394,220,391,225,320,184,273,144,237,109"/>
+<area shape="rect" title=" " alt="" coords="111,155,174,181"/>
+<area shape="poly" title=" " alt="" coords="215,109,171,147,167,143,212,105"/>
+<area shape="rect" title=" " alt="" coords="198,155,258,181"/>
+<area shape="poly" title=" " alt="" coords="231,107,231,139,225,139,225,107"/>
+<area shape="rect" title=" " alt="" coords="23,155,87,181"/>
+<area shape="poly" title=" " alt="" coords="199,110,100,151,98,146,197,105"/>
+<area shape="poly" title=" " alt="" coords="513,108,452,217,447,214,508,106"/>
+<area shape="rect" href="features_8h.html" title=" " alt="" coords="518,155,597,181"/>
+<area shape="poly" title=" " alt="" coords="527,106,545,140,541,142,522,109"/>
+<area shape="poly" title=" " alt="" coords="543,105,619,145,616,149,540,110"/>
+<area shape="poly" title=" " alt="" coords="537,184,471,223,468,219,535,180"/>
+<area shape="rect" title=" " alt="" coords="613,229,696,256"/>
+<area shape="poly" title=" " alt="" coords="576,180,628,218,624,222,573,184"/>
+<area shape="poly" title=" " alt="" coords="622,183,489,226,487,221,621,178"/>
+<area shape="poly" title=" " alt="" coords="657,182,657,214,652,214,652,182"/>
+<area shape="poly" title=" " alt="" coords="398,180,421,215,416,218,394,183"/>
+<area shape="poly" title=" " alt="" coords="695,107,705,141,706,162,703,182,693,202,680,219,676,216,688,199,698,181,701,161,699,142,690,108"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funzioni</h2></td></tr>
+<tr class="memitem:ad97e8e61c32c205942fa20c5c2688c63" id="r_ad97e8e61c32c205942fa20c5c2688c63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad97e8e61c32c205942fa20c5c2688c63">printcolor_str</a> (WINDOW *tWin, char *colStr, int pLines, int tmpY)</td></tr>
+<tr class="memdesc:ad97e8e61c32c205942fa20c5c2688c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che serve alla corretta stampa della mappa. Nello specifico questa funzione serve a suddividere la mappa in righe.  <br /></td></tr>
+<tr class="separator:ad97e8e61c32c205942fa20c5c2688c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e28e41a59b5ef12c0f4cb26d9fb40f" id="r_a85e28e41a59b5ef12c0f4cb26d9fb40f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85e28e41a59b5ef12c0f4cb26d9fb40f">printcolor_char</a> (WINDOW *tWin, char cch, int locX, int locY)</td></tr>
+<tr class="memdesc:a85e28e41a59b5ef12c0f4cb26d9fb40f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che serve alla corretta stampa della mappa. Nello specifico questa funzione stampa i singoli caratteri delle righe generate da printcolor_str.  <br /></td></tr>
+<tr class="separator:a85e28e41a59b5ef12c0f4cb26d9fb40f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55e1fd2e85959c825eb81bd05f51667f" id="r_a55e1fd2e85959c825eb81bd05f51667f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55e1fd2e85959c825eb81bd05f51667f">print_action</a> ()</td></tr>
+<tr class="memdesc:a55e1fd2e85959c825eb81bd05f51667f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore.  <br /></td></tr>
+<tr class="separator:a55e1fd2e85959c825eb81bd05f51667f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b1fef6defbe5895fa1a2ca2f58cf4fb" id="r_a0b1fef6defbe5895fa1a2ca2f58cf4fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b1fef6defbe5895fa1a2ca2f58cf4fb">delete_action</a> (int lim)</td></tr>
+<tr class="memdesc:a0b1fef6defbe5895fa1a2ca2f58cf4fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che permette l’eliminazione dell’ultima azione inserita.  <br /></td></tr>
+<tr class="separator:a0b1fef6defbe5895fa1a2ca2f58cf4fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31381949258ee57cb466ba4ed466ed76" id="r_a31381949258ee57cb466ba4ed466ed76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31381949258ee57cb466ba4ed466ed76">print_add</a> (int *limitact, int limit_size)</td></tr>
+<tr class="memdesc:a31381949258ee57cb466ba4ed466ed76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che stampa il menu delle azioni che il giocatore può aggiungere per far muovere il personaggio.  <br /></td></tr>
+<tr class="separator:a31381949258ee57cb466ba4ed466ed76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c940c42c4047f2798dd5491897208a1" id="r_a1c940c42c4047f2798dd5491897208a1"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c940c42c4047f2798dd5491897208a1">createAlimit</a> (int *limSize)</td></tr>
+<tr class="memdesc:a1c940c42c4047f2798dd5491897208a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che in base al livello stabilisce quali azioni l’utente può utilizzare.  <br /></td></tr>
+<tr class="separator:a1c940c42c4047f2798dd5491897208a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7cbef53b0c51c5586114246783c1f50" id="r_ad7cbef53b0c51c5586114246783c1f50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7cbef53b0c51c5586114246783c1f50">addone</a> ()</td></tr>
+<tr class="memdesc:ad7cbef53b0c51c5586114246783c1f50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire.  <br /></td></tr>
+<tr class="separator:ad7cbef53b0c51c5586114246783c1f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa92c0b026b9700041f50528fdd838a" id="r_a6aa92c0b026b9700041f50528fdd838a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aa92c0b026b9700041f50528fdd838a">addVar</a> (int *qAdd)</td></tr>
+<tr class="memdesc:a6aa92c0b026b9700041f50528fdd838a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che permette l’inserimento delle variabili di gioco.  <br /></td></tr>
+<tr class="separator:a6aa92c0b026b9700041f50528fdd838a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa10befc0dab98079fee3a4395d399513" id="r_aa10befc0dab98079fee3a4395d399513"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa10befc0dab98079fee3a4395d399513">print_addVar</a> (int *var_limited, int lVar_size)</td></tr>
+<tr class="memdesc:aa10befc0dab98079fee3a4395d399513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che stampa il menu dell’inserimento delle variabili.  <br /></td></tr>
+<tr class="separator:aa10befc0dab98079fee3a4395d399513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49160679b1e235d1247f3014f1047551" id="r_a49160679b1e235d1247f3014f1047551"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49160679b1e235d1247f3014f1047551">print_addValue</a> (int *val_limit, int lVal_size)</td></tr>
+<tr class="memdesc:a49160679b1e235d1247f3014f1047551"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che stampa il menu della scelta del valore delle variabili.  <br /></td></tr>
+<tr class="separator:a49160679b1e235d1247f3014f1047551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3128c8319f3a6ce6d72966dad0d390f5" id="r_a3128c8319f3a6ce6d72966dad0d390f5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3128c8319f3a6ce6d72966dad0d390f5">addValue</a> ()</td></tr>
+<tr class="memdesc:a3128c8319f3a6ce6d72966dad0d390f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che permette la scelta del valore che avrà la variabile scelta.  <br /></td></tr>
+<tr class="separator:a3128c8319f3a6ce6d72966dad0d390f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03e3adde4d6e3fcdb6b887522f51b04b" id="r_a03e3adde4d6e3fcdb6b887522f51b04b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03e3adde4d6e3fcdb6b887522f51b04b">run_actions</a> (int *fexit)</td></tr>
+<tr class="memdesc:a03e3adde4d6e3fcdb6b887522f51b04b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che esegue le azioni scelte dall’utente.  <br /></td></tr>
+<tr class="separator:a03e3adde4d6e3fcdb6b887522f51b04b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15f8ae6abc3e4685db45d35caa413d99" id="r_a15f8ae6abc3e4685db45d35caa413d99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15f8ae6abc3e4685db45d35caa413d99">action_run</a> ()</td></tr>
+<tr class="memdesc:a15f8ae6abc3e4685db45d35caa413d99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire le azioni oppure uscire dal livello.  <br /></td></tr>
+<tr class="separator:a15f8ae6abc3e4685db45d35caa413d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0a1a979fcfb44d03c933471499a11a8" id="r_ac0a1a979fcfb44d03c933471499a11a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0a1a979fcfb44d03c933471499a11a8">action_subrun</a> (int status, int *EXITflag)</td></tr>
+<tr class="memdesc:ac0a1a979fcfb44d03c933471499a11a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che esegue l’opzione selezionata nel menu delle azioni.  <br /></td></tr>
+<tr class="separator:ac0a1a979fcfb44d03c933471499a11a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d0bfc70bf8df6cc9aa3565a5857e48f" id="r_a3d0bfc70bf8df6cc9aa3565a5857e48f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d0bfc70bf8df6cc9aa3565a5857e48f">run_anim</a> (WINDOW *tmp)</td></tr>
+<tr class="memdesc:a3d0bfc70bf8df6cc9aa3565a5857e48f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che genera l’animazione d’esecuzione del programma.  <br /></td></tr>
+<tr class="separator:a3d0bfc70bf8df6cc9aa3565a5857e48f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76370995637bde062d5c7c97a856f41d" id="r_a76370995637bde062d5c7c97a856f41d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76370995637bde062d5c7c97a856f41d">print_map</a> (WINDOW *tmp)</td></tr>
+<tr class="memdesc:a76370995637bde062d5c7c97a856f41d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che stampa la mappa di gioco.  <br /></td></tr>
+<tr class="separator:a76370995637bde062d5c7c97a856f41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaf3681eac5f29cff2d718d3e3516af6" id="r_abaf3681eac5f29cff2d718d3e3516af6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaf3681eac5f29cff2d718d3e3516af6">setRotation</a> (int isEnd)</td></tr>
+<tr class="memdesc:abaf3681eac5f29cff2d718d3e3516af6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che imposta la direzione in cui il personaggio dovrà proseguire.  <br /></td></tr>
+<tr class="separator:abaf3681eac5f29cff2d718d3e3516af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b5906c4133881c0cc39fc8f2535a6d" id="r_a38b5906c4133881c0cc39fc8f2535a6d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38b5906c4133881c0cc39fc8f2535a6d">checkEndLvl</a> ()</td></tr>
+<tr class="memdesc:a38b5906c4133881c0cc39fc8f2535a6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che controlla se il livello è stato completato o meno.  <br /></td></tr>
+<tr class="separator:a38b5906c4133881c0cc39fc8f2535a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrizione dettagliata</h2>
+<div class="textblock"><p>Libreria in cui sono presenti le funzioni per il funzionamento dei livelli. </p>
+<dl class="section author"><dt>Autore</dt><dd>Alberto Mostarda (<a href="#" onclick="location.href='mai'+'lto:'+'mos'+'ta'+'rda'+'.a'+'lbe'+'rt'+'o04'+'@g'+'mai'+'l.'+'com'; return false;">mosta<span class="obfuscator">.nosp@m.</span>rda.<span class="obfuscator">.nosp@m.</span>alber<span class="obfuscator">.nosp@m.</span>to04<span class="obfuscator">.nosp@m.</span>@gmai<span class="obfuscator">.nosp@m.</span>l.co<span class="obfuscator">.nosp@m.</span>m</a>) </dd></dl>
+<dl class="section version"><dt>Versione</dt><dd>1.0 </dd></dl>
+<dl class="section date"><dt>Data</dt><dd>2024-09-04</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2024 </dd></dl>
+</div><h2 class="groupheader">Documentazione delle funzioni</h2>
+<a id="a15f8ae6abc3e4685db45d35caa413d99" name="a15f8ae6abc3e4685db45d35caa413d99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15f8ae6abc3e4685db45d35caa413d99">&#9670;&#160;</a></span>action_run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void action_run </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire le azioni oppure uscire dal livello. </p>
+<div class="dynheader">
+Questo è il grafo delle chiamate per questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a15f8ae6abc3e4685db45d35caa413d99_cgraph.png" border="0" usemap="#alevelsfunctions_8c_a15f8ae6abc3e4685db45d35caa413d99_cgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a15f8ae6abc3e4685db45d35caa413d99_cgraph" id="alevelsfunctions_8c_a15f8ae6abc3e4685db45d35caa413d99_cgraph">
+<area shape="rect" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="5,583,87,610"/>
+<area shape="rect" href="levelsfunctions_8c.html#ac0a1a979fcfb44d03c933471499a11a8" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="135,507,237,534"/>
+<area shape="poly" title=" " alt="" coords="71,580,145,540,148,544,74,585"/>
+<area shape="rect" href="features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="1096,279,1176,306"/>
+<area shape="poly" title=" " alt="" coords="45,583,54,457,68,364,92,265,109,216,128,170,152,127,180,89,212,57,248,33,290,17,337,11,826,11,887,7,937,3,961,4,984,9,1009,20,1035,37,1060,61,1081,89,1097,119,1110,151,1127,213,1135,263,1130,264,1122,214,1105,153,1093,122,1076,92,1056,65,1032,42,1006,24,983,14,960,9,937,8,888,13,827,17,337,17,291,22,251,37,215,61,184,92,156,130,133,172,114,218,97,266,74,365,60,457,50,583"/>
+<area shape="rect" href="dialfunctions_8c.html#aef782b2356ef00c6006c712e4f91fb60" title="Funzione che stampa una singola linea di dialogo al centro della finestra dei dialoghi." alt="" coords="598,963,702,990"/>
+<area shape="poly" title=" " alt="" coords="63,608,120,661,210,737,321,822,381,862,442,898,514,932,584,956,583,961,512,937,439,903,378,867,318,826,207,741,117,665,60,612"/>
+<area shape="rect" href="dialfunctions_8c.html#a64bcdef067fb72c38464b23ed0352a67" title="Funzione che in caso di cambiamento della finestra dei dialoghi, mette in pausa il dialogo presente i..." alt="" coords="285,1982,392,2009"/>
+<area shape="poly" title=" " alt="" coords="53,610,334,1966,329,1967,48,611"/>
+<area shape="rect" href="levelsfunctions_8c.html#ad7cbef53b0c51c5586114246783c1f50" title="Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire." alt="" coords="458,178,521,205"/>
+<area shape="poly" title=" " alt="" coords="192,506,227,442,253,401,283,363,326,318,373,276,455,212,458,216,377,280,330,321,287,366,258,405,232,444,196,508"/>
+<area shape="rect" href="levelsfunctions_8c.html#a0b1fef6defbe5895fa1a2ca2f58cf4fb" title="Funzione che permette l’eliminazione dell’ultima azione inserita." alt="" coords="440,254,539,281"/>
+<area shape="poly" title=" " alt="" coords="200,505,297,415,439,297,452,288,455,292,442,302,301,419,203,509"/>
+<area shape="rect" href="levelsfunctions_8c.html#a03e3adde4d6e3fcdb6b887522f51b04b" title="Funzione che esegue le azioni scelte dall’utente." alt="" coords="294,1217,383,1243"/>
+<area shape="poly" title=" " alt="" coords="193,534,334,1201,329,1202,187,535"/>
+<area shape="rect" href="levelsfunctions_8c.html#a6aa92c0b026b9700041f50528fdd838a" title="Funzione che permette l’inserimento delle variabili di gioco." alt="" coords="794,127,856,154"/>
+<area shape="poly" title=" " alt="" coords="521,184,779,145,780,150,522,189"/>
+<area shape="poly" title=" " alt="" coords="522,192,737,219,884,240,1034,266,1082,276,1081,282,1033,271,883,246,736,224,521,197"/>
+<area shape="rect" href="levelsfunctions_8c.html#a1c940c42c4047f2798dd5491897208a1" title="Funzione che in base al livello stabilisce quali azioni l’utente può utilizzare." alt="" coords="605,51,696,78"/>
+<area shape="poly" title=" " alt="" coords="499,176,534,133,558,109,585,88,593,83,596,88,588,92,562,113,538,137,503,179"/>
+<area shape="rect" href="levelsfunctions_8c.html#a55e1fd2e85959c825eb81bd05f51667f" title="Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore." alt="" coords="606,507,694,534"/>
+<area shape="poly" title=" " alt="" coords="509,203,541,241,578,308,607,378,644,492,639,493,602,380,573,310,536,244,505,207"/>
+<area shape="rect" href="levelsfunctions_8c.html#a31381949258ee57cb466ba4ed466ed76" title="Funzione che stampa il menu delle azioni che il giocatore può aggiungere per far muovere il personagg..." alt="" coords="613,102,688,129"/>
+<area shape="poly" title=" " alt="" coords="519,175,605,133,608,138,521,180"/>
+<area shape="rect" href="levelsfunctions_8c.html#a3128c8319f3a6ce6d72966dad0d390f5" title="Funzione che permette la scelta del valore che avrà la variabile scelta." alt="" coords="948,51,1022,78"/>
+<area shape="poly" title=" " alt="" coords="854,124,940,83,943,88,856,129"/>
+<area shape="poly" title=" " alt="" coords="857,142,940,159,988,174,1035,196,1080,229,1116,266,1112,269,1077,233,1032,200,986,179,938,164,856,147"/>
+<area shape="rect" href="levelsfunctions_8c.html#aa10befc0dab98079fee3a4395d399513" title="Funzione che stampa il menu dell’inserimento delle variabili." alt="" coords="938,102,1032,129"/>
+<area shape="poly" title=" " alt="" coords="856,133,923,123,924,128,857,139"/>
+<area shape="poly" title=" " alt="" coords="1020,77,1036,88,1070,132,1096,180,1116,226,1129,264,1124,266,1111,228,1092,182,1065,135,1032,92,1017,81"/>
+<area shape="rect" href="levelsfunctions_8c.html#a49160679b1e235d1247f3014f1047551" title="Funzione che stampa il menu della scelta del valore delle variabili." alt="" coords="1083,51,1189,78"/>
+<area shape="poly" title=" " alt="" coords="1023,62,1067,62,1067,67,1023,67"/>
+<area shape="poly" title=" " alt="" coords="622,508,618,499,621,489,632,483,650,481,670,483,680,490,677,494,668,488,650,486,634,488,625,493,623,498,627,506"/>
+<area shape="rect" href="errors_8c.html#a701449d9896c131360b9fabfbd00e26d" title="Funzione che gestisce il caso in cui venga inserito un ciclo al posto della condizione di un altro ci..." alt="" coords="772,406,878,433"/>
+<area shape="poly" title=" " alt="" coords="668,505,709,475,761,442,772,437,774,442,763,447,712,479,671,509"/>
+<area shape="rect" href="errors_8c.html#af6cecb4d699b77d07f42aae0d2a1c646" title="Funzione che gestisce il caso in cui un’azione di tipo condizione viene inserita nel contesto sbaglia..." alt="" coords="774,457,876,483"/>
+<area shape="poly" title=" " alt="" coords="694,513,784,487,786,492,696,518"/>
+<area shape="rect" href="errors_8c.html#af2976c7a561c76c41f18b45ef34e9de1" title="Funzione che controlla se tutti gli “ALTRIMENTI” siano chiusi correttamente." alt="" coords="777,507,873,534"/>
+<area shape="poly" title=" " alt="" coords="695,518,762,518,762,523,695,523"/>
+<area shape="rect" href="errors_8c.html#ad404093a0eb05672cb5583ed0307221e" title="Funzione che gestisce il caso in cui gli “ALTRIMENTI” non vengano chiusi correttamente." alt="" coords="762,558,888,585"/>
+<area shape="poly" title=" " alt="" coords="696,531,763,551,762,556,694,536"/>
+<area shape="rect" href="errors_8c.html#a0543ac38be03b2790544f71112dc43c2" title="Funzione che gestisce il caso in cui la struttura “ALTRIMENTI” venga inserita senza il “SE” d’apparte..." alt="" coords="774,609,877,635"/>
+<area shape="poly" title=" " alt="" coords="671,532,712,563,763,594,774,600,772,605,761,599,709,567,668,537"/>
+<area shape="rect" href="errors_8c.html#a6ab269cd530b60b6f15ad3e90e11be62" title="Funzione che controlla se tutti i cicli siano chiusi correttamente." alt="" coords="775,659,875,686"/>
+<area shape="poly" title=" " alt="" coords="663,533,702,587,731,618,764,645,771,650,768,654,760,650,727,622,698,590,658,536"/>
+<area shape="rect" href="errors_8c.html#ae31134d34dcf6dfdece9226c54fc2029" title="Funzione che controlla se tutti i “SE” siano chiusi correttamente." alt="" coords="784,710,866,737"/>
+<area shape="poly" title=" " alt="" coords="659,533,673,566,695,609,726,655,764,696,772,702,769,706,760,700,722,659,691,612,668,568,654,535"/>
+<area shape="rect" href="errors_8c.html#a51de34299031696007e908f0491d7546" title="Funzione che gestisce il caso in cui venga inserita un “SE” nel posto della condizione di un altro “S..." alt="" coords="782,355,868,382"/>
+<area shape="poly" title=" " alt="" coords="658,505,698,452,727,420,760,392,768,387,771,392,764,396,731,424,702,455,663,509"/>
+<area shape="poly" title=" " alt="" coords="775,479,692,504,690,499,773,474"/>
+<area shape="poly" title=" " alt="" coords="539,267,1081,288,1080,293,539,272"/>
+<area shape="poly" title=" " alt="" coords="502,280,635,493,630,496,497,283"/>
+<area shape="poly" title=" " alt="" coords="339,1216,365,1027,390,881,423,723,465,571,490,502,517,441,546,390,578,350,612,325,630,318,649,315,826,315,964,309,1080,297,1081,303,964,314,827,321,649,321,631,323,614,329,581,354,550,393,522,443,495,504,471,573,428,725,395,882,370,1028,344,1216"/>
+<area shape="poly" title=" " alt="" coords="339,1216,369,1064,399,957,438,849,484,757,537,671,627,545,631,548,541,674,489,760,443,851,404,958,375,1066,345,1217"/>
+<area shape="rect" href="herofunctions_8c.html#a12cac3382532a82a02011368a7d5fefb" title="Funzione che permette al personaggio di attaccare i nemici." alt="" coords="956,1217,1014,1243"/>
+<area shape="poly" title=" " alt="" coords="344,1215,358,1190,378,1160,406,1130,439,1108,503,1080,560,1060,614,1048,665,1043,716,1047,769,1059,826,1079,890,1108,918,1126,941,1151,973,1201,969,1204,937,1154,914,1131,887,1112,824,1084,767,1064,715,1052,665,1049,614,1053,562,1065,505,1085,442,1112,409,1134,383,1163,362,1193,349,1218"/>
+<area shape="rect" href="levelsfunctions_8c.html#a38b5906c4133881c0cc39fc8f2535a6d" title="Funzione che controlla se il livello è stato completato o meno." alt="" coords="441,862,538,889"/>
+<area shape="poly" title=" " alt="" coords="343,1215,474,902,479,904,348,1217"/>
+<area shape="rect" href="herofunctions_8c.html#a797fb0df5f8ba411f73a410ea58b149e" title="Funzione che gestisce l’esecuzione delle strutture “MENTRE” e “FAI MENTRE”." alt="" coords="453,1698,526,1725"/>
+<area shape="poly" title=" " alt="" coords="346,1243,383,1380,443,1579,480,1683,475,1684,438,1580,378,1382,341,1245"/>
+<area shape="rect" href="herofunctions_8c.html#a27c0422fc84201cdb298084150dd8f22" title="Funzione che gestisce l’esecuzione della struttura “ALTRIMENTI”." alt="" coords="615,1673,686,1699"/>
+<area shape="poly" title=" " alt="" coords="347,1243,382,1333,409,1392,443,1450,488,1513,539,1572,625,1661,622,1664,535,1576,484,1516,438,1453,405,1395,377,1335,342,1245"/>
+<area shape="rect" href="herofunctions_8c.html#adfe8fd333960a659e543ac707e59d9e0" title="Funzione che gestisce l’esecuzione della struttura “SE”." alt="" coords="798,1798,852,1825"/>
+<area shape="poly" title=" " alt="" coords="344,1243,352,1340,371,1488,384,1565,400,1636,420,1695,442,1735,478,1768,519,1791,565,1807,614,1817,662,1821,707,1821,783,1815,783,1821,707,1827,661,1826,613,1822,564,1812,517,1796,474,1772,438,1738,415,1697,395,1637,379,1566,365,1488,347,1341,338,1244"/>
+<area shape="rect" href="herofunctions_8c.html#ab60720f329b1a441232ceef2c0533ac7" title="Funzione che ruota in senso antiorario la direzione in cui il personaggio deve proseguire." alt="" coords="948,1369,1022,1395"/>
+<area shape="poly" title=" " alt="" coords="373,1214,467,1180,526,1164,586,1151,650,1145,714,1151,808,1166,847,1180,890,1209,922,1243,947,1282,965,1320,978,1353,973,1355,960,1322,942,1284,918,1246,887,1213,845,1185,807,1171,714,1157,650,1150,587,1157,527,1169,469,1185,374,1219"/>
+<area shape="rect" href="herofunctions_8c.html#abd89c33473f9813f76eda5d1ae51e332" title="Funzione che ruota in senso orario la direzione in cui il personaggio deve proseguire." alt="" coords="951,1950,1019,1977"/>
+<area shape="poly" title=" " alt="" coords="343,1244,351,1351,369,1518,383,1607,399,1689,419,1757,443,1805,477,1848,510,1880,544,1905,579,1923,617,1938,660,1949,763,1974,808,1981,854,1982,935,1972,936,1977,854,1987,807,1986,761,1979,658,1955,615,1943,577,1928,541,1910,507,1885,473,1851,438,1808,414,1759,394,1690,377,1608,364,1519,346,1352,338,1244"/>
+<area shape="rect" href="herofunctions_8c.html#a744b180d904bf51f033419fd86486003" title="Funzione che imposta il numero di passi che il personaggio esegue." alt="" coords="946,1445,1024,1471"/>
+<area shape="poly" title=" " alt="" coords="380,1241,932,1437,930,1442,378,1247"/>
+<area shape="rect" href="herofunctions_8c.html#aeb5bc2d291b7e4cee1f52da8785cf17c" title="Funzione che imposta il numero di rotazioni che il personaggio esegue." alt="" coords="947,1597,1023,1623"/>
+<area shape="poly" title=" " alt="" coords="359,1242,442,1303,584,1390,726,1471,944,1587,942,1592,724,1476,581,1395,439,1307,356,1246"/>
+<area shape="rect" href="herofunctions_8c.html#aeef90800adaf9e97f79a1019d0b83c1f" title="Funzione che permette al personaggio di camminare nella mappa." alt="" coords="961,2001,1009,2027"/>
+<area shape="poly" title=" " alt="" coords="343,1244,347,1369,362,1568,375,1673,392,1770,414,1852,428,1883,442,1907,460,1918,498,1935,608,1977,763,2031,825,2037,888,2031,945,2021,946,2027,889,2037,825,2043,761,2037,606,1982,496,1940,457,1922,438,1911,423,1885,409,1853,387,1772,369,1674,357,1568,342,1369,338,1244"/>
+<area shape="poly" title=" " alt="" coords="527,859,537,853,551,839,560,825,569,810,585,797,628,779,668,772,705,772,741,776,776,779,811,778,847,768,887,747,940,700,986,645,1024,585,1056,523,1082,462,1102,406,1126,320,1131,322,1107,407,1087,464,1061,525,1029,588,990,649,944,704,890,751,849,773,812,783,775,785,740,781,705,778,668,777,630,784,588,802,573,814,564,828,555,842,540,858,530,864"/>
+<area shape="poly" title=" " alt="" coords="495,860,634,547,639,549,499,863"/>
+<area shape="rect" href="initlevels_8c.html#ae5d1ee659b0afb58c8e19e24dda55575" title="Funzione che inizializza le azioni che il giocatore potrà effettuare nel livello." alt="" coords="610,862,690,889"/>
+<area shape="poly" title=" " alt="" coords="538,873,595,873,595,878,538,878"/>
+<area shape="rect" href="initlevels_8c.html#a07650f28bf7f67edf39f5c8d70ba9ba9" title="Funzione che inizializza la mappa del livello." alt="" coords="615,913,686,939"/>
+<area shape="poly" title=" " alt="" coords="535,887,601,908,599,913,534,892"/>
+<area shape="rect" href="dialfunctions_8c.html#a1a908fa8ef9ce8c17bc34f6c8c37e870" title="Funzione che carica da file i dialoghi." alt="" coords="602,811,698,838"/>
+<area shape="poly" title=" " alt="" coords="534,859,590,841,592,846,535,864"/>
+<area shape="poly" title=" " alt="" coords="507,887,543,918,588,949,597,954,595,959,585,954,539,922,504,891"/>
+<area shape="rect" href="initlevels_8c.html#aeeb3e4de8ff0d01304720120fc9a0e5a" title="Funzione che associa a ogni azione esistente nel gioco ( quelle utilizzabili dal giocatore ) un nome ..." alt="" coords="780,913,871,939"/>
+<area shape="poly" title=" " alt="" coords="692,884,765,906,764,911,690,890"/>
+<area shape="rect" href="initlevels_8c.html#a55b23d1f1549090054947473d76f3ddf" title="Funzione che associa a ogni variabile esistente nel gioco ( quelle utilizzabili dal giocatore ) un no..." alt="" coords="791,862,859,889"/>
+<area shape="poly" title=" " alt="" coords="691,873,776,873,776,878,691,878"/>
+<area shape="rect" href="features_8c.html#ad4446bcef11e73ce238dea2e95faee58" title="Funzione che restituisce il percorso in cui si trova l’eseguibile del programma." alt="" coords="952,887,1018,914"/>
+<area shape="poly" title=" " alt="" coords="687,935,728,945,778,953,833,956,888,949,921,937,951,920,953,925,923,941,889,954,834,961,778,959,727,950,685,940"/>
+<area shape="rect" href="dialfunctions_8c.html#a2d95b26c83050cb280629b762cea6dd1" title="Funzione che restituisce il percorso del file dei dialoghi." alt="" coords="780,811,870,838"/>
+<area shape="poly" title=" " alt="" coords="699,822,765,822,765,827,699,827"/>
+<area shape="poly" title=" " alt="" coords="863,836,889,848,947,877,945,882,887,853,861,841"/>
+<area shape="poly" title=" " alt="" coords="492,1697,524,1614,550,1561,585,1511,627,1465,674,1422,773,1347,867,1288,941,1248,944,1253,870,1293,776,1352,677,1427,631,1469,589,1514,555,1563,528,1616,497,1699"/>
+<area shape="poly" title=" " alt="" coords="463,1699,459,1689,462,1680,472,1674,490,1671,508,1674,518,1681,515,1685,506,1679,489,1677,474,1679,466,1683,464,1689,468,1696"/>
+<area shape="rect" href="herofunctions_8c.html#aebea9caf234845655337317a7ce42ef0" title="Funzione che verifica la presenza dei nemici nella casella successiva al personaggio." alt="" coords="936,1849,1034,1875"/>
+<area shape="poly" title=" " alt="" coords="505,1724,540,1758,588,1792,630,1811,674,1826,765,1846,850,1857,921,1860,921,1865,850,1862,764,1851,672,1831,628,1815,585,1796,537,1762,501,1727"/>
+<area shape="rect" href="herofunctions_8c.html#a052c249f0570dc03f994d1a2f4a42f69" title="Funzione che verifica se il personaggio sia arrivato al traguardo." alt="" coords="938,1899,1032,1926"/>
+<area shape="poly" title=" " alt="" coords="499,1724,531,1782,556,1815,588,1841,629,1863,673,1880,764,1902,851,1912,923,1913,923,1918,850,1917,763,1907,671,1885,627,1868,585,1846,553,1818,526,1785,494,1727"/>
+<area shape="rect" href="herofunctions_8c.html#a190ec5d79c534ac4a02179c2420a5f44" title="Funzione che verifica la presenza di ostacoli nella casella successiva al personaggio." alt="" coords="1082,2001,1190,2027"/>
+<area shape="poly" title=" " alt="" coords="493,1725,494,1781,505,1862,516,1906,533,1948,557,1987,588,2019,617,2038,647,2054,712,2075,782,2083,852,2082,920,2074,983,2061,1084,2031,1086,2036,984,2066,921,2079,852,2087,781,2089,711,2080,645,2059,614,2043,585,2023,553,1990,529,1951,511,1908,499,1863,489,1782,488,1725"/>
+<area shape="rect" href="errors_8c.html#a5a7e2b803fb331769499875e7796d0f6" title="Funzione che gestisce il caso in cui il ciclo sia un ciclo infinito." alt="" coords="587,1166,714,1193"/>
+<area shape="poly" title=" " alt="" coords="489,1697,495,1628,510,1518,539,1389,559,1324,584,1261,602,1230,623,1203,628,1206,607,1233,589,1263,564,1325,544,1390,516,1519,500,1628,494,1698"/>
+<area shape="poly" title=" " alt="" coords="526,1711,600,1700,600,1705,527,1716"/>
+<area shape="rect" href="herofunctions_8c.html#ab03db0d312684c0b238fe5dce58b0286" title="Funzione che restituisce la posizione delle strutture “FINE_SE”, ”FINE_CICLO” e “FINE_ALTRIMENTI”." alt="" coords="936,1723,1034,1750"/>
+<area shape="poly" title=" " alt="" coords="527,1711,921,1731,921,1736,527,1716"/>
+<area shape="poly" title=" " alt="" coords="504,1723,541,1745,588,1765,693,1794,784,1810,783,1816,692,1799,586,1770,538,1750,501,1728"/>
+<area shape="poly" title=" " alt="" coords="495,1696,529,1637,554,1602,585,1571,627,1538,673,1508,768,1458,859,1420,932,1395,934,1400,861,1425,771,1463,676,1513,631,1542,588,1575,558,1606,533,1640,500,1699"/>
+<area shape="poly" title=" " alt="" coords="496,1724,505,1760,523,1807,550,1856,567,1878,588,1896,630,1921,676,1940,723,1953,771,1962,863,1968,936,1966,936,1971,863,1973,771,1967,722,1958,674,1945,628,1926,585,1900,564,1881,545,1859,518,1809,500,1761,491,1726"/>
+<area shape="poly" title=" " alt="" coords="502,1696,537,1661,585,1624,676,1572,771,1529,859,1495,930,1471,932,1476,861,1500,773,1534,679,1577,588,1628,541,1665,505,1700"/>
+<area shape="poly" title=" " alt="" coords="511,1695,545,1676,586,1658,679,1633,775,1618,862,1610,932,1607,932,1613,862,1615,775,1623,680,1638,588,1663,548,1681,514,1700"/>
+<area shape="poly" title=" " alt="" coords="494,1725,499,1770,514,1834,526,1869,542,1902,563,1932,588,1957,631,1984,678,2004,727,2016,778,2023,872,2025,945,2018,946,2023,872,2030,777,2028,726,2021,676,2009,628,1989,585,1962,559,1935,537,1904,521,1871,509,1836,494,1771,489,1725"/>
+<area shape="poly" title=" " alt="" coords="690,1163,766,1132,860,1081,908,1049,954,1013,996,971,1031,925,1054,874,1074,803,1090,718,1103,626,1121,448,1130,322,1136,322,1127,449,1108,627,1095,719,1079,804,1059,876,1036,927,1000,974,958,1017,911,1054,862,1086,768,1136,693,1168"/>
+<area shape="poly" title=" " alt="" coords="655,1671,695,1587,725,1532,760,1478,811,1411,865,1348,957,1253,960,1256,869,1351,815,1414,764,1481,730,1535,700,1590,660,1674"/>
+<area shape="poly" title=" " alt="" coords="615,1687,542,1698,541,1692,614,1681"/>
+<area shape="poly" title=" " alt="" coords="686,1687,889,1715,921,1721,920,1727,888,1721,685,1693"/>
+<area shape="poly" title=" " alt="" coords="666,1698,721,1742,787,1789,784,1793,718,1746,662,1702"/>
+<area shape="poly" title=" " alt="" coords="659,1671,700,1614,760,1546,809,1502,859,1463,948,1402,951,1406,863,1467,812,1507,764,1549,704,1617,663,1674"/>
+<area shape="poly" title=" " alt="" coords="661,1699,701,1762,730,1800,764,1835,807,1868,853,1898,938,1942,936,1946,850,1903,804,1873,760,1839,726,1803,697,1765,657,1701"/>
+<area shape="poly" title=" " alt="" coords="670,1670,950,1478,953,1483,673,1674"/>
+<area shape="poly" title=" " alt="" coords="685,1676,932,1619,933,1624,687,1681"/>
+<area shape="poly" title=" " alt="" coords="657,1699,667,1742,687,1802,719,1867,740,1897,764,1924,807,1956,856,1979,904,1995,946,2005,945,2010,903,2001,854,1984,804,1961,760,1928,735,1901,714,1870,682,1804,662,1743,652,1700"/>
+<area shape="poly" title=" " alt="" coords="827,1797,865,1620,896,1489,934,1356,970,1257,975,1259,939,1358,902,1491,870,1621,832,1798"/>
+<area shape="poly" title=" " alt="" coords="797,1802,703,1779,586,1746,540,1727,542,1723,588,1741,705,1774,799,1797"/>
+<area shape="poly" title=" " alt="" coords="853,1817,927,1841,925,1846,852,1822"/>
+<area shape="poly" title=" " alt="" coords="853,1820,890,1841,914,1863,938,1885,943,1889,940,1893,935,1890,911,1867,887,1846,851,1825"/>
+<area shape="poly" title=" " alt="" coords="852,1805,890,1802,938,1804,988,1813,1013,1822,1035,1835,1071,1868,1098,1908,1117,1950,1130,1985,1125,1987,1112,1952,1093,1911,1067,1871,1032,1839,1010,1827,987,1818,937,1809,890,1808,852,1810"/>
+<area shape="poly" title=" " alt="" coords="810,1800,756,1756,691,1710,694,1706,759,1752,813,1796"/>
+<area shape="poly" title=" " alt="" coords="851,1797,940,1755,942,1759,854,1802"/>
+<area shape="poly" title=" " alt="" coords="797,1799,793,1789,796,1780,807,1774,825,1771,845,1774,855,1781,852,1785,843,1779,825,1777,809,1779,800,1783,798,1789,802,1796"/>
+<area shape="poly" title=" " alt="" coords="826,1797,835,1736,855,1644,887,1536,908,1482,934,1431,954,1405,959,1408,939,1434,913,1485,892,1538,860,1645,840,1737,831,1798"/>
+<area shape="poly" title=" " alt="" coords="853,1818,873,1828,890,1842,908,1866,915,1890,922,1913,938,1936,941,1939,937,1943,934,1940,917,1915,910,1891,903,1869,886,1845,870,1832,851,1823"/>
+<area shape="poly" title=" " alt="" coords="830,1796,969,1484,974,1487,835,1799"/>
+<area shape="poly" title=" " alt="" coords="835,1796,961,1634,966,1638,839,1799"/>
+<area shape="poly" title=" " alt="" coords="834,1824,872,1899,902,1945,938,1987,949,1995,945,1999,935,1991,897,1948,867,1902,830,1826"/>
+<area shape="poly" title=" " alt="" coords="1008,2005,1021,1998,1031,1987,1048,1948,1062,1883,1075,1799,1086,1696,1104,1453,1116,1180,1129,651,1132,322,1137,322,1134,651,1122,1180,1109,1453,1091,1697,1080,1799,1067,1884,1053,1949,1036,1990,1025,2002,1011,2010"/>
+<area shape="poly" title=" " alt="" coords="1009,2011,1067,2011,1067,2017,1009,2017"/>
+<area shape="poly" title=" " alt="" coords="368,2007,419,2030,489,2059,574,2087,669,2110,767,2122,816,2122,864,2117,910,2107,954,2091,995,2068,1032,2038,1043,2011,1054,1956,1073,1776,1090,1527,1103,1240,1123,675,1131,322,1137,322,1128,675,1109,1240,1095,1527,1078,1776,1059,1957,1048,2013,1036,2041,998,2072,956,2096,912,2112,865,2123,816,2127,767,2127,668,2116,573,2093,487,2064,417,2035,366,2012"/>
+</map>
+</div>
+<div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a15f8ae6abc3e4685db45d35caa413d99_icgraph.png" border="0" usemap="#alevelsfunctions_8c_a15f8ae6abc3e4685db45d35caa413d99_icgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a15f8ae6abc3e4685db45d35caa413d99_icgraph" id="alevelsfunctions_8c_a15f8ae6abc3e4685db45d35caa413d99_icgraph">
+<area shape="rect" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,5,393,32"/>
+<area shape="rect" href="levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,5,263,32"/>
+<area shape="poly" title=" " alt="" coords="296,21,264,21,264,16,296,16"/>
+<area shape="rect" href="features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,5,142,32"/>
+<area shape="poly" title=" " alt="" coords="175,21,142,21,142,16,175,16"/>
+<area shape="rect" href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac0a1a979fcfb44d03c933471499a11a8" name="ac0a1a979fcfb44d03c933471499a11a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0a1a979fcfb44d03c933471499a11a8">&#9670;&#160;</a></span>action_subrun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void action_subrun </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>status</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>EXITflag</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che esegue l’opzione selezionata nel menu delle azioni. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">status</td><td></td></tr>
+    <tr><td class="paramname">EXITflag</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Questo è il grafo delle chiamate per questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_ac0a1a979fcfb44d03c933471499a11a8_cgraph.png" border="0" usemap="#alevelsfunctions_8c_ac0a1a979fcfb44d03c933471499a11a8_cgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_ac0a1a979fcfb44d03c933471499a11a8_cgraph" id="alevelsfunctions_8c_ac0a1a979fcfb44d03c933471499a11a8_cgraph">
+<area shape="rect" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="5,323,108,349"/>
+<area shape="rect" href="levelsfunctions_8c.html#ad7cbef53b0c51c5586114246783c1f50" title="Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire." alt="" coords="310,132,373,159"/>
+<area shape="poly" title=" " alt="" coords="77,320,305,165,308,170,80,324"/>
+<area shape="rect" href="levelsfunctions_8c.html#a0b1fef6defbe5895fa1a2ca2f58cf4fb" title="Funzione che permette l’eliminazione dell’ultima azione inserita." alt="" coords="292,323,390,349"/>
+<area shape="poly" title=" " alt="" coords="108,333,277,333,277,339,108,339"/>
+<area shape="rect" href="levelsfunctions_8c.html#a03e3adde4d6e3fcdb6b887522f51b04b" title="Funzione che esegue le azioni scelte dall’utente." alt="" coords="156,1221,244,1248"/>
+<area shape="poly" title=" " alt="" coords="63,349,197,1205,191,1206,57,350"/>
+<area shape="rect" href="levelsfunctions_8c.html#a6aa92c0b026b9700041f50528fdd838a" title="Funzione che permette l’inserimento delle variabili di gioco." alt="" coords="646,81,708,108"/>
+<area shape="poly" title=" " alt="" coords="373,138,631,99,631,104,374,143"/>
+<area shape="rect" href="features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="948,436,1027,463"/>
+<area shape="poly" title=" " alt="" coords="373,142,470,144,535,151,606,162,680,179,754,205,824,239,887,285,918,317,943,354,978,421,973,423,939,357,914,321,884,289,821,244,752,210,679,185,605,167,534,156,469,150,373,147"/>
+<area shape="rect" href="levelsfunctions_8c.html#a1c940c42c4047f2798dd5491897208a1" title="Funzione che in base al livello stabilisce quali azioni l’utente può utilizzare." alt="" coords="457,5,547,32"/>
+<area shape="poly" title=" " alt="" coords="350,130,386,87,410,63,437,42,444,37,447,42,440,46,414,67,390,91,355,133"/>
+<area shape="rect" href="levelsfunctions_8c.html#a55e1fd2e85959c825eb81bd05f51667f" title="Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore." alt="" coords="458,411,546,437"/>
+<area shape="poly" title=" " alt="" coords="353,158,488,396,483,398,348,160"/>
+<area shape="rect" href="levelsfunctions_8c.html#a31381949258ee57cb466ba4ed466ed76" title="Funzione che stampa il menu delle azioni che il giocatore può aggiungere per far muovere il personagg..." alt="" coords="465,56,539,83"/>
+<area shape="poly" title=" " alt="" coords="370,129,457,87,459,92,373,134"/>
+<area shape="rect" href="levelsfunctions_8c.html#a3128c8319f3a6ce6d72966dad0d390f5" title="Funzione che permette la scelta del valore che avrà la variabile scelta." alt="" coords="800,5,874,32"/>
+<area shape="poly" title=" " alt="" coords="706,78,792,37,794,41,708,83"/>
+<area shape="poly" title=" " alt="" coords="708,92,748,95,796,104,844,121,867,134,887,150,914,181,935,215,952,252,965,291,981,363,988,420,982,421,976,364,960,292,947,254,931,218,910,184,883,154,864,138,842,126,794,109,747,100,708,97"/>
+<area shape="rect" href="levelsfunctions_8c.html#aa10befc0dab98079fee3a4395d399513" title="Funzione che stampa il menu dell’inserimento delle variabili." alt="" coords="790,56,883,83"/>
+<area shape="poly" title=" " alt="" coords="708,87,774,76,775,82,709,92"/>
+<area shape="poly" title=" " alt="" coords="874,30,887,42,918,89,942,141,960,195,972,248,986,347,989,420,984,420,981,348,967,249,955,196,937,143,913,92,883,46,870,34"/>
+<area shape="rect" href="levelsfunctions_8c.html#a49160679b1e235d1247f3014f1047551" title="Funzione che stampa il menu della scelta del valore delle variabili." alt="" coords="934,5,1041,32"/>
+<area shape="poly" title=" " alt="" coords="874,16,919,16,919,21,874,21"/>
+<area shape="poly" title=" " alt="" coords="474,411,469,402,473,392,484,386,502,384,521,387,532,393,529,398,520,392,502,389,485,391,477,396,475,401,479,409"/>
+<area shape="rect" href="errors_8c.html#a701449d9896c131360b9fabfbd00e26d" title="Funzione che gestisce il caso in cui venga inserito un ciclo al posto della condizione di un altro ci..." alt="" coords="624,360,730,387"/>
+<area shape="poly" title=" " alt="" coords="546,409,613,389,615,394,548,414"/>
+<area shape="rect" href="errors_8c.html#af6cecb4d699b77d07f42aae0d2a1c646" title="Funzione che gestisce il caso in cui un’azione di tipo condizione viene inserita nel contesto sbaglia..." alt="" coords="626,411,728,437"/>
+<area shape="poly" title=" " alt="" coords="547,429,611,430,611,435,547,435"/>
+<area shape="rect" href="errors_8c.html#af2976c7a561c76c41f18b45ef34e9de1" title="Funzione che controlla se tutti gli “ALTRIMENTI” siano chiusi correttamente." alt="" coords="629,461,725,488"/>
+<area shape="poly" title=" " alt="" coords="548,434,615,454,613,459,546,439"/>
+<area shape="rect" href="errors_8c.html#ad404093a0eb05672cb5583ed0307221e" title="Funzione che gestisce il caso in cui gli “ALTRIMENTI” non vengano chiusi correttamente." alt="" coords="614,512,740,539"/>
+<area shape="poly" title=" " alt="" coords="522,436,564,466,615,498,626,503,623,508,612,502,561,470,519,440"/>
+<area shape="rect" href="errors_8c.html#a0543ac38be03b2790544f71112dc43c2" title="Funzione che gestisce il caso in cui la struttura “ALTRIMENTI” venga inserita senza il “SE” d’apparte..." alt="" coords="625,563,728,589"/>
+<area shape="poly" title=" " alt="" coords="514,436,554,490,583,521,615,549,622,553,620,558,612,553,579,525,550,493,510,439"/>
+<area shape="rect" href="errors_8c.html#a6ab269cd530b60b6f15ad3e90e11be62" title="Funzione che controlla se tutti i cicli siano chiusi correttamente." alt="" coords="627,613,727,640"/>
+<area shape="poly" title=" " alt="" coords="511,437,525,469,547,513,577,559,615,599,621,603,617,607,612,603,573,562,542,515,520,471,506,439"/>
+<area shape="rect" href="errors_8c.html#ae31134d34dcf6dfdece9226c54fc2029" title="Funzione che controlla se tutti i “SE” siano chiusi correttamente." alt="" coords="636,259,718,285"/>
+<area shape="poly" title=" " alt="" coords="510,409,550,355,579,323,612,295,620,290,623,294,615,299,583,327,554,358,514,412"/>
+<area shape="rect" href="errors_8c.html#a51de34299031696007e908f0491d7546" title="Funzione che gestisce il caso in cui venga inserita un “SE” nel posto della condizione di un altro “S..." alt="" coords="634,309,720,336"/>
+<area shape="poly" title=" " alt="" coords="519,408,561,378,612,346,623,340,626,345,615,350,564,382,522,412"/>
+<area shape="poly" title=" " alt="" coords="626,418,562,418,562,413,626,413"/>
+<area shape="poly" title=" " alt="" coords="364,320,430,286,474,267,524,250,577,237,632,230,687,232,741,244,778,260,814,281,878,330,931,380,968,423,964,426,927,384,875,334,811,285,776,265,739,249,687,237,632,235,578,242,525,255,476,272,432,291,367,324"/>
+<area shape="poly" title=" " alt="" coords="369,348,464,400,461,405,366,352"/>
+<area shape="poly" title=" " alt="" coords="204,1220,237,1149,264,1101,299,1052,340,1005,387,965,413,950,441,938,470,931,501,928,678,928,716,924,752,913,784,896,813,873,839,845,863,813,903,742,933,666,955,592,979,478,985,479,961,593,938,668,907,745,867,816,843,848,816,877,787,900,754,918,718,929,678,933,501,933,471,936,442,943,415,955,390,970,343,1009,303,1055,269,1104,242,1152,209,1222"/>
+<area shape="poly" title=" " alt="" coords="199,1221,205,1147,220,1030,247,892,266,821,290,752,334,660,386,573,437,500,478,448,482,451,442,503,391,576,338,662,294,754,271,822,252,893,225,1031,210,1148,205,1221"/>
+<area shape="rect" href="herofunctions_8c.html#a12cac3382532a82a02011368a7d5fefb" title="Funzione che permette al personaggio di attaccare i nemici." alt="" coords="808,1449,865,1476"/>
+<area shape="poly" title=" " alt="" coords="241,1246,794,1445,792,1450,239,1251"/>
+<area shape="rect" href="levelsfunctions_8c.html#a38b5906c4133881c0cc39fc8f2535a6d" title="Funzione che controlla se il livello è stato completato o meno." alt="" coords="293,765,389,792"/>
+<area shape="poly" title=" " alt="" coords="202,1220,236,1094,289,911,327,806,332,808,295,913,241,1095,207,1222"/>
+<area shape="rect" href="herofunctions_8c.html#a797fb0df5f8ba411f73a410ea58b149e" title="Funzione che gestisce l’esecuzione delle strutture “MENTRE” e “FAI MENTRE”." alt="" coords="304,1608,378,1635"/>
+<area shape="poly" title=" " alt="" coords="209,1248,332,1593,327,1594,204,1249"/>
+<area shape="rect" href="herofunctions_8c.html#a27c0422fc84201cdb298084150dd8f22" title="Funzione che gestisce l’esecuzione della struttura “ALTRIMENTI”." alt="" coords="467,1701,537,1728"/>
+<area shape="poly" title=" " alt="" coords="205,1248,214,1329,231,1449,258,1567,275,1614,294,1645,329,1673,370,1692,412,1703,451,1709,451,1715,411,1709,368,1697,326,1677,290,1648,270,1616,253,1569,226,1450,209,1330,200,1249"/>
+<area shape="rect" href="herofunctions_8c.html#adfe8fd333960a659e543ac707e59d9e0" title="Funzione che gestisce l’esecuzione della struttura “SE”." alt="" coords="650,1651,704,1677"/>
+<area shape="poly" title=" " alt="" coords="205,1248,211,1339,226,1477,238,1549,253,1614,272,1668,294,1704,325,1732,355,1751,386,1762,417,1767,450,1766,485,1760,565,1738,612,1714,650,1685,653,1690,614,1719,567,1742,486,1765,450,1771,417,1772,384,1767,353,1756,322,1736,290,1707,267,1670,248,1616,233,1550,221,1478,206,1340,199,1249"/>
+<area shape="rect" href="herofunctions_8c.html#ab60720f329b1a441232ceef2c0533ac7" title="Funzione che ruota in senso antiorario la direzione in cui il personaggio deve proseguire." alt="" coords="800,2031,874,2057"/>
+<area shape="poly" title=" " alt="" coords="204,1249,205,1374,215,1573,225,1678,242,1775,264,1854,278,1885,294,1908,319,1933,347,1954,409,1990,476,2015,546,2032,614,2042,679,2047,784,2046,784,2051,679,2052,614,2048,545,2038,474,2020,406,1995,344,1959,316,1937,290,1911,274,1887,259,1856,236,1776,220,1679,209,1574,199,1374,198,1249"/>
+<area shape="rect" href="herofunctions_8c.html#abd89c33473f9813f76eda5d1ae51e332" title="Funzione che ruota in senso orario la direzione in cui il personaggio deve proseguire." alt="" coords="803,1796,870,1823"/>
+<area shape="poly" title=" " alt="" coords="204,1248,208,1351,222,1509,233,1591,249,1666,269,1728,281,1751,294,1769,320,1792,348,1811,379,1826,411,1838,480,1852,550,1856,619,1853,684,1844,787,1821,789,1827,685,1850,620,1858,550,1862,479,1857,410,1843,377,1831,346,1815,317,1796,290,1772,276,1754,264,1730,244,1668,228,1592,216,1509,203,1351,199,1248"/>
+<area shape="rect" href="herofunctions_8c.html#a744b180d904bf51f033419fd86486003" title="Funzione che imposta il numero di passi che il personaggio esegue." alt="" coords="798,1892,876,1919"/>
+<area shape="poly" title=" " alt="" coords="204,1248,207,1361,219,1538,230,1631,246,1717,267,1787,280,1814,294,1834,319,1858,346,1878,408,1908,474,1926,544,1935,612,1936,677,1932,782,1915,783,1921,677,1937,612,1941,543,1940,473,1931,406,1913,344,1882,315,1862,290,1838,275,1817,262,1789,241,1718,225,1632,213,1539,201,1362,199,1248"/>
+<area shape="rect" href="herofunctions_8c.html#aeb5bc2d291b7e4cee1f52da8785cf17c" title="Funzione che imposta il numero di rotazioni che il personaggio esegue." alt="" coords="799,1272,874,1299"/>
+<area shape="poly" title=" " alt="" coords="244,1221,292,1213,429,1203,489,1205,566,1213,625,1223,684,1237,785,1265,783,1271,683,1242,624,1228,565,1219,489,1210,429,1208,292,1219,245,1227"/>
+<area shape="rect" href="herofunctions_8c.html#aeef90800adaf9e97f79a1019d0b83c1f" title="Funzione che permette al personaggio di camminare nella mappa." alt="" coords="812,1069,861,1096"/>
+<area shape="poly" title=" " alt="" coords="227,1218,292,1186,387,1146,497,1107,555,1091,613,1079,663,1073,713,1072,798,1076,797,1081,713,1077,663,1078,614,1084,557,1096,499,1112,388,1151,295,1191,229,1223"/>
+<area shape="poly" title=" " alt="" coords="379,763,389,757,403,742,411,728,421,714,437,700,479,681,518,672,553,669,587,671,657,672,696,665,739,650,808,610,872,561,924,512,963,472,967,476,928,516,875,565,811,614,741,654,697,670,658,677,587,676,553,675,518,677,481,686,440,705,425,717,416,731,407,746,392,761,382,767"/>
+<area shape="poly" title=" " alt="" coords="346,764,486,450,491,453,351,766"/>
+<area shape="rect" href="initlevels_8c.html#ae5d1ee659b0afb58c8e19e24dda55575" title="Funzione che inizializza le azioni che il giocatore potrà effettuare nel livello." alt="" coords="462,816,542,843"/>
+<area shape="poly" title=" " alt="" coords="387,790,448,810,446,815,385,795"/>
+<area shape="rect" href="initlevels_8c.html#a07650f28bf7f67edf39f5c8d70ba9ba9" title="Funzione che inizializza la mappa del livello." alt="" coords="467,765,537,792"/>
+<area shape="poly" title=" " alt="" coords="390,776,451,776,451,781,390,781"/>
+<area shape="rect" href="dialfunctions_8c.html#a1a908fa8ef9ce8c17bc34f6c8c37e870" title="Funzione che carica da file i dialoghi." alt="" coords="454,715,550,741"/>
+<area shape="poly" title=" " alt="" coords="385,762,442,744,443,749,387,767"/>
+<area shape="rect" href="dialfunctions_8c.html#aef782b2356ef00c6006c712e4f91fb60" title="Funzione che stampa una singola linea di dialogo al centro della finestra dei dialoghi." alt="" coords="450,867,554,893"/>
+<area shape="poly" title=" " alt="" coords="359,790,394,821,440,852,449,857,447,862,437,857,391,825,355,795"/>
+<area shape="rect" href="initlevels_8c.html#aeeb3e4de8ff0d01304720120fc9a0e5a" title="Funzione che associa a ogni azione esistente nel gioco ( quelle utilizzabili dal giocatore ) un nome ..." alt="" coords="631,816,722,843"/>
+<area shape="poly" title=" " alt="" coords="543,827,615,827,615,832,543,832"/>
+<area shape="rect" href="initlevels_8c.html#a55b23d1f1549090054947473d76f3ddf" title="Funzione che associa a ogni variabile esistente nel gioco ( quelle utilizzabili dal giocatore ) un no..." alt="" coords="643,867,711,893"/>
+<area shape="poly" title=" " alt="" coords="544,838,629,863,627,869,542,844"/>
+<area shape="rect" href="features_8c.html#ad4446bcef11e73ce238dea2e95faee58" title="Funzione che restituisce il percorso in cui si trova l’eseguibile del programma." alt="" coords="804,740,870,767"/>
+<area shape="poly" title=" " alt="" coords="537,773,788,754,788,760,538,779"/>
+<area shape="rect" href="dialfunctions_8c.html#a2d95b26c83050cb280629b762cea6dd1" title="Funzione che restituisce il percorso del file dei dialoghi." alt="" coords="632,715,722,741"/>
+<area shape="poly" title=" " alt="" coords="550,725,617,725,617,731,550,731"/>
+<area shape="poly" title=" " alt="" coords="722,732,789,743,788,748,722,738"/>
+<area shape="poly" title=" " alt="" coords="358,1605,393,1580,437,1556,534,1521,633,1495,722,1477,792,1466,793,1471,723,1482,634,1500,536,1526,439,1561,396,1585,361,1610"/>
+<area shape="poly" title=" " alt="" coords="316,1609,312,1599,315,1590,325,1584,341,1581,358,1584,368,1591,365,1595,356,1589,341,1587,327,1589,319,1593,317,1599,321,1606"/>
+<area shape="rect" href="herofunctions_8c.html#aebea9caf234845655337317a7ce42ef0" title="Funzione che verifica la presenza dei nemici nella casella successiva al personaggio." alt="" coords="788,1531,885,1557"/>
+<area shape="poly" title=" " alt="" coords="376,1605,438,1585,528,1568,619,1556,773,1544,773,1549,620,1562,529,1574,439,1591,377,1610"/>
+<area shape="rect" href="herofunctions_8c.html#a052c249f0570dc03f994d1a2f4a42f69" title="Funzione che verifica se il personaggio sia arrivato al traguardo." alt="" coords="790,1584,883,1611"/>
+<area shape="poly" title=" " alt="" coords="378,1614,438,1608,621,1599,774,1595,774,1601,622,1604,439,1613,379,1619"/>
+<area shape="rect" href="herofunctions_8c.html#a190ec5d79c534ac4a02179c2420a5f44" title="Funzione che verifica la presenza di ostacoli nella casella successiva al personaggio." alt="" coords="933,1120,1042,1147"/>
+<area shape="poly" title=" " alt="" coords="345,1606,378,1537,404,1494,436,1454,497,1398,563,1347,633,1301,703,1259,833,1193,934,1150,936,1155,836,1198,705,1264,636,1305,566,1351,500,1402,440,1458,409,1497,383,1539,350,1609"/>
+<area shape="rect" href="errors_8c.html#a5a7e2b803fb331769499875e7796d0f6" title="Funzione che gestisce il caso in cui il ciclo sia un ciclo infinito." alt="" coords="438,968,566,995"/>
+<area shape="poly" title=" " alt="" coords="342,1607,375,1429,403,1299,436,1165,462,1079,487,1008,493,1010,467,1081,441,1166,408,1300,380,1430,347,1608"/>
+<area shape="poly" title=" " alt="" coords="353,1633,391,1662,440,1692,455,1701,452,1705,437,1697,388,1666,350,1637"/>
+<area shape="rect" href="herofunctions_8c.html#ab03db0d312684c0b238fe5dce58b0286" title="Funzione che restituisce la posizione delle strutture “FINE_SE”, ”FINE_CICLO” e “FINE_ALTRIMENTI”." alt="" coords="788,1701,885,1728"/>
+<area shape="poly" title=" " alt="" coords="351,1634,383,1687,408,1716,440,1738,483,1754,529,1763,577,1766,624,1764,712,1750,783,1731,784,1736,713,1755,624,1769,577,1771,529,1768,482,1759,437,1742,405,1720,379,1691,346,1636"/>
+<area shape="poly" title=" " alt="" coords="379,1629,505,1649,635,1662,634,1668,505,1654,378,1634"/>
+<area shape="poly" title=" " alt="" coords="346,1635,352,1682,367,1749,396,1823,416,1857,440,1887,479,1921,522,1950,569,1974,617,1993,709,2020,785,2035,784,2040,708,2026,615,1998,567,1979,520,1955,476,1926,436,1891,411,1860,391,1825,362,1751,347,1683,341,1635"/>
+<area shape="poly" title=" " alt="" coords="349,1634,360,1664,379,1702,405,1741,440,1771,483,1793,529,1808,577,1817,625,1822,715,1822,787,1815,788,1820,715,1828,624,1828,576,1823,527,1813,481,1797,437,1776,401,1744,374,1705,355,1666,344,1636"/>
+<area shape="poly" title=" " alt="" coords="347,1635,356,1672,373,1723,400,1776,418,1800,440,1821,480,1847,524,1867,571,1883,618,1894,708,1904,782,1906,782,1911,707,1910,617,1899,569,1888,522,1872,478,1852,437,1825,415,1804,396,1779,368,1725,351,1674,342,1636"/>
+<area shape="poly" title=" " alt="" coords="351,1606,387,1564,437,1517,531,1448,630,1388,720,1339,791,1303,793,1308,723,1343,632,1393,534,1453,440,1521,391,1567,355,1609"/>
+<area shape="poly" title=" " alt="" coords="341,1607,347,1550,362,1462,390,1362,411,1312,436,1265,474,1210,510,1172,553,1142,613,1112,660,1095,710,1085,797,1079,797,1084,711,1091,662,1101,615,1117,556,1147,513,1176,478,1214,441,1268,416,1314,395,1363,367,1463,352,1550,346,1608"/>
+<area shape="poly" title=" " alt="" coords="559,993,632,1004,719,1006,764,1001,807,990,848,973,884,947,896,933,907,914,928,862,944,797,957,726,974,583,982,478,987,478,980,584,962,727,949,798,933,863,912,916,900,936,887,951,850,977,809,995,765,1006,719,1011,632,1009,559,998"/>
+<area shape="poly" title=" " alt="" coords="516,1699,558,1659,612,1613,713,1539,799,1482,802,1487,716,1544,615,1617,561,1663,519,1703"/>
+<area shape="poly" title=" " alt="" coords="489,1703,437,1673,390,1645,393,1640,440,1668,491,1699"/>
+<area shape="poly" title=" " alt="" coords="538,1712,772,1712,772,1717,538,1717"/>
+<area shape="poly" title=" " alt="" coords="537,1709,636,1681,637,1686,539,1714"/>
+<area shape="poly" title=" " alt="" coords="514,1727,556,1787,616,1860,665,1907,716,1951,805,2019,802,2024,713,1955,661,1911,612,1863,551,1790,510,1730"/>
+<area shape="poly" title=" " alt="" coords="538,1722,789,1793,788,1799,537,1727"/>
+<area shape="poly" title=" " alt="" coords="525,1726,615,1784,711,1838,795,1882,793,1887,709,1843,612,1789,522,1731"/>
+<area shape="poly" title=" " alt="" coords="510,1699,552,1634,612,1550,722,1412,812,1308,816,1312,726,1415,616,1554,557,1637,514,1702"/>
+<area shape="poly" title=" " alt="" coords="506,1700,547,1597,611,1455,667,1352,724,1253,816,1108,820,1111,729,1256,671,1355,616,1457,552,1599,511,1702"/>
+<area shape="poly" title=" " alt="" coords="686,1649,786,1517,812,1486,816,1489,790,1520,690,1652"/>
+<area shape="poly" title=" " alt="" coords="649,1658,527,1639,393,1624,393,1618,528,1633,650,1653"/>
+<area shape="poly" title=" " alt="" coords="691,1648,733,1611,786,1570,796,1564,799,1568,790,1574,737,1616,695,1652"/>
+<area shape="poly" title=" " alt="" coords="703,1651,788,1615,790,1619,705,1655"/>
+<area shape="poly" title=" " alt="" coords="704,1664,744,1666,792,1662,842,1648,864,1636,883,1621,906,1587,925,1536,941,1473,954,1403,973,1265,982,1162,987,1163,978,1265,960,1404,946,1474,930,1537,911,1589,887,1624,867,1641,843,1653,793,1667,744,1671,704,1670"/>
+<area shape="poly" title=" " alt="" coords="651,1667,543,1698,542,1693,649,1662"/>
+<area shape="poly" title=" " alt="" coords="705,1670,779,1694,777,1699,703,1675"/>
+<area shape="poly" title=" " alt="" coords="649,1651,644,1642,648,1632,659,1626,677,1624,696,1627,707,1633,704,1638,694,1632,677,1629,660,1631,652,1636,650,1641,654,1649"/>
+<area shape="poly" title=" " alt="" coords="686,1677,790,1930,826,2015,821,2017,786,1932,681,1679"/>
+<area shape="poly" title=" " alt="" coords="695,1676,811,1783,808,1787,691,1680"/>
+<area shape="poly" title=" " alt="" coords="689,1676,790,1833,820,1878,816,1881,786,1836,685,1679"/>
+<area shape="poly" title=" " alt="" coords="681,1649,821,1312,826,1314,686,1651"/>
+<area shape="poly" title=" " alt="" coords="679,1650,825,1110,830,1112,684,1651"/>
+<area shape="poly" title=" " alt="" coords="846,1067,865,1037,883,999,907,925,927,849,956,698,973,568,982,478,987,478,979,568,961,699,932,850,912,927,888,1001,870,1039,850,1070"/>
+<area shape="poly" title=" " alt="" coords="862,1088,932,1112,930,1117,860,1093"/>
+</map>
+</div>
+<div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_ac0a1a979fcfb44d03c933471499a11a8_icgraph.png" border="0" usemap="#alevelsfunctions_8c_ac0a1a979fcfb44d03c933471499a11a8_icgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_ac0a1a979fcfb44d03c933471499a11a8_icgraph" id="alevelsfunctions_8c_ac0a1a979fcfb44d03c933471499a11a8_icgraph">
+<area shape="rect" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="441,5,543,32"/>
+<area shape="rect" href="levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,5,393,32"/>
+<area shape="poly" title=" " alt="" coords="425,21,393,21,393,16,425,16"/>
+<area shape="rect" href="levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,5,263,32"/>
+<area shape="poly" title=" " alt="" coords="296,21,264,21,264,16,296,16"/>
+<area shape="rect" href="features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,5,142,32"/>
+<area shape="poly" title=" " alt="" coords="175,21,142,21,142,16,175,16"/>
+<area shape="rect" href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad7cbef53b0c51c5586114246783c1f50" name="ad7cbef53b0c51c5586114246783c1f50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7cbef53b0c51c5586114246783c1f50">&#9670;&#160;</a></span>addone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void addone </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire. </p>
+<div class="dynheader">
+Questo è il grafo delle chiamate per questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_ad7cbef53b0c51c5586114246783c1f50_cgraph.png" border="0" usemap="#alevelsfunctions_8c_ad7cbef53b0c51c5586114246783c1f50_cgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_ad7cbef53b0c51c5586114246783c1f50_cgraph" id="alevelsfunctions_8c_ad7cbef53b0c51c5586114246783c1f50_cgraph">
+<area shape="rect" title="Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire." alt="" coords="5,171,69,197"/>
+<area shape="rect" href="levelsfunctions_8c.html#a6aa92c0b026b9700041f50528fdd838a" title="Funzione che permette l’inserimento delle variabili di gioco." alt="" coords="131,81,192,108"/>
+<area shape="poly" title=" " alt="" coords="56,168,128,115,131,120,59,172"/>
+<area shape="rect" href="features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="443,5,522,32"/>
+<area shape="poly" title=" " alt="" coords="42,169,69,120,90,92,115,67,151,44,191,26,233,14,276,7,359,3,427,8,427,13,359,9,277,12,234,20,193,31,154,48,118,71,94,95,74,123,47,171"/>
+<area shape="rect" href="levelsfunctions_8c.html#a1c940c42c4047f2798dd5491897208a1" title="Funzione che in base al livello stabilisce quali azioni l’utente può utilizzare." alt="" coords="117,171,207,197"/>
+<area shape="poly" title=" " alt="" coords="69,181,101,181,101,187,69,187"/>
+<area shape="rect" href="levelsfunctions_8c.html#a55e1fd2e85959c825eb81bd05f51667f" title="Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore." alt="" coords="118,309,206,336"/>
+<area shape="poly" title=" " alt="" coords="52,196,140,296,136,299,48,200"/>
+<area shape="rect" href="levelsfunctions_8c.html#a31381949258ee57cb466ba4ed466ed76" title="Funzione che stampa il menu delle azioni che il giocatore può aggiungere per far muovere il personagg..." alt="" coords="125,360,199,387"/>
+<area shape="poly" title=" " alt="" coords="44,197,69,266,90,308,119,346,121,349,117,352,115,350,86,311,64,268,39,199"/>
+<area shape="rect" href="levelsfunctions_8c.html#a3128c8319f3a6ce6d72966dad0d390f5" title="Funzione che permette la scelta del valore che avrà la variabile scelta." alt="" coords="281,107,355,133"/>
+<area shape="poly" title=" " alt="" coords="194,97,266,109,265,114,193,102"/>
+<area shape="poly" title=" " alt="" coords="182,78,214,59,254,41,299,30,345,23,427,16,427,21,345,28,300,35,256,47,217,63,184,83"/>
+<area shape="rect" href="levelsfunctions_8c.html#aa10befc0dab98079fee3a4395d399513" title="Funzione che stampa il menu dell’inserimento delle variabili." alt="" coords="272,56,365,83"/>
+<area shape="poly" title=" " alt="" coords="193,87,256,77,257,82,194,92"/>
+<area shape="poly" title=" " alt="" coords="354,105,380,92,419,67,453,40,456,44,422,71,383,97,357,109"/>
+<area shape="rect" href="levelsfunctions_8c.html#a49160679b1e235d1247f3014f1047551" title="Funzione che stampa il menu della scelta del valore delle variabili." alt="" coords="429,107,536,133"/>
+<area shape="poly" title=" " alt="" coords="356,117,414,117,414,123,356,123"/>
+<area shape="poly" title=" " alt="" coords="140,310,136,301,138,291,147,285,162,283,177,285,186,292,182,296,175,290,162,288,149,290,143,294,141,300,144,308"/>
+<area shape="rect" href="errors_8c.html#a701449d9896c131360b9fabfbd00e26d" title="Funzione che gestisce il caso in cui venga inserito un ciclo al posto della condizione di un altro ci..." alt="" coords="265,360,371,387"/>
+<area shape="poly" title=" " alt="" coords="206,334,261,352,260,357,205,339"/>
+<area shape="rect" href="errors_8c.html#af6cecb4d699b77d07f42aae0d2a1c646" title="Funzione che gestisce il caso in cui un’azione di tipo condizione viene inserita nel contesto sbaglia..." alt="" coords="268,411,369,437"/>
+<area shape="poly" title=" " alt="" coords="175,334,209,358,231,382,257,407,253,411,227,385,205,362,172,339"/>
+<area shape="rect" href="errors_8c.html#af2976c7a561c76c41f18b45ef34e9de1" title="Funzione che controlla se tutti gli “ALTRIMENTI” siano chiusi correttamente." alt="" coords="270,461,366,488"/>
+<area shape="poly" title=" " alt="" coords="194,334,209,346,226,373,233,399,239,423,257,448,261,451,258,455,253,451,235,425,228,400,221,376,205,350,191,339"/>
+<area shape="rect" href="errors_8c.html#ad404093a0eb05672cb5583ed0307221e" title="Funzione che gestisce il caso in cui gli “ALTRIMENTI” non vengano chiusi correttamente." alt="" coords="255,512,381,539"/>
+<area shape="poly" title=" " alt="" coords="196,335,209,346,222,367,229,387,232,425,236,461,243,479,257,498,260,501,256,505,253,502,239,482,231,463,227,425,224,388,217,369,205,350,192,339"/>
+<area shape="rect" href="errors_8c.html#a0543ac38be03b2790544f71112dc43c2" title="Funzione che gestisce il caso in cui la struttura “ALTRIMENTI” venga inserita senza il “SE” d’apparte..." alt="" coords="266,157,370,184"/>
+<area shape="poly" title=" " alt="" coords="168,308,200,253,224,222,253,194,259,190,262,194,257,198,228,225,204,256,172,310"/>
+<area shape="rect" href="errors_8c.html#a6ab269cd530b60b6f15ad3e90e11be62" title="Funzione che controlla se tutti i cicli siano chiusi correttamente." alt="" coords="268,208,368,235"/>
+<area shape="poly" title=" " alt="" coords="175,307,209,276,254,244,263,239,266,244,256,249,213,280,179,311"/>
+<area shape="rect" href="errors_8c.html#ae31134d34dcf6dfdece9226c54fc2029" title="Funzione che controlla se tutti i “SE” siano chiusi correttamente." alt="" coords="277,259,359,285"/>
+<area shape="poly" title=" " alt="" coords="205,306,261,287,263,293,206,311"/>
+<area shape="rect" href="errors_8c.html#a51de34299031696007e908f0491d7546" title="Funzione che gestisce il caso in cui venga inserita un “SE” nel posto della condizione di un altro “S..." alt="" coords="275,309,361,336"/>
+<area shape="poly" title=" " alt="" coords="206,320,259,320,259,325,206,325"/>
+<area shape="poly" title=" " alt="" coords="300,412,253,389,232,368,216,347,220,344,236,364,257,384,302,408"/>
+</map>
+</div>
+<div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_ad7cbef53b0c51c5586114246783c1f50_icgraph.png" border="0" usemap="#alevelsfunctions_8c_ad7cbef53b0c51c5586114246783c1f50_icgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_ad7cbef53b0c51c5586114246783c1f50_icgraph" id="alevelsfunctions_8c_ad7cbef53b0c51c5586114246783c1f50_icgraph">
+<area shape="rect" title="Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire." alt="" coords="591,5,654,32"/>
+<area shape="rect" href="levelsfunctions_8c.html#ac0a1a979fcfb44d03c933471499a11a8" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="441,5,543,32"/>
+<area shape="poly" title=" " alt="" coords="576,21,543,21,543,16,576,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,5,393,32"/>
+<area shape="poly" title=" " alt="" coords="425,21,393,21,393,16,425,16"/>
+<area shape="rect" href="levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,5,263,32"/>
+<area shape="poly" title=" " alt="" coords="296,21,264,21,264,16,296,16"/>
+<area shape="rect" href="features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,5,142,32"/>
+<area shape="poly" title=" " alt="" coords="175,21,142,21,142,16,175,16"/>
+<area shape="rect" href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3128c8319f3a6ce6d72966dad0d390f5" name="a3128c8319f3a6ce6d72966dad0d390f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3128c8319f3a6ce6d72966dad0d390f5">&#9670;&#160;</a></span>addValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int addValue </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che permette la scelta del valore che avrà la variabile scelta. </p>
+<dl class="section return"><dt>Restituisce</dt><dd>int </dd></dl>
+<div class="dynheader">
+Questo è il grafo delle chiamate per questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a3128c8319f3a6ce6d72966dad0d390f5_cgraph.png" border="0" usemap="#alevelsfunctions_8c_a3128c8319f3a6ce6d72966dad0d390f5_cgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a3128c8319f3a6ce6d72966dad0d390f5_cgraph" id="alevelsfunctions_8c_a3128c8319f3a6ce6d72966dad0d390f5_cgraph">
+<area shape="rect" title="Funzione che permette la scelta del valore che avrà la variabile scelta." alt="" coords="5,31,80,57"/>
+<area shape="rect" href="features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="141,5,220,32"/>
+<area shape="poly" title=" " alt="" coords="80,35,125,26,126,31,81,40"/>
+<area shape="rect" href="levelsfunctions_8c.html#a49160679b1e235d1247f3014f1047551" title="Funzione che stampa il menu della scelta del valore delle variabili." alt="" coords="128,56,234,83"/>
+<area shape="poly" title=" " alt="" coords="81,48,113,54,112,59,80,53"/>
+</map>
+</div>
+<div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a3128c8319f3a6ce6d72966dad0d390f5_icgraph.png" border="0" usemap="#alevelsfunctions_8c_a3128c8319f3a6ce6d72966dad0d390f5_icgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a3128c8319f3a6ce6d72966dad0d390f5_icgraph" id="alevelsfunctions_8c_a3128c8319f3a6ce6d72966dad0d390f5_icgraph">
+<area shape="rect" title="Funzione che permette la scelta del valore che avrà la variabile scelta." alt="" coords="812,5,886,32"/>
+<area shape="rect" href="levelsfunctions_8c.html#a6aa92c0b026b9700041f50528fdd838a" title="Funzione che permette l’inserimento delle variabili di gioco." alt="" coords="702,5,764,32"/>
+<area shape="poly" title=" " alt="" coords="796,21,764,21,764,16,796,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#ad7cbef53b0c51c5586114246783c1f50" title="Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire." alt="" coords="591,5,654,32"/>
+<area shape="poly" title=" " alt="" coords="687,21,655,21,655,16,687,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#ac0a1a979fcfb44d03c933471499a11a8" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="441,5,543,32"/>
+<area shape="poly" title=" " alt="" coords="576,21,543,21,543,16,576,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,5,393,32"/>
+<area shape="poly" title=" " alt="" coords="425,21,393,21,393,16,425,16"/>
+<area shape="rect" href="levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,5,263,32"/>
+<area shape="poly" title=" " alt="" coords="296,21,264,21,264,16,296,16"/>
+<area shape="rect" href="features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,5,142,32"/>
+<area shape="poly" title=" " alt="" coords="175,21,142,21,142,16,175,16"/>
+<area shape="rect" href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6aa92c0b026b9700041f50528fdd838a" name="a6aa92c0b026b9700041f50528fdd838a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aa92c0b026b9700041f50528fdd838a">&#9670;&#160;</a></span>addVar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void addVar </td>
+          <td>(</td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>qAdd</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che permette l’inserimento delle variabili di gioco. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">qAdd</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Questo è il grafo delle chiamate per questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a6aa92c0b026b9700041f50528fdd838a_cgraph.png" border="0" usemap="#alevelsfunctions_8c_a6aa92c0b026b9700041f50528fdd838a_cgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a6aa92c0b026b9700041f50528fdd838a_cgraph" id="alevelsfunctions_8c_a6aa92c0b026b9700041f50528fdd838a_cgraph">
+<area shape="rect" title="Funzione che permette l’inserimento delle variabili di gioco." alt="" coords="5,56,67,83"/>
+<area shape="rect" href="levelsfunctions_8c.html#a3128c8319f3a6ce6d72966dad0d390f5" title="Funzione che permette la scelta del valore che avrà la variabile scelta." alt="" coords="124,56,198,83"/>
+<area shape="poly" title=" " alt="" coords="67,67,109,67,109,72,67,72"/>
+<area shape="rect" href="features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="270,5,349,32"/>
+<area shape="poly" title=" " alt="" coords="66,56,114,41,187,28,253,20,254,26,187,34,115,47,68,61"/>
+<area shape="rect" href="levelsfunctions_8c.html#aa10befc0dab98079fee3a4395d399513" title="Funzione che stampa il menu dell’inserimento delle variabili." alt="" coords="115,107,208,133"/>
+<area shape="poly" title=" " alt="" coords="68,79,113,98,111,103,66,84"/>
+<area shape="poly" title=" " alt="" coords="198,54,254,35,256,40,200,59"/>
+<area shape="rect" href="levelsfunctions_8c.html#a49160679b1e235d1247f3014f1047551" title="Funzione che stampa il menu della scelta del valore delle variabili." alt="" coords="256,56,362,83"/>
+<area shape="poly" title=" " alt="" coords="199,67,240,67,240,72,199,72"/>
+</map>
+</div>
+<div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a6aa92c0b026b9700041f50528fdd838a_icgraph.png" border="0" usemap="#alevelsfunctions_8c_a6aa92c0b026b9700041f50528fdd838a_icgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a6aa92c0b026b9700041f50528fdd838a_icgraph" id="alevelsfunctions_8c_a6aa92c0b026b9700041f50528fdd838a_icgraph">
+<area shape="rect" title="Funzione che permette l’inserimento delle variabili di gioco." alt="" coords="702,5,764,32"/>
+<area shape="rect" href="levelsfunctions_8c.html#ad7cbef53b0c51c5586114246783c1f50" title="Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire." alt="" coords="591,5,654,32"/>
+<area shape="poly" title=" " alt="" coords="687,21,655,21,655,16,687,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#ac0a1a979fcfb44d03c933471499a11a8" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="441,5,543,32"/>
+<area shape="poly" title=" " alt="" coords="576,21,543,21,543,16,576,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,5,393,32"/>
+<area shape="poly" title=" " alt="" coords="425,21,393,21,393,16,425,16"/>
+<area shape="rect" href="levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,5,263,32"/>
+<area shape="poly" title=" " alt="" coords="296,21,264,21,264,16,296,16"/>
+<area shape="rect" href="features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,5,142,32"/>
+<area shape="poly" title=" " alt="" coords="175,21,142,21,142,16,175,16"/>
+<area shape="rect" href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a38b5906c4133881c0cc39fc8f2535a6d" name="a38b5906c4133881c0cc39fc8f2535a6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38b5906c4133881c0cc39fc8f2535a6d">&#9670;&#160;</a></span>checkEndLvl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int checkEndLvl </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che controlla se il livello è stato completato o meno. </p>
+<dl class="section return"><dt>Restituisce</dt><dd>int </dd></dl>
+<div class="dynheader">
+Questo è il grafo delle chiamate per questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a38b5906c4133881c0cc39fc8f2535a6d_cgraph.png" border="0" usemap="#alevelsfunctions_8c_a38b5906c4133881c0cc39fc8f2535a6d_cgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a38b5906c4133881c0cc39fc8f2535a6d_cgraph" id="alevelsfunctions_8c_a38b5906c4133881c0cc39fc8f2535a6d_cgraph">
+<area shape="rect" title="Funzione che controlla se il livello è stato completato o meno." alt="" coords="5,183,102,209"/>
+<area shape="rect" href="initlevels_8c.html#ae5d1ee659b0afb58c8e19e24dda55575" title="Funzione che inizializza le azioni che il giocatore potrà effettuare nel livello." alt="" coords="162,56,242,83"/>
+<area shape="poly" title=" " alt="" coords="63,180,98,138,148,93,154,89,157,93,151,97,102,142,67,184"/>
+<area shape="rect" href="initlevels_8c.html#a07650f28bf7f67edf39f5c8d70ba9ba9" title="Funzione che inizializza la mappa del livello." alt="" coords="167,107,237,133"/>
+<area shape="poly" title=" " alt="" coords="79,180,148,143,158,138,160,143,151,148,82,184"/>
+<area shape="rect" href="dialfunctions_8c.html#a1a908fa8ef9ce8c17bc34f6c8c37e870" title="Funzione che carica da file i dialoghi." alt="" coords="154,157,250,184"/>
+<area shape="poly" title=" " alt="" coords="102,185,138,179,139,184,103,190"/>
+<area shape="rect" href="features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="162,208,242,235"/>
+<area shape="poly" title=" " alt="" coords="103,202,147,209,146,215,102,207"/>
+<area shape="rect" href="levelsfunctions_8c.html#a55e1fd2e85959c825eb81bd05f51667f" title="Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore." alt="" coords="158,309,246,336"/>
+<area shape="poly" title=" " alt="" coords="72,208,175,297,171,301,69,212"/>
+<area shape="rect" href="dialfunctions_8c.html#aef782b2356ef00c6006c712e4f91fb60" title="Funzione che stampa una singola linea di dialogo al centro della finestra dei dialoghi." alt="" coords="150,360,254,387"/>
+<area shape="poly" title=" " alt="" coords="63,209,95,273,120,311,152,346,155,349,152,353,148,350,116,315,90,276,58,211"/>
+<area shape="rect" href="initlevels_8c.html#aeeb3e4de8ff0d01304720120fc9a0e5a" title="Funzione che associa a ogni azione esistente nel gioco ( quelle utilizzabili dal giocatore ) un nome ..." alt="" coords="320,5,411,32"/>
+<area shape="poly" title=" " alt="" coords="242,54,305,34,307,40,243,59"/>
+<area shape="rect" href="initlevels_8c.html#a55b23d1f1549090054947473d76f3ddf" title="Funzione che associa a ogni variabile esistente nel gioco ( quelle utilizzabili dal giocatore ) un no..." alt="" coords="331,56,399,83"/>
+<area shape="poly" title=" " alt="" coords="242,67,315,67,315,72,242,72"/>
+<area shape="rect" href="features_8c.html#ad4446bcef11e73ce238dea2e95faee58" title="Funzione che restituisce il percorso in cui si trova l’eseguibile del programma." alt="" coords="476,132,543,159"/>
+<area shape="poly" title=" " alt="" coords="238,120,461,139,460,144,237,126"/>
+<area shape="rect" href="dialfunctions_8c.html#a2d95b26c83050cb280629b762cea6dd1" title="Funzione che restituisce il percorso del file dei dialoghi." alt="" coords="320,157,410,184"/>
+<area shape="poly" title=" " alt="" coords="251,168,305,168,305,173,251,173"/>
+<area shape="poly" title=" " alt="" coords="410,160,460,151,461,156,411,165"/>
+<area shape="poly" title=" " alt="" coords="176,310,171,301,175,291,185,285,202,283,220,285,230,292,227,296,218,290,202,288,187,290,179,294,177,300,181,308"/>
+<area shape="rect" href="errors_8c.html#a701449d9896c131360b9fabfbd00e26d" title="Funzione che gestisce il caso in cui venga inserito un ciclo al posto della condizione di un altro ci..." alt="" coords="312,208,418,235"/>
+<area shape="poly" title=" " alt="" coords="217,307,254,276,301,244,310,239,313,244,303,249,257,281,220,311"/>
+<area shape="rect" href="errors_8c.html#af6cecb4d699b77d07f42aae0d2a1c646" title="Funzione che gestisce il caso in cui un’azione di tipo condizione viene inserita nel contesto sbaglia..." alt="" coords="314,259,416,285"/>
+<area shape="poly" title=" " alt="" coords="246,315,326,289,327,294,247,320"/>
+<area shape="rect" href="errors_8c.html#af2976c7a561c76c41f18b45ef34e9de1" title="Funzione che controlla se tutti gli “ALTRIMENTI” siano chiusi correttamente." alt="" coords="317,309,413,336"/>
+<area shape="poly" title=" " alt="" coords="247,320,301,320,301,325,247,325"/>
+<area shape="rect" href="errors_8c.html#ad404093a0eb05672cb5583ed0307221e" title="Funzione che gestisce il caso in cui gli “ALTRIMENTI” non vengano chiusi correttamente." alt="" coords="302,360,428,387"/>
+<area shape="poly" title=" " alt="" coords="247,334,306,352,305,357,246,339"/>
+<area shape="rect" href="errors_8c.html#a0543ac38be03b2790544f71112dc43c2" title="Funzione che gestisce il caso in cui la struttura “ALTRIMENTI” venga inserita senza il “SE” d’apparte..." alt="" coords="314,411,417,437"/>
+<area shape="poly" title=" " alt="" coords="237,334,256,346,270,359,280,372,289,384,304,397,311,401,308,406,300,401,285,388,276,375,266,363,252,350,234,339"/>
+<area shape="rect" href="errors_8c.html#a6ab269cd530b60b6f15ad3e90e11be62" title="Funzione che controlla se tutti i cicli siano chiusi correttamente." alt="" coords="315,461,415,488"/>
+<area shape="poly" title=" " alt="" coords="240,334,256,346,274,373,280,398,287,423,304,448,308,451,305,455,300,451,282,425,275,400,269,375,252,350,237,339"/>
+<area shape="rect" href="errors_8c.html#ae31134d34dcf6dfdece9226c54fc2029" title="Funzione che controlla se tutti i “SE” siano chiusi correttamente." alt="" coords="324,512,406,539"/>
+<area shape="poly" title=" " alt="" coords="242,335,256,346,270,367,277,387,280,424,283,461,290,479,304,498,313,506,309,510,300,502,286,482,278,462,275,425,272,388,265,369,252,350,238,339"/>
+<area shape="rect" href="errors_8c.html#a51de34299031696007e908f0491d7546" title="Funzione che gestisce il caso in cui venga inserita un “SE” nel posto della condizione di un altro “S..." alt="" coords="322,563,408,589"/>
+<area shape="poly" title=" " alt="" coords="243,335,256,346,273,374,280,400,280,450,278,475,280,499,287,524,304,549,311,556,307,559,300,552,283,526,275,500,273,475,274,450,275,401,268,376,252,350,239,339"/>
+<area shape="poly" title=" " alt="" coords="315,282,241,306,240,301,313,277"/>
+</map>
+</div>
+<div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a38b5906c4133881c0cc39fc8f2535a6d_icgraph.png" border="0" usemap="#alevelsfunctions_8c_a38b5906c4133881c0cc39fc8f2535a6d_icgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a38b5906c4133881c0cc39fc8f2535a6d_icgraph" id="alevelsfunctions_8c_a38b5906c4133881c0cc39fc8f2535a6d_icgraph">
+<area shape="rect" title="Funzione che controlla se il livello è stato completato o meno." alt="" coords="727,5,824,32"/>
+<area shape="rect" href="levelsfunctions_8c.html#a03e3adde4d6e3fcdb6b887522f51b04b" title="Funzione che esegue le azioni scelte dall’utente." alt="" coords="591,5,679,32"/>
+<area shape="poly" title=" " alt="" coords="712,21,680,21,680,16,712,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#ac0a1a979fcfb44d03c933471499a11a8" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="441,5,543,32"/>
+<area shape="poly" title=" " alt="" coords="575,21,544,21,544,16,575,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,5,393,32"/>
+<area shape="poly" title=" " alt="" coords="425,21,393,21,393,16,425,16"/>
+<area shape="rect" href="levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,5,263,32"/>
+<area shape="poly" title=" " alt="" coords="296,21,264,21,264,16,296,16"/>
+<area shape="rect" href="features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,5,142,32"/>
+<area shape="poly" title=" " alt="" coords="175,21,142,21,142,16,175,16"/>
+<area shape="rect" href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1c940c42c4047f2798dd5491897208a1" name="a1c940c42c4047f2798dd5491897208a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c940c42c4047f2798dd5491897208a1">&#9670;&#160;</a></span>createAlimit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int * createAlimit </td>
+          <td>(</td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>limSize</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che in base al livello stabilisce quali azioni l’utente può utilizzare. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">limSize</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>int* </dd></dl>
+<div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a1c940c42c4047f2798dd5491897208a1_icgraph.png" border="0" usemap="#alevelsfunctions_8c_a1c940c42c4047f2798dd5491897208a1_icgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a1c940c42c4047f2798dd5491897208a1_icgraph" id="alevelsfunctions_8c_a1c940c42c4047f2798dd5491897208a1_icgraph">
+<area shape="rect" title="Funzione che in base al livello stabilisce quali azioni l’utente può utilizzare." alt="" coords="702,5,793,32"/>
+<area shape="rect" href="levelsfunctions_8c.html#ad7cbef53b0c51c5586114246783c1f50" title="Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire." alt="" coords="591,5,654,32"/>
+<area shape="poly" title=" " alt="" coords="686,21,655,21,655,16,686,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#ac0a1a979fcfb44d03c933471499a11a8" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="441,5,543,32"/>
+<area shape="poly" title=" " alt="" coords="576,21,543,21,543,16,576,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,5,393,32"/>
+<area shape="poly" title=" " alt="" coords="425,21,393,21,393,16,425,16"/>
+<area shape="rect" href="levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,5,263,32"/>
+<area shape="poly" title=" " alt="" coords="296,21,264,21,264,16,296,16"/>
+<area shape="rect" href="features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,5,142,32"/>
+<area shape="poly" title=" " alt="" coords="175,21,142,21,142,16,175,16"/>
+<area shape="rect" href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0b1fef6defbe5895fa1a2ca2f58cf4fb" name="a0b1fef6defbe5895fa1a2ca2f58cf4fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b1fef6defbe5895fa1a2ca2f58cf4fb">&#9670;&#160;</a></span>delete_action()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void delete_action </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>lim</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che permette l’eliminazione dell’ultima azione inserita. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lim</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Questo è il grafo delle chiamate per questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a0b1fef6defbe5895fa1a2ca2f58cf4fb_cgraph.png" border="0" usemap="#alevelsfunctions_8c_a0b1fef6defbe5895fa1a2ca2f58cf4fb_cgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a0b1fef6defbe5895fa1a2ca2f58cf4fb_cgraph" id="alevelsfunctions_8c_a0b1fef6defbe5895fa1a2ca2f58cf4fb_cgraph">
+<area shape="rect" title="Funzione che permette l’eliminazione dell’ultima azione inserita." alt="" coords="5,120,104,147"/>
+<area shape="rect" href="features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="156,83,236,109"/>
+<area shape="poly" title=" " alt="" coords="104,118,140,108,142,113,105,123"/>
+<area shape="rect" href="levelsfunctions_8c.html#a55e1fd2e85959c825eb81bd05f51667f" title="Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore." alt="" coords="152,157,240,184"/>
+<area shape="poly" title=" " alt="" coords="105,144,137,152,136,158,104,149"/>
+<area shape="poly" title=" " alt="" coords="171,158,167,149,170,139,180,133,196,131,213,133,222,140,219,144,211,138,196,136,182,138,174,142,172,148,176,156"/>
+<area shape="rect" href="errors_8c.html#a701449d9896c131360b9fabfbd00e26d" title="Funzione che gestisce il caso in cui venga inserito un ciclo al posto della condizione di un altro ci..." alt="" coords="298,5,404,32"/>
+<area shape="poly" title=" " alt="" coords="208,155,238,120,251,98,259,79,269,61,286,42,292,38,295,42,290,46,273,64,264,81,256,100,242,123,212,159"/>
+<area shape="rect" href="errors_8c.html#af6cecb4d699b77d07f42aae0d2a1c646" title="Funzione che gestisce il caso in cui un’azione di tipo condizione viene inserita nel contesto sbaglia..." alt="" coords="300,56,402,83"/>
+<area shape="poly" title=" " alt="" coords="220,155,250,130,287,104,321,87,323,92,289,109,254,134,223,159"/>
+<area shape="rect" href="errors_8c.html#af2976c7a561c76c41f18b45ef34e9de1" title="Funzione che controlla se tutti gli “ALTRIMENTI” siano chiusi correttamente." alt="" coords="303,107,399,133"/>
+<area shape="poly" title=" " alt="" coords="238,154,292,136,294,141,240,159"/>
+<area shape="rect" href="errors_8c.html#ad404093a0eb05672cb5583ed0307221e" title="Funzione che gestisce il caso in cui gli “ALTRIMENTI” non vengano chiusi correttamente." alt="" coords="288,157,414,184"/>
+<area shape="poly" title=" " alt="" coords="241,168,272,168,272,173,241,173"/>
+<area shape="rect" href="errors_8c.html#a0543ac38be03b2790544f71112dc43c2" title="Funzione che gestisce il caso in cui la struttura “ALTRIMENTI” venga inserita senza il “SE” d’apparte..." alt="" coords="300,208,403,235"/>
+<area shape="poly" title=" " alt="" coords="240,182,294,200,292,205,238,187"/>
+<area shape="rect" href="errors_8c.html#a6ab269cd530b60b6f15ad3e90e11be62" title="Funzione che controlla se tutti i cicli siano chiusi correttamente." alt="" coords="301,259,401,285"/>
+<area shape="poly" title=" " alt="" coords="213,183,246,213,289,244,299,250,296,254,287,249,243,217,209,186"/>
+<area shape="rect" href="errors_8c.html#ae31134d34dcf6dfdece9226c54fc2029" title="Funzione che controlla se tutti i “SE” siano chiusi correttamente." alt="" coords="310,309,392,336"/>
+<area shape="poly" title=" " alt="" coords="206,183,238,237,261,268,290,295,297,301,294,305,286,299,257,271,233,240,201,186"/>
+<area shape="rect" href="errors_8c.html#a51de34299031696007e908f0491d7546" title="Funzione che gestisce il caso in cui venga inserita un “SE” nel posto della condizione di un altro “S..." alt="" coords="308,360,394,387"/>
+<area shape="poly" title=" " alt="" coords="203,183,213,216,231,259,256,305,290,346,296,351,293,356,286,350,252,308,226,262,208,218,198,185"/>
+<area shape="poly" title=" " alt="" coords="301,79,289,85,248,115,216,147,212,143,245,111,287,80,299,74"/>
+</map>
+</div>
+<div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a0b1fef6defbe5895fa1a2ca2f58cf4fb_icgraph.png" border="0" usemap="#alevelsfunctions_8c_a0b1fef6defbe5895fa1a2ca2f58cf4fb_icgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a0b1fef6defbe5895fa1a2ca2f58cf4fb_icgraph" id="alevelsfunctions_8c_a0b1fef6defbe5895fa1a2ca2f58cf4fb_icgraph">
+<area shape="rect" title="Funzione che permette l’eliminazione dell’ultima azione inserita." alt="" coords="591,5,689,32"/>
+<area shape="rect" href="levelsfunctions_8c.html#ac0a1a979fcfb44d03c933471499a11a8" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="441,5,543,32"/>
+<area shape="poly" title=" " alt="" coords="576,21,543,21,543,16,576,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,5,393,32"/>
+<area shape="poly" title=" " alt="" coords="425,21,393,21,393,16,425,16"/>
+<area shape="rect" href="levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,5,263,32"/>
+<area shape="poly" title=" " alt="" coords="296,21,264,21,264,16,296,16"/>
+<area shape="rect" href="features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,5,142,32"/>
+<area shape="poly" title=" " alt="" coords="175,21,142,21,142,16,175,16"/>
+<area shape="rect" href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a55e1fd2e85959c825eb81bd05f51667f" name="a55e1fd2e85959c825eb81bd05f51667f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55e1fd2e85959c825eb81bd05f51667f">&#9670;&#160;</a></span>print_action()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_action </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore. </p>
+<div class="dynheader">
+Questo è il grafo delle chiamate per questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a55e1fd2e85959c825eb81bd05f51667f_cgraph.png" border="0" usemap="#alevelsfunctions_8c_a55e1fd2e85959c825eb81bd05f51667f_cgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a55e1fd2e85959c825eb81bd05f51667f_cgraph" id="alevelsfunctions_8c_a55e1fd2e85959c825eb81bd05f51667f_cgraph">
+<area shape="rect" title="Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore." alt="" coords="5,157,94,184"/>
+<area shape="poly" title=" " alt="" coords="22,158,18,149,21,139,32,133,50,131,68,133,78,140,75,144,66,138,49,136,34,138,25,143,23,148,27,156"/>
+<area shape="rect" href="errors_8c.html#a701449d9896c131360b9fabfbd00e26d" title="Funzione che gestisce il caso in cui venga inserito un ciclo al posto della condizione di un altro ci..." alt="" coords="152,5,258,32"/>
+<area shape="poly" title=" " alt="" coords="55,156,87,101,111,70,140,42,146,38,149,42,143,46,115,73,91,104,60,158"/>
+<area shape="rect" href="errors_8c.html#af6cecb4d699b77d07f42aae0d2a1c646" title="Funzione che gestisce il caso in cui un’azione di tipo condizione viene inserita nel contesto sbaglia..." alt="" coords="154,56,256,83"/>
+<area shape="poly" title=" " alt="" coords="73,155,104,130,140,104,174,87,177,92,143,109,107,134,77,159"/>
+<area shape="rect" href="errors_8c.html#af2976c7a561c76c41f18b45ef34e9de1" title="Funzione che controlla se tutti gli “ALTRIMENTI” siano chiusi correttamente." alt="" coords="157,107,253,133"/>
+<area shape="poly" title=" " alt="" coords="92,154,146,136,148,141,94,159"/>
+<area shape="rect" href="errors_8c.html#ad404093a0eb05672cb5583ed0307221e" title="Funzione che gestisce il caso in cui gli “ALTRIMENTI” non vengano chiusi correttamente." alt="" coords="142,157,268,184"/>
+<area shape="poly" title=" " alt="" coords="94,168,126,168,126,173,94,173"/>
+<area shape="rect" href="errors_8c.html#a0543ac38be03b2790544f71112dc43c2" title="Funzione che gestisce il caso in cui la struttura “ALTRIMENTI” venga inserita senza il “SE” d’apparte..." alt="" coords="153,208,256,235"/>
+<area shape="poly" title=" " alt="" coords="94,182,148,200,146,205,92,187"/>
+<area shape="rect" href="errors_8c.html#a6ab269cd530b60b6f15ad3e90e11be62" title="Funzione che controlla se tutti i cicli siano chiusi correttamente." alt="" coords="155,259,255,285"/>
+<area shape="poly" title=" " alt="" coords="66,183,100,213,143,244,152,250,150,254,140,249,97,217,63,186"/>
+<area shape="rect" href="errors_8c.html#ae31134d34dcf6dfdece9226c54fc2029" title="Funzione che controlla se tutti i “SE” siano chiusi correttamente." alt="" coords="164,309,246,336"/>
+<area shape="poly" title=" " alt="" coords="60,183,91,237,115,268,143,295,151,301,148,305,140,299,111,271,87,240,55,186"/>
+<area shape="rect" href="errors_8c.html#a51de34299031696007e908f0491d7546" title="Funzione che gestisce il caso in cui venga inserita un “SE” nel posto della condizione di un altro “S..." alt="" coords="162,360,248,387"/>
+<area shape="poly" title=" " alt="" coords="57,183,67,216,84,259,110,305,144,346,150,351,147,356,140,350,105,308,79,262,62,218,52,185"/>
+<area shape="poly" title=" " alt="" coords="155,79,143,85,102,115,69,147,66,143,99,111,140,80,152,74"/>
+</map>
+</div>
+<div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a55e1fd2e85959c825eb81bd05f51667f_icgraph.png" border="0" usemap="#alevelsfunctions_8c_a55e1fd2e85959c825eb81bd05f51667f_icgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a55e1fd2e85959c825eb81bd05f51667f_icgraph" id="alevelsfunctions_8c_a55e1fd2e85959c825eb81bd05f51667f_icgraph">
+<area shape="rect" title="Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore." alt="" coords="887,119,975,145"/>
+<area shape="poly" title=" " alt="" coords="955,106,946,100,931,97,916,99,909,104,907,110,911,117,906,119,901,110,904,100,915,94,931,92,948,95,958,101"/>
+<area shape="rect" href="levelsfunctions_8c.html#ad7cbef53b0c51c5586114246783c1f50" title="Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire." alt="" coords="608,5,672,32"/>
+<area shape="poly" title=" " alt="" coords="912,107,881,67,861,48,838,33,795,19,750,13,708,13,673,16,672,11,708,8,751,8,796,14,840,28,864,44,885,63,916,104"/>
+<area shape="rect" href="levelsfunctions_8c.html#a38b5906c4133881c0cc39fc8f2535a6d" title="Funzione che controlla se il livello è stato completato o meno." alt="" coords="740,43,836,69"/>
+<area shape="poly" title=" " alt="" coords="889,113,814,72,816,68,892,108"/>
+<area shape="rect" href="levelsfunctions_8c.html#a03e3adde4d6e3fcdb6b887522f51b04b" title="Funzione che esegue le azioni scelte dall’utente." alt="" coords="596,68,684,95"/>
+<area shape="poly" title=" " alt="" coords="871,124,684,92,685,86,872,119"/>
+<area shape="rect" href="errors_8c.html#af6cecb4d699b77d07f42aae0d2a1c646" title="Funzione che gestisce il caso in cui un’azione di tipo condizione viene inserita nel contesto sbaglia..." alt="" coords="737,144,839,171"/>
+<area shape="poly" title=" " alt="" coords="881,152,839,160,838,154,880,147"/>
+<area shape="rect" href="levelsfunctions_8c.html#a0b1fef6defbe5895fa1a2ca2f58cf4fb" title="Funzione che permette l’eliminazione dell’ultima azione inserita." alt="" coords="591,144,689,171"/>
+<area shape="poly" title=" " alt="" coords="900,157,872,173,839,185,797,191,755,189,681,174,682,169,756,184,797,186,838,180,869,168,898,152"/>
+<area shape="rect" href="levelsfunctions_8c.html#ac0a1a979fcfb44d03c933471499a11a8" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="441,68,543,95"/>
+<area shape="poly" title=" " alt="" coords="595,40,527,70,524,65,593,35"/>
+<area shape="rect" href="levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,68,393,95"/>
+<area shape="poly" title=" " alt="" coords="425,84,393,84,393,79,425,79"/>
+<area shape="rect" href="levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,68,263,95"/>
+<area shape="poly" title=" " alt="" coords="296,84,264,84,264,79,296,79"/>
+<area shape="rect" href="features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,68,142,95"/>
+<area shape="poly" title=" " alt="" coords="175,84,142,84,142,79,175,79"/>
+<area shape="rect" href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,68,55,95"/>
+<area shape="poly" title=" " alt="" coords="87,84,55,84,55,79,87,79"/>
+<area shape="poly" title=" " alt="" coords="725,69,685,76,684,71,724,64"/>
+<area shape="poly" title=" " alt="" coords="580,84,543,84,543,79,580,79"/>
+<area shape="poly" title=" " alt="" coords="837,137,886,129,887,134,838,143"/>
+<area shape="poly" title=" " alt="" coords="597,139,518,98,521,93,600,134"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a31381949258ee57cb466ba4ed466ed76" name="a31381949258ee57cb466ba4ed466ed76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31381949258ee57cb466ba4ed466ed76">&#9670;&#160;</a></span>print_add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_add </td>
+          <td>(</td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>limitact</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>limit_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che stampa il menu delle azioni che il giocatore può aggiungere per far muovere il personaggio. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">limitact</td><td></td></tr>
+    <tr><td class="paramname">limit_size</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a31381949258ee57cb466ba4ed466ed76_icgraph.png" border="0" usemap="#alevelsfunctions_8c_a31381949258ee57cb466ba4ed466ed76_icgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a31381949258ee57cb466ba4ed466ed76_icgraph" id="alevelsfunctions_8c_a31381949258ee57cb466ba4ed466ed76_icgraph">
+<area shape="rect" title="Funzione che stampa il menu delle azioni che il giocatore può aggiungere per far muovere il personagg..." alt="" coords="702,5,777,32"/>
+<area shape="rect" href="levelsfunctions_8c.html#ad7cbef53b0c51c5586114246783c1f50" title="Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire." alt="" coords="591,5,654,32"/>
+<area shape="poly" title=" " alt="" coords="687,21,655,21,655,16,687,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#ac0a1a979fcfb44d03c933471499a11a8" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="441,5,543,32"/>
+<area shape="poly" title=" " alt="" coords="576,21,543,21,543,16,576,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,5,393,32"/>
+<area shape="poly" title=" " alt="" coords="425,21,393,21,393,16,425,16"/>
+<area shape="rect" href="levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,5,263,32"/>
+<area shape="poly" title=" " alt="" coords="296,21,264,21,264,16,296,16"/>
+<area shape="rect" href="features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,5,142,32"/>
+<area shape="poly" title=" " alt="" coords="175,21,142,21,142,16,175,16"/>
+<area shape="rect" href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a49160679b1e235d1247f3014f1047551" name="a49160679b1e235d1247f3014f1047551"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49160679b1e235d1247f3014f1047551">&#9670;&#160;</a></span>print_addValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_addValue </td>
+          <td>(</td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>val_limit</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>lVal_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che stampa il menu della scelta del valore delle variabili. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">val_limit</td><td></td></tr>
+    <tr><td class="paramname">lVal_size</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a49160679b1e235d1247f3014f1047551_icgraph.png" border="0" usemap="#alevelsfunctions_8c_a49160679b1e235d1247f3014f1047551_icgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a49160679b1e235d1247f3014f1047551_icgraph" id="alevelsfunctions_8c_a49160679b1e235d1247f3014f1047551_icgraph">
+<area shape="rect" title="Funzione che stampa il menu della scelta del valore delle variabili." alt="" coords="934,5,1040,32"/>
+<area shape="rect" href="levelsfunctions_8c.html#a3128c8319f3a6ce6d72966dad0d390f5" title="Funzione che permette la scelta del valore che avrà la variabile scelta." alt="" coords="812,5,886,32"/>
+<area shape="poly" title=" " alt="" coords="918,21,887,21,887,16,918,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#a6aa92c0b026b9700041f50528fdd838a" title="Funzione che permette l’inserimento delle variabili di gioco." alt="" coords="702,5,764,32"/>
+<area shape="poly" title=" " alt="" coords="796,21,764,21,764,16,796,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#ad7cbef53b0c51c5586114246783c1f50" title="Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire." alt="" coords="591,5,654,32"/>
+<area shape="poly" title=" " alt="" coords="687,21,655,21,655,16,687,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#ac0a1a979fcfb44d03c933471499a11a8" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="441,5,543,32"/>
+<area shape="poly" title=" " alt="" coords="576,21,543,21,543,16,576,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,5,393,32"/>
+<area shape="poly" title=" " alt="" coords="425,21,393,21,393,16,425,16"/>
+<area shape="rect" href="levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,5,263,32"/>
+<area shape="poly" title=" " alt="" coords="296,21,264,21,264,16,296,16"/>
+<area shape="rect" href="features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,5,142,32"/>
+<area shape="poly" title=" " alt="" coords="175,21,142,21,142,16,175,16"/>
+<area shape="rect" href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa10befc0dab98079fee3a4395d399513" name="aa10befc0dab98079fee3a4395d399513"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa10befc0dab98079fee3a4395d399513">&#9670;&#160;</a></span>print_addVar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_addVar </td>
+          <td>(</td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>var_limited</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>lVar_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che stampa il menu dell’inserimento delle variabili. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">var_limited</td><td></td></tr>
+    <tr><td class="paramname">lVar_size</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_aa10befc0dab98079fee3a4395d399513_icgraph.png" border="0" usemap="#alevelsfunctions_8c_aa10befc0dab98079fee3a4395d399513_icgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_aa10befc0dab98079fee3a4395d399513_icgraph" id="alevelsfunctions_8c_aa10befc0dab98079fee3a4395d399513_icgraph">
+<area shape="rect" title="Funzione che stampa il menu dell’inserimento delle variabili." alt="" coords="812,5,905,32"/>
+<area shape="rect" href="levelsfunctions_8c.html#a6aa92c0b026b9700041f50528fdd838a" title="Funzione che permette l’inserimento delle variabili di gioco." alt="" coords="702,5,764,32"/>
+<area shape="poly" title=" " alt="" coords="796,21,764,21,764,16,796,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#ad7cbef53b0c51c5586114246783c1f50" title="Funzione che serve ad inserire le azioni che il personaggio dovrà eseguire." alt="" coords="591,5,654,32"/>
+<area shape="poly" title=" " alt="" coords="687,21,655,21,655,16,687,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#ac0a1a979fcfb44d03c933471499a11a8" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="441,5,543,32"/>
+<area shape="poly" title=" " alt="" coords="576,21,543,21,543,16,576,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,5,393,32"/>
+<area shape="poly" title=" " alt="" coords="425,21,393,21,393,16,425,16"/>
+<area shape="rect" href="levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,5,263,32"/>
+<area shape="poly" title=" " alt="" coords="296,21,264,21,264,16,296,16"/>
+<area shape="rect" href="features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,5,142,32"/>
+<area shape="poly" title=" " alt="" coords="175,21,142,21,142,16,175,16"/>
+<area shape="rect" href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a76370995637bde062d5c7c97a856f41d" name="a76370995637bde062d5c7c97a856f41d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76370995637bde062d5c7c97a856f41d">&#9670;&#160;</a></span>print_map()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_map </td>
+          <td>(</td>
+          <td class="paramtype">WINDOW *</td>          <td class="paramname"><span class="paramname"><em>tmp</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che stampa la mappa di gioco. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tmp</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a85e28e41a59b5ef12c0f4cb26d9fb40f" name="a85e28e41a59b5ef12c0f4cb26d9fb40f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85e28e41a59b5ef12c0f4cb26d9fb40f">&#9670;&#160;</a></span>printcolor_char()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printcolor_char </td>
+          <td>(</td>
+          <td class="paramtype">WINDOW *</td>          <td class="paramname"><span class="paramname"><em>tWin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>cch</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>locX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>locY</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che serve alla corretta stampa della mappa. Nello specifico questa funzione stampa i singoli caratteri delle righe generate da printcolor_str. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tWin</td><td></td></tr>
+    <tr><td class="paramname">cch</td><td></td></tr>
+    <tr><td class="paramname">locX</td><td></td></tr>
+    <tr><td class="paramname">locY</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Questo è il grafo delle chiamate per questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a85e28e41a59b5ef12c0f4cb26d9fb40f_cgraph.png" border="0" usemap="#alevelsfunctions_8c_a85e28e41a59b5ef12c0f4cb26d9fb40f_cgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a85e28e41a59b5ef12c0f4cb26d9fb40f_cgraph" id="alevelsfunctions_8c_a85e28e41a59b5ef12c0f4cb26d9fb40f_cgraph">
+<area shape="rect" title="Funzione che serve alla corretta stampa della mappa. Nello specifico questa funzione stampa i singoli..." alt="" coords="5,5,112,32"/>
+<area shape="rect" href="levelsfunctions_8c.html#abaf3681eac5f29cff2d718d3e3516af6" title="Funzione che imposta la direzione in cui il personaggio dovrà proseguire." alt="" coords="160,5,248,32"/>
+<area shape="poly" title=" " alt="" coords="112,16,144,16,144,21,112,21"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad97e8e61c32c205942fa20c5c2688c63" name="ad97e8e61c32c205942fa20c5c2688c63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad97e8e61c32c205942fa20c5c2688c63">&#9670;&#160;</a></span>printcolor_str()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printcolor_str </td>
+          <td>(</td>
+          <td class="paramtype">WINDOW *</td>          <td class="paramname"><span class="paramname"><em>tWin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>colStr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>pLines</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tmpY</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che serve alla corretta stampa della mappa. Nello specifico questa funzione serve a suddividere la mappa in righe. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tWin</td><td></td></tr>
+    <tr><td class="paramname">colStr</td><td></td></tr>
+    <tr><td class="paramname">pLines</td><td></td></tr>
+    <tr><td class="paramname">tmpY</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a03e3adde4d6e3fcdb6b887522f51b04b" name="a03e3adde4d6e3fcdb6b887522f51b04b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03e3adde4d6e3fcdb6b887522f51b04b">&#9670;&#160;</a></span>run_actions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void run_actions </td>
+          <td>(</td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>fexit</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che esegue le azioni scelte dall’utente. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fexit</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Questo è il grafo delle chiamate per questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a03e3adde4d6e3fcdb6b887522f51b04b_cgraph.png" border="0" usemap="#alevelsfunctions_8c_a03e3adde4d6e3fcdb6b887522f51b04b_cgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a03e3adde4d6e3fcdb6b887522f51b04b_cgraph" id="alevelsfunctions_8c_a03e3adde4d6e3fcdb6b887522f51b04b_cgraph">
+<area shape="rect" title="Funzione che esegue le azioni scelte dall’utente." alt="" coords="5,1336,94,1363"/>
+<area shape="rect" href="herofunctions_8c.html#a12cac3382532a82a02011368a7d5fefb" title="Funzione che permette al personaggio di attaccare i nemici." alt="" coords="656,963,713,989"/>
+<area shape="poly" title=" " alt="" coords="49,1335,58,1235,70,1161,91,1078,120,991,161,907,186,868,215,832,248,799,285,771,311,757,338,749,366,747,394,750,450,768,504,799,555,837,600,878,665,949,661,952,596,882,551,841,501,803,448,773,393,755,366,752,339,754,313,762,287,775,251,803,219,836,191,871,166,910,125,993,96,1079,76,1162,63,1236,54,1336"/>
+<area shape="rect" href="levelsfunctions_8c.html#a38b5906c4133881c0cc39fc8f2535a6d" title="Funzione che controlla se il livello è stato completato o meno." alt="" coords="142,177,238,204"/>
+<area shape="poly" title=" " alt="" coords="49,1335,55,1153,70,842,82,673,98,513,116,375,139,272,152,242,168,215,172,218,157,244,144,274,122,376,103,513,88,674,76,843,60,1153,54,1336"/>
+<area shape="rect" href="features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="796,532,875,559"/>
+<area shape="poly" title=" " alt="" coords="48,1335,49,1234,59,1062,70,961,86,854,109,748,139,644,157,580,171,517,182,457,196,403,216,357,230,337,246,321,265,307,289,297,316,291,348,289,526,289,578,296,627,316,672,344,712,379,748,416,778,454,821,517,816,520,774,457,744,420,708,382,668,348,624,320,577,301,526,295,348,295,317,297,290,303,268,312,249,325,234,341,221,360,201,405,188,458,176,518,163,581,144,646,114,749,92,855,75,961,64,1063,54,1234,53,1335"/>
+<area shape="rect" href="levelsfunctions_8c.html#a55e1fd2e85959c825eb81bd05f51667f" title="Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore." alt="" coords="306,481,394,508"/>
+<area shape="poly" title=" " alt="" coords="49,1335,58,1222,76,1044,104,860,120,784,139,728,178,662,227,602,276,552,317,516,321,520,279,556,231,606,183,665,144,730,125,785,109,861,82,1045,63,1223,54,1336"/>
+<area shape="rect" href="herofunctions_8c.html#a797fb0df5f8ba411f73a410ea58b149e" title="Funzione che gestisce l’esecuzione delle strutture “MENTRE” e “FAI MENTRE”." alt="" coords="153,1304,226,1331"/>
+<area shape="poly" title=" " alt="" coords="93,1337,138,1326,139,1331,95,1342"/>
+<area shape="rect" href="herofunctions_8c.html#a27c0422fc84201cdb298084150dd8f22" title="Funzione che gestisce l’esecuzione della struttura “ALTRIMENTI”." alt="" coords="314,1417,385,1444"/>
+<area shape="poly" title=" " alt="" coords="73,1361,105,1379,143,1396,224,1416,299,1425,299,1430,223,1421,141,1401,103,1384,70,1365"/>
+<area shape="rect" href="herofunctions_8c.html#adfe8fd333960a659e543ac707e59d9e0" title="Funzione che gestisce l’esecuzione della struttura “SE”." alt="" coords="498,1316,551,1343"/>
+<area shape="poly" title=" " alt="" coords="94,1345,238,1340,482,1329,482,1334,238,1345,94,1350"/>
+<area shape="rect" href="herofunctions_8c.html#ab60720f329b1a441232ceef2c0533ac7" title="Funzione che ruota in senso antiorario la direzione in cui il personaggio deve proseguire." alt="" coords="647,1544,722,1571"/>
+<area shape="poly" title=" " alt="" coords="59,1362,89,1420,113,1454,143,1482,201,1520,253,1547,303,1565,351,1575,401,1579,456,1579,587,1569,632,1564,632,1569,588,1575,456,1584,401,1585,350,1580,301,1570,251,1552,198,1524,140,1486,109,1457,84,1423,54,1364"/>
+<area shape="rect" href="herofunctions_8c.html#abd89c33473f9813f76eda5d1ae51e332" title="Funzione che ruota in senso orario la direzione in cui il personaggio deve proseguire." alt="" coords="651,1620,718,1647"/>
+<area shape="poly" title=" " alt="" coords="56,1363,64,1399,80,1449,106,1501,123,1525,143,1546,201,1585,266,1614,335,1632,404,1643,472,1647,535,1646,635,1638,636,1643,535,1652,472,1652,404,1648,333,1637,264,1619,199,1590,140,1550,119,1529,101,1504,75,1451,59,1401,50,1364"/>
+<area shape="rect" href="herofunctions_8c.html#a744b180d904bf51f033419fd86486003" title="Funzione che imposta il numero di passi che il personaggio esegue." alt="" coords="645,1721,724,1748"/>
+<area shape="poly" title=" " alt="" coords="54,1362,59,1409,73,1474,84,1510,99,1545,119,1577,144,1606,199,1649,262,1682,329,1705,397,1721,465,1731,528,1736,630,1736,630,1741,528,1741,464,1737,396,1727,327,1711,259,1687,196,1653,140,1610,115,1580,95,1547,79,1512,68,1476,54,1409,49,1363"/>
+<area shape="rect" href="herofunctions_8c.html#aeb5bc2d291b7e4cee1f52da8785cf17c" title="Funzione che imposta il numero di rotazioni che il personaggio esegue." alt="" coords="647,1443,722,1469"/>
+<area shape="poly" title=" " alt="" coords="67,1361,103,1392,155,1431,218,1468,252,1483,287,1493,370,1510,437,1516,503,1510,587,1495,616,1486,644,1474,646,1479,618,1491,588,1500,504,1515,437,1521,369,1516,285,1498,250,1488,215,1473,152,1435,99,1396,63,1365"/>
+<area shape="rect" href="herofunctions_8c.html#aeef90800adaf9e97f79a1019d0b83c1f" title="Funzione che permette al personaggio di camminare nella mappa." alt="" coords="660,1039,708,1065"/>
+<area shape="poly" title=" " alt="" coords="61,1334,149,1243,213,1187,285,1135,331,1107,369,1089,409,1075,461,1063,510,1054,560,1049,645,1048,645,1053,560,1055,511,1059,462,1068,410,1081,371,1094,333,1112,287,1139,217,1191,152,1247,65,1337"/>
+<area shape="rect" href="initlevels_8c.html#ae5d1ee659b0afb58c8e19e24dda55575" title="Funzione che inizializza le azioni che il giocatore potrà effettuare nel livello." alt="" coords="310,177,390,204"/>
+<area shape="poly" title=" " alt="" coords="238,188,294,188,294,193,238,193"/>
+<area shape="rect" href="initlevels_8c.html#a07650f28bf7f67edf39f5c8d70ba9ba9" title="Funzione che inizializza la mappa del livello." alt="" coords="314,228,385,255"/>
+<area shape="poly" title=" " alt="" coords="235,202,300,223,299,228,234,207"/>
+<area shape="rect" href="dialfunctions_8c.html#a1a908fa8ef9ce8c17bc34f6c8c37e870" title="Funzione che carica da file i dialoghi." alt="" coords="302,76,398,103"/>
+<area shape="poly" title=" " alt="" coords="204,175,239,144,285,112,294,107,297,112,287,117,243,148,207,179"/>
+<area shape="poly" title=" " alt="" coords="194,176,206,150,225,118,251,86,285,62,351,32,414,13,474,4,531,6,585,20,637,46,687,85,735,138,766,185,790,236,808,290,820,344,834,443,837,516,832,516,829,443,815,345,803,292,785,238,761,188,731,141,684,89,635,51,583,25,530,11,474,9,415,18,353,37,287,66,255,90,230,121,211,152,199,178"/>
+<area shape="poly" title=" " alt="" coords="201,203,337,466,332,469,196,206"/>
+<area shape="rect" href="dialfunctions_8c.html#aef782b2356ef00c6006c712e4f91fb60" title="Funzione che stampa una singola linea di dialogo al centro della finestra dei dialoghi." alt="" coords="298,127,402,153"/>
+<area shape="poly" title=" " alt="" coords="234,174,290,156,291,161,235,179"/>
+<area shape="rect" href="initlevels_8c.html#aeeb3e4de8ff0d01304720120fc9a0e5a" title="Funzione che associa a ogni azione esistente nel gioco ( quelle utilizzabili dal giocatore ) un nome ..." alt="" coords="479,127,570,153"/>
+<area shape="poly" title=" " alt="" coords="390,176,463,155,465,160,391,181"/>
+<area shape="rect" href="initlevels_8c.html#a55b23d1f1549090054947473d76f3ddf" title="Funzione che associa a ogni variabile esistente nel gioco ( quelle utilizzabili dal giocatore ) un no..." alt="" coords="490,177,559,204"/>
+<area shape="poly" title=" " alt="" coords="390,188,475,188,475,193,390,193"/>
+<area shape="rect" href="features_8c.html#ad4446bcef11e73ce238dea2e95faee58" title="Funzione che restituisce il percorso in cui si trova l’eseguibile del programma." alt="" coords="651,152,718,179"/>
+<area shape="poly" title=" " alt="" coords="385,239,478,234,533,226,587,213,619,201,648,185,651,189,621,205,588,218,534,231,478,239,385,244"/>
+<area shape="rect" href="dialfunctions_8c.html#a2d95b26c83050cb280629b762cea6dd1" title="Funzione che restituisce il percorso del file dei dialoghi." alt="" coords="480,76,569,103"/>
+<area shape="poly" title=" " alt="" coords="398,87,464,87,464,92,398,92"/>
+<area shape="poly" title=" " alt="" coords="562,101,589,112,647,142,644,147,587,117,560,105"/>
+<area shape="poly" title=" " alt="" coords="322,482,317,472,320,463,332,457,350,455,369,457,379,464,376,468,367,462,350,460,333,462,325,466,322,472,327,479"/>
+<area shape="rect" href="errors_8c.html#a701449d9896c131360b9fabfbd00e26d" title="Funzione che gestisce il caso in cui venga inserito un ciclo al posto della condizione di un altro ci..." alt="" coords="471,684,578,711"/>
+<area shape="poly" title=" " alt="" coords="358,507,372,540,395,583,425,629,463,670,468,674,465,678,460,674,421,632,390,586,367,542,354,509"/>
+<area shape="rect" href="errors_8c.html#af6cecb4d699b77d07f42aae0d2a1c646" title="Funzione che gestisce il caso in cui un’azione di tipo condizione viene inserita nel contesto sbaglia..." alt="" coords="474,329,575,356"/>
+<area shape="poly" title=" " alt="" coords="363,479,403,431,430,403,460,378,493,360,495,365,463,382,434,407,407,434,367,482"/>
+<area shape="rect" href="errors_8c.html#af2976c7a561c76c41f18b45ef34e9de1" title="Funzione che controlla se tutti gli “ALTRIMENTI” siano chiusi correttamente." alt="" coords="476,380,573,407"/>
+<area shape="poly" title=" " alt="" coords="367,478,408,448,460,416,471,411,473,415,463,421,411,453,370,483"/>
+<area shape="rect" href="errors_8c.html#ad404093a0eb05672cb5583ed0307221e" title="Funzione che gestisce il caso in cui gli “ALTRIMENTI” non vengano chiusi correttamente." alt="" coords="461,431,588,457"/>
+<area shape="poly" title=" " alt="" coords="394,479,461,459,463,464,395,484"/>
+<area shape="rect" href="errors_8c.html#a0543ac38be03b2790544f71112dc43c2" title="Funzione che gestisce il caso in cui la struttura “ALTRIMENTI” venga inserita senza il “SE” d’apparte..." alt="" coords="473,481,576,508"/>
+<area shape="poly" title=" " alt="" coords="394,492,457,492,457,497,394,497"/>
+<area shape="rect" href="errors_8c.html#a6ab269cd530b60b6f15ad3e90e11be62" title="Funzione che controlla se tutti i cicli siano chiusi correttamente." alt="" coords="474,532,575,559"/>
+<area shape="poly" title=" " alt="" coords="395,505,463,525,461,530,394,510"/>
+<area shape="rect" href="errors_8c.html#ae31134d34dcf6dfdece9226c54fc2029" title="Funzione che controlla se tutti i “SE” siano chiusi correttamente." alt="" coords="483,583,566,609"/>
+<area shape="poly" title=" " alt="" coords="370,506,411,536,463,568,473,574,471,578,460,573,408,541,367,511"/>
+<area shape="rect" href="errors_8c.html#a51de34299031696007e908f0491d7546" title="Funzione che gestisce il caso in cui venga inserita un “SE” nel posto della condizione di un altro “S..." alt="" coords="481,633,568,660"/>
+<area shape="poly" title=" " alt="" coords="362,507,402,560,430,591,463,619,470,624,467,628,460,623,427,595,398,564,358,510"/>
+<area shape="poly" title=" " alt="" coords="475,351,463,358,433,384,406,413,366,469,361,466,401,409,429,380,460,354,472,346"/>
+<area shape="poly" title=" " alt="" coords="192,1303,203,1269,222,1225,248,1177,284,1135,327,1102,374,1073,423,1048,473,1028,566,998,640,981,641,986,568,1003,474,1033,425,1053,376,1077,330,1106,288,1139,253,1180,226,1227,208,1271,197,1304"/>
+<area shape="poly" title=" " alt="" coords="165,1305,161,1295,164,1286,174,1279,190,1277,207,1280,216,1286,213,1291,205,1285,190,1283,176,1284,168,1289,166,1295,170,1302"/>
+<area shape="rect" href="herofunctions_8c.html#aebea9caf234845655337317a7ce42ef0" title="Funzione che verifica la presenza dei nemici nella casella successiva al personaggio." alt="" coords="636,1120,733,1147"/>
+<area shape="poly" title=" " alt="" coords="201,1302,236,1266,259,1247,285,1231,372,1193,463,1166,549,1148,620,1137,621,1142,550,1153,464,1171,374,1198,287,1236,262,1251,239,1270,204,1306"/>
+<area shape="rect" href="herofunctions_8c.html#a052c249f0570dc03f994d1a2f4a42f69" title="Funzione che verifica se il personaggio sia arrivato al traguardo." alt="" coords="638,1203,731,1229"/>
+<area shape="poly" title=" " alt="" coords="210,1301,244,1281,285,1264,375,1241,467,1226,552,1218,622,1214,622,1219,553,1223,468,1232,377,1246,287,1269,247,1286,213,1306"/>
+<area shape="rect" href="herofunctions_8c.html#a190ec5d79c534ac4a02179c2420a5f44" title="Funzione che verifica la presenza di ostacoli nella casella successiva al personaggio." alt="" coords="781,1039,889,1065"/>
+<area shape="poly" title=" " alt="" coords="190,1303,199,1260,215,1201,243,1136,262,1105,284,1077,325,1041,364,1022,460,993,535,962,597,937,627,931,659,929,694,935,734,948,760,963,784,983,819,1024,815,1027,780,986,757,967,732,953,693,940,659,935,628,936,599,942,537,967,462,998,366,1027,328,1045,288,1080,266,1108,248,1138,220,1203,204,1262,196,1304"/>
+<area shape="rect" href="errors_8c.html#a5a7e2b803fb331769499875e7796d0f6" title="Funzione che gestisce il caso in cui il ciclo sia un ciclo infinito." alt="" coords="286,785,413,812"/>
+<area shape="poly" title=" " alt="" coords="190,1303,198,1210,217,1069,245,927,263,869,284,829,293,819,297,823,288,832,268,871,250,928,222,1070,204,1211,195,1304"/>
+<area shape="poly" title=" " alt="" coords="205,1329,308,1406,305,1410,201,1333"/>
+<area shape="rect" href="herofunctions_8c.html#ab03db0d312684c0b238fe5dce58b0286" title="Funzione che restituisce la posizione delle strutture “FINE_SE”, ”FINE_CICLO” e “FINE_ALTRIMENTI”." alt="" coords="636,1265,733,1292"/>
+<area shape="poly" title=" " alt="" coords="226,1303,286,1289,376,1278,468,1273,621,1273,621,1278,468,1278,377,1283,286,1294,227,1309"/>
+<area shape="poly" title=" " alt="" coords="227,1322,353,1329,482,1331,482,1337,353,1335,227,1327"/>
+<area shape="poly" title=" " alt="" coords="197,1330,206,1365,224,1409,250,1456,268,1476,288,1494,329,1518,373,1536,420,1549,468,1557,558,1563,631,1560,632,1566,558,1569,467,1563,419,1554,372,1542,326,1523,284,1498,264,1480,246,1459,219,1412,201,1366,192,1332"/>
+<area shape="poly" title=" " alt="" coords="195,1331,201,1375,216,1436,228,1468,244,1500,263,1529,288,1554,328,1581,373,1602,420,1617,469,1627,561,1636,635,1635,635,1640,561,1641,468,1633,419,1623,371,1607,326,1586,284,1558,259,1532,239,1503,223,1470,211,1437,196,1376,190,1332"/>
+<area shape="poly" title=" " alt="" coords="194,1331,197,1385,209,1463,221,1505,237,1547,259,1586,288,1621,326,1652,369,1676,415,1695,462,1710,554,1726,630,1732,629,1737,553,1732,461,1715,413,1700,367,1681,323,1656,284,1624,255,1589,233,1550,216,1507,204,1464,191,1385,188,1331"/>
+<area shape="poly" title=" " alt="" coords="198,1330,209,1358,228,1393,254,1427,287,1454,330,1472,376,1483,424,1489,471,1490,559,1482,631,1468,632,1473,560,1487,471,1495,423,1494,375,1488,329,1477,285,1458,250,1431,223,1396,205,1360,193,1332"/>
+<area shape="poly" title=" " alt="" coords="195,1302,228,1247,254,1215,284,1187,330,1158,379,1133,479,1094,572,1069,644,1055,645,1060,574,1074,481,1099,381,1137,332,1162,288,1191,258,1219,233,1250,200,1305"/>
+<area shape="poly" title=" " alt="" coords="411,782,496,757,586,720,651,683,712,641,805,567,808,571,715,646,654,688,589,725,498,762,413,787"/>
+<area shape="poly" title=" " alt="" coords="353,1416,390,1319,421,1255,459,1193,507,1133,560,1078,652,997,655,1001,564,1082,511,1137,464,1196,426,1258,395,1321,358,1418"/>
+<area shape="poly" title=" " alt="" coords="335,1419,231,1341,235,1337,338,1415"/>
+<area shape="poly" title=" " alt="" coords="385,1421,478,1396,533,1377,586,1352,625,1327,657,1300,660,1304,628,1331,589,1357,535,1382,480,1401,386,1426"/>
+<area shape="poly" title=" " alt="" coords="384,1424,412,1408,460,1371,498,1349,500,1353,463,1375,415,1413,387,1428"/>
+<area shape="poly" title=" " alt="" coords="386,1441,634,1536,632,1541,384,1446"/>
+<area shape="poly" title=" " alt="" coords="367,1442,408,1481,463,1523,554,1574,637,1612,635,1617,551,1579,460,1527,405,1485,363,1446"/>
+<area shape="poly" title=" " alt="" coords="360,1443,399,1513,428,1556,463,1595,506,1632,553,1664,640,1712,637,1717,551,1669,503,1636,459,1599,424,1559,394,1516,355,1446"/>
+<area shape="poly" title=" " alt="" coords="385,1430,632,1449,631,1455,385,1436"/>
+<area shape="poly" title=" " alt="" coords="358,1415,400,1355,459,1278,566,1162,656,1074,659,1078,570,1165,463,1282,404,1358,362,1418"/>
+<area shape="poly" title=" " alt="" coords="526,1315,538,1265,560,1192,592,1107,633,1025,654,998,659,1002,638,1028,596,1110,565,1194,543,1267,531,1316"/>
+<area shape="poly" title=" " alt="" coords="497,1326,376,1318,242,1315,242,1310,376,1312,497,1320"/>
+<area shape="poly" title=" " alt="" coords="535,1314,634,1189,660,1157,664,1160,638,1192,539,1317"/>
+<area shape="poly" title=" " alt="" coords="544,1313,650,1236,654,1240,547,1317"/>
+<area shape="poly" title=" " alt="" coords="552,1331,590,1335,638,1334,687,1324,710,1315,731,1302,756,1279,776,1252,792,1222,804,1191,821,1130,829,1080,834,1081,826,1131,809,1193,797,1224,780,1255,760,1282,735,1306,713,1320,689,1329,638,1339,590,1340,551,1336"/>
+<area shape="poly" title=" " alt="" coords="499,1333,463,1351,415,1389,377,1411,374,1406,412,1384,460,1347,496,1328"/>
+<area shape="poly" title=" " alt="" coords="551,1318,625,1295,626,1300,553,1323"/>
+<area shape="poly" title=" " alt="" coords="497,1317,492,1307,495,1298,506,1291,525,1289,544,1292,554,1298,551,1303,542,1297,524,1295,508,1296,499,1301,497,1307,501,1314"/>
+<area shape="poly" title=" " alt="" coords="538,1342,667,1530,663,1533,533,1345"/>
+<area shape="poly" title=" " alt="" coords="532,1342,569,1445,600,1514,638,1581,659,1607,655,1610,633,1584,595,1516,564,1447,527,1344"/>
+<area shape="poly" title=" " alt="" coords="532,1342,569,1473,600,1565,638,1657,667,1707,662,1710,633,1660,595,1567,563,1475,527,1344"/>
+<area shape="poly" title=" " alt="" coords="544,1341,656,1430,652,1434,541,1345"/>
+<area shape="poly" title=" " alt="" coords="529,1315,568,1225,599,1165,633,1106,658,1075,662,1078,638,1109,603,1168,573,1227,534,1317"/>
+<area shape="poly" title=" " alt="" coords="701,1036,717,1020,731,1000,757,943,778,882,808,760,824,652,830,574,835,574,829,652,813,761,783,884,762,945,735,1003,721,1023,704,1040"/>
+<area shape="poly" title=" " alt="" coords="709,1049,766,1049,766,1055,709,1055"/>
+</map>
+</div>
+<div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_a03e3adde4d6e3fcdb6b887522f51b04b_icgraph.png" border="0" usemap="#alevelsfunctions_8c_a03e3adde4d6e3fcdb6b887522f51b04b_icgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_a03e3adde4d6e3fcdb6b887522f51b04b_icgraph" id="alevelsfunctions_8c_a03e3adde4d6e3fcdb6b887522f51b04b_icgraph">
+<area shape="rect" title="Funzione che esegue le azioni scelte dall’utente." alt="" coords="591,5,679,32"/>
+<area shape="rect" href="levelsfunctions_8c.html#ac0a1a979fcfb44d03c933471499a11a8" title="Funzione che esegue l’opzione selezionata nel menu delle azioni." alt="" coords="441,5,543,32"/>
+<area shape="poly" title=" " alt="" coords="575,21,544,21,544,16,575,16"/>
+<area shape="rect" href="levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,5,393,32"/>
+<area shape="poly" title=" " alt="" coords="425,21,393,21,393,16,425,16"/>
+<area shape="rect" href="levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,5,263,32"/>
+<area shape="poly" title=" " alt="" coords="296,21,264,21,264,16,296,16"/>
+<area shape="rect" href="features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,5,142,32"/>
+<area shape="poly" title=" " alt="" coords="175,21,142,21,142,16,175,16"/>
+<area shape="rect" href="main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3d0bfc70bf8df6cc9aa3565a5857e48f" name="a3d0bfc70bf8df6cc9aa3565a5857e48f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d0bfc70bf8df6cc9aa3565a5857e48f">&#9670;&#160;</a></span>run_anim()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void run_anim </td>
+          <td>(</td>
+          <td class="paramtype">WINDOW *</td>          <td class="paramname"><span class="paramname"><em>tmp</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che genera l’animazione d’esecuzione del programma. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tmp</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abaf3681eac5f29cff2d718d3e3516af6" name="abaf3681eac5f29cff2d718d3e3516af6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaf3681eac5f29cff2d718d3e3516af6">&#9670;&#160;</a></span>setRotation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setRotation </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>isEnd</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funzione che imposta la direzione in cui il personaggio dovrà proseguire. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isEnd</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Questo è il grafo dei chiamanti di questa funzione:</div>
+<div class="dyncontent">
+<div class="center"><img src="levelsfunctions_8c_abaf3681eac5f29cff2d718d3e3516af6_icgraph.png" border="0" usemap="#alevelsfunctions_8c_abaf3681eac5f29cff2d718d3e3516af6_icgraph" alt=""/></div>
+<map name="alevelsfunctions_8c_abaf3681eac5f29cff2d718d3e3516af6_icgraph" id="alevelsfunctions_8c_abaf3681eac5f29cff2d718d3e3516af6_icgraph">
+<area shape="rect" title="Funzione che imposta la direzione in cui il personaggio dovrà proseguire." alt="" coords="160,5,248,32"/>
+<area shape="rect" href="levelsfunctions_8c.html#a85e28e41a59b5ef12c0f4cb26d9fb40f" title="Funzione che serve alla corretta stampa della mappa. Nello specifico questa funzione stampa i singoli..." alt="" coords="5,5,112,32"/>
+<area shape="poly" title=" " alt="" coords="144,21,112,21,112,16,144,16"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

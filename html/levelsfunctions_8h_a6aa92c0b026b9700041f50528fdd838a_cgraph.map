@@ -1,0 +1,12 @@
+<map id="addVar" name="addVar">
+<area shape="rect" id="Node000001" title="Funzione che permette l’inserimento delle variabili di gioco." alt="" coords="5,56,67,83"/>
+<area shape="rect" id="Node000002" href="$levelsfunctions_8c.html#a3128c8319f3a6ce6d72966dad0d390f5" title="Funzione che permette la scelta del valore che avrà la variabile scelta." alt="" coords="124,56,198,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,67,109,67,109,72,67,72"/>
+<area shape="rect" id="Node000003" href="$features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="270,5,349,32"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="66,56,114,41,187,28,253,20,254,26,187,34,115,47,68,61"/>
+<area shape="rect" id="Node000005" href="$levelsfunctions_8c.html#aa10befc0dab98079fee3a4395d399513" title="Funzione che stampa il menu dell’inserimento delle variabili." alt="" coords="115,107,208,133"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="68,79,113,98,111,103,66,84"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="198,54,254,35,256,40,200,59"/>
+<area shape="rect" id="Node000004" href="$levelsfunctions_8c.html#a49160679b1e235d1247f3014f1047551" title="Funzione che stampa il menu della scelta del valore delle variabili." alt="" coords="256,56,362,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="199,67,240,67,240,72,199,72"/>
+</map>

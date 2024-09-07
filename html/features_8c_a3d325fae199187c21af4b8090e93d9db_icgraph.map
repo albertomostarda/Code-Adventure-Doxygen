@@ -1,0 +1,6 @@
+<map id="csearch" name="csearch">
+<area shape="rect" id="Node000001" title="Funzione che cerca un determinato carattere nella stringa e ne restituisce l’indice." alt="" coords="109,29,176,56"/>
+<area shape="rect" id="Node000002" href="$features_8c.html#adc14a70cdea92ee05d07bc2950def9ca" title="Funzione che manda a capo il testo nel caso il testo sia più grande della finestra in cui verrà stamp..." alt="" coords="5,29,61,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,45,61,45,61,40,93,40"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="50,16,44,10,33,8,22,10,17,14,15,20,18,28,13,30,10,20,12,11,20,5,33,3,47,5,54,12"/>
+</map>

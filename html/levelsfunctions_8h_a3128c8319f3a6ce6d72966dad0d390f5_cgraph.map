@@ -1,0 +1,7 @@
+<map id="addValue" name="addValue">
+<area shape="rect" id="Node000001" title="Funzione che permette la scelta del valore che avrà la variabile scelta." alt="" coords="5,31,80,57"/>
+<area shape="rect" id="Node000002" href="$features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="141,5,220,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,35,125,26,126,31,81,40"/>
+<area shape="rect" id="Node000003" href="$levelsfunctions_8c.html#a49160679b1e235d1247f3014f1047551" title="Funzione che stampa il menu della scelta del valore delle variabili." alt="" coords="128,56,234,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="81,48,113,54,112,59,80,53"/>
+</map>

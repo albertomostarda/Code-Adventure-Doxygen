@@ -1,0 +1,11 @@
+<map id="reloadDialogue" name="reloadDialogue">
+<area shape="rect" id="Node000001" title="Funzione che in caso di cambiamento della finestra dei dialoghi, mette in pausa il dialogo presente i..." alt="" coords="441,5,548,32"/>
+<area shape="rect" id="Node000002" href="$levelsfunctions_8c.html#a15f8ae6abc3e4685db45d35caa413d99" title="Funzione che permette il funzionamento del menu delle azioni, ovvero inserire, eliminare ed eseguire ..." alt="" coords="311,5,393,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="425,21,393,21,393,16,425,16"/>
+<area shape="rect" id="Node000003" href="$levels_8c.html#a3c76a2c9518bd61aab5264d9cc3065c7" title="Funzione che permette l’esecuzione del livello." alt="" coords="190,5,263,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="296,21,264,21,264,16,296,16"/>
+<area shape="rect" id="Node000004" href="$features_8c.html#a13a43e6d814de94978c515cb084873b1" title="Il programma esegue le funzionalità di base per poter giocare." alt="" coords="103,5,142,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="175,21,142,21,142,16,175,16"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="conditionError" name="conditionError">
+<area shape="rect" id="Node000001" title="Funzione che gestisce il caso in cui un’azione di tipo condizione viene inserita nel contesto sbaglia..." alt="" coords="5,157,107,184"/>
+<area shape="rect" id="Node000002" href="$levelsfunctions_8c.html#a55e1fd2e85959c825eb81bd05f51667f" title="Funzione che stampa le azioni ( che dovrà fare il personaggio) selezionate dal giocatore." alt="" coords="155,157,243,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,177,139,177,139,182,107,182"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="154,165,122,164,122,159,154,160"/>
+<area shape="poly" id="edge10_Node000002_Node000002" title=" " alt="" coords="174,158,169,149,172,139,183,133,199,131,216,133,226,140,223,144,214,138,199,136,184,138,177,142,175,148,179,156"/>
+<area shape="rect" id="Node000003" href="$errors_8c.html#a701449d9896c131360b9fabfbd00e26d" title="Funzione che gestisce il caso in cui venga inserito un ciclo al posto della condizione di un altro ci..." alt="" coords="301,5,407,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="204,156,236,101,260,70,289,42,295,38,298,42,293,46,264,73,241,104,209,158"/>
+<area shape="rect" id="Node000004" href="$errors_8c.html#af2976c7a561c76c41f18b45ef34e9de1" title="Funzione che controlla se tutti gli “ALTRIMENTI” siano chiusi correttamente." alt="" coords="306,56,402,83"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="212,155,246,124,290,92,299,87,302,92,292,97,249,128,216,159"/>
+<area shape="rect" id="Node000005" href="$errors_8c.html#ad404093a0eb05672cb5583ed0307221e" title="Funzione che gestisce il caso in cui gli “ALTRIMENTI” non vengano chiusi correttamente." alt="" coords="291,107,417,133"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="241,154,295,136,297,141,243,159"/>
+<area shape="rect" id="Node000006" href="$errors_8c.html#a0543ac38be03b2790544f71112dc43c2" title="Funzione che gestisce il caso in cui la struttura “ALTRIMENTI” venga inserita senza il “SE” d’apparte..." alt="" coords="302,157,406,184"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="244,168,287,168,287,173,244,173"/>
+<area shape="rect" id="Node000007" href="$errors_8c.html#a6ab269cd530b60b6f15ad3e90e11be62" title="Funzione che controlla se tutti i cicli siano chiusi correttamente." alt="" coords="304,208,404,235"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="243,182,297,200,295,205,241,187"/>
+<area shape="rect" id="Node000008" href="$errors_8c.html#ae31134d34dcf6dfdece9226c54fc2029" title="Funzione che controlla se tutti i “SE” siano chiusi correttamente." alt="" coords="313,259,395,285"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="216,183,249,213,292,244,302,250,299,254,290,249,246,217,212,186"/>
+<area shape="rect" id="Node000009" href="$errors_8c.html#a51de34299031696007e908f0491d7546" title="Funzione che gestisce il caso in cui venga inserita un “SE” nel posto della condizione di un altro “S..." alt="" coords="311,309,397,336"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="209,183,241,237,264,268,293,295,299,300,296,304,289,299,260,271,236,240,204,186"/>
+</map>

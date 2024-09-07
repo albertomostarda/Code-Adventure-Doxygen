@@ -1,0 +1,5 @@
+<map id="getDialPath" name="getDialPath">
+<area shape="rect" id="Node000001" title="Funzione che restituisce il percorso del file dei dialoghi." alt="" coords="5,5,95,32"/>
+<area shape="rect" id="Node000002" href="$features_8c.html#ad4446bcef11e73ce238dea2e95faee58" title="Funzione che restituisce il percorso in cui si trova l’eseguibile del programma." alt="" coords="143,5,209,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,16,127,16,127,21,95,21"/>
+</map>

@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Code Adenture:  File sorgente dialfunctions.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Code Adenture
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Caricamento in corso...</div>
+<div class="SRStatus" id="Searching">Ricerca in corso...</div>
+<div class="SRStatus" id="NoMatches">Nessun risultato</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_948aae705c0747e8432797041efae263.html">copy of prj</a></li><li class="navelem"><a class="el" href="dir_472707efebd640948003f62acf84903d.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle"><div class="title">dialfunctions.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="dialfunctions_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">DIALFUNCTIONS_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">DIALFUNCTIONS_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">windows</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">extern</span> <span class="keywordtype">char</span> **<a class="code hl_variable" href="dialfunctions_8c.html#a39fe40592303d46db590ec78adb993e5">dialogue_buffer</a>;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="dialfunctions_8h.html#a048d49eea71ae213cd75d282bdef85e5">    6</a></span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="dialfunctions_8c.html#ab6048ab6d5ecb77c49af8f4596b4e5d0">dialBuff_size</a>, <a class="code hl_variable" href="dialfunctions_8c.html#a048d49eea71ae213cd75d282bdef85e5">dialPos</a>, <a class="code hl_variable" href="dialfunctions_8c.html#a21eaccd8c567a76bbe4c115dc0bcbfde">isEmpty</a>, <a class="code hl_variable" href="dialfunctions_8c.html#a2431fdf8807688a5b11ac5bd6ba9b520">dReload</a>;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keywordtype">void</span> <a class="code hl_function" href="dialfunctions_8c.html#a64bcdef067fb72c38464b23ed0352a67">reloadDialogue</a>();</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keywordtype">void</span> <a class="code hl_function" href="dialfunctions_8c.html#aef782b2356ef00c6006c712e4f91fb60">printOneDLine</a>();</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keywordtype">void</span> <a class="code hl_function" href="dialfunctions_8c.html#a1a908fa8ef9ce8c17bc34f6c8c37e870">loadDialogue</a>();</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keywordtype">char</span>* <a class="code hl_function" href="dialfunctions_8c.html#a2d95b26c83050cb280629b762cea6dd1">getDialPath</a>();</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
+<div class="ttc" id="adialfunctions_8c_html_a048d49eea71ae213cd75d282bdef85e5"><div class="ttname"><a href="dialfunctions_8c.html#a048d49eea71ae213cd75d282bdef85e5">dialPos</a></div><div class="ttdeci">int dialPos</div><div class="ttdef"><b>Definition</b> dialfunctions.c:20</div></div>
+<div class="ttc" id="adialfunctions_8c_html_a1a908fa8ef9ce8c17bc34f6c8c37e870"><div class="ttname"><a href="dialfunctions_8c.html#a1a908fa8ef9ce8c17bc34f6c8c37e870">loadDialogue</a></div><div class="ttdeci">void loadDialogue()</div><div class="ttdoc">Funzione che carica da file i dialoghi.</div><div class="ttdef"><b>Definition</b> dialfunctions.c:48</div></div>
+<div class="ttc" id="adialfunctions_8c_html_a21eaccd8c567a76bbe4c115dc0bcbfde"><div class="ttname"><a href="dialfunctions_8c.html#a21eaccd8c567a76bbe4c115dc0bcbfde">isEmpty</a></div><div class="ttdeci">int isEmpty</div><div class="ttdef"><b>Definition</b> dialfunctions.c:20</div></div>
+<div class="ttc" id="adialfunctions_8c_html_a2431fdf8807688a5b11ac5bd6ba9b520"><div class="ttname"><a href="dialfunctions_8c.html#a2431fdf8807688a5b11ac5bd6ba9b520">dReload</a></div><div class="ttdeci">int dReload</div><div class="ttdef"><b>Definition</b> dialfunctions.c:20</div></div>
+<div class="ttc" id="adialfunctions_8c_html_a2d95b26c83050cb280629b762cea6dd1"><div class="ttname"><a href="dialfunctions_8c.html#a2d95b26c83050cb280629b762cea6dd1">getDialPath</a></div><div class="ttdeci">char * getDialPath()</div><div class="ttdoc">Funzione che restituisce il percorso del file dei dialoghi.</div><div class="ttdef"><b>Definition</b> dialfunctions.c:27</div></div>
+<div class="ttc" id="adialfunctions_8c_html_a39fe40592303d46db590ec78adb993e5"><div class="ttname"><a href="dialfunctions_8c.html#a39fe40592303d46db590ec78adb993e5">dialogue_buffer</a></div><div class="ttdeci">char ** dialogue_buffer</div><div class="ttdef"><b>Definition</b> dialfunctions.c:19</div></div>
+<div class="ttc" id="adialfunctions_8c_html_a64bcdef067fb72c38464b23ed0352a67"><div class="ttname"><a href="dialfunctions_8c.html#a64bcdef067fb72c38464b23ed0352a67">reloadDialogue</a></div><div class="ttdeci">void reloadDialogue()</div><div class="ttdoc">Funzione che in caso di cambiamento della finestra dei dialoghi, mette in pausa il dialogo presente i...</div><div class="ttdef"><b>Definition</b> dialfunctions.c:119</div></div>
+<div class="ttc" id="adialfunctions_8c_html_ab6048ab6d5ecb77c49af8f4596b4e5d0"><div class="ttname"><a href="dialfunctions_8c.html#ab6048ab6d5ecb77c49af8f4596b4e5d0">dialBuff_size</a></div><div class="ttdeci">int dialBuff_size</div><div class="ttdef"><b>Definition</b> dialfunctions.c:20</div></div>
+<div class="ttc" id="adialfunctions_8c_html_aef782b2356ef00c6006c712e4f91fb60"><div class="ttname"><a href="dialfunctions_8c.html#aef782b2356ef00c6006c712e4f91fb60">printOneDLine</a></div><div class="ttdeci">void printOneDLine()</div><div class="ttdoc">Funzione che stampa una singola linea di dialogo al centro della finestra dei dialoghi.</div><div class="ttdef"><b>Definition</b> dialfunctions.c:92</div></div>
+<div class="ttc" id="afeatures_8h_html_a64f0c284338052f5977f33a0647562c9"><div class="ttname"><a href="features_8h.html#a64f0c284338052f5977f33a0647562c9">nclearBuff</a></div><div class="ttdeci">void nclearBuff(void)</div><div class="ttdoc">Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses.</div><div class="ttdef"><b>Definition</b> features.c:115</div></div>
+<div class="ttc" id="afeatures_8h_html_a9f9cae7945eb5bddfff27e077ff3a159"><div class="ttname"><a href="features_8h.html#a9f9cae7945eb5bddfff27e077ff3a159">max_path</a></div><div class="ttdeci">const int max_path</div><div class="ttdef"><b>Definition</b> features.c:28</div></div>
+<div class="ttc" id="afeatures_8h_html_ad4446bcef11e73ce238dea2e95faee58"><div class="ttname"><a href="features_8h.html#ad4446bcef11e73ce238dea2e95faee58">getPath</a></div><div class="ttdeci">char * getPath()</div><div class="ttdoc">Funzione che restituisce il percorso in cui si trova l’eseguibile del programma.</div><div class="ttdef"><b>Definition</b> features.c:127</div></div>
+<div class="ttc" id="afeatures_8h_html_ae614c70611e399a79a703def400b7e29"><div class="ttname"><a href="features_8h.html#ae614c70611e399a79a703def400b7e29">sLevel</a></div><div class="ttdeci">int sLevel</div><div class="ttdef"><b>Definition</b> features.c:34</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

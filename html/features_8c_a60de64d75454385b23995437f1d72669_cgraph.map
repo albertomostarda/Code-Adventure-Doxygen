@@ -1,0 +1,7 @@
+<map id="start" name="start">
+<area shape="rect" id="Node000001" title="Il programma inizia l’inizializzazione terminale e in seguito stampa la schermata le avvertenze e i c..." alt="" coords="5,31,53,57"/>
+<area shape="rect" id="Node000002" href="$features_8c.html#abd1f8c83fcebf1f40bc3fec0f96fb2bb" title="Funzione che inizializza le coppie di colori per le diverse entità presenti nella mappa." alt="" coords="102,5,178,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="52,36,86,28,87,33,53,41"/>
+<area shape="rect" id="Node000003" href="$features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="101,56,180,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="53,47,86,54,85,59,52,52"/>
+</map>
