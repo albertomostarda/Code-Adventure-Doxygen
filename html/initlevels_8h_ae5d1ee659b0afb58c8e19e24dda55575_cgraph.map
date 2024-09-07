@@ -1,7 +1,0 @@
-<map id="init_action" name="init_action">
-<area shape="rect" id="Node000001" title="Funzione che inizializza le azioni che il giocatore potrà effettuare nel livello." alt="" coords="5,31,86,57"/>
-<area shape="rect" id="Node000002" href="$initlevels_8c.html#aeeb3e4de8ff0d01304720120fc9a0e5a" title="Funzione che associa a ogni azione esistente nel gioco ( quelle utilizzabili dal giocatore ) un nome ..." alt="" coords="134,5,225,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,34,118,28,119,33,87,39"/>
-<area shape="rect" id="Node000003" href="$initlevels_8c.html#a55b23d1f1549090054947473d76f3ddf" title="Funzione che associa a ogni variabile esistente nel gioco ( quelle utilizzabili dal giocatore ) un no..." alt="" coords="145,56,214,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="87,49,130,57,129,63,86,54"/>
-</map>
