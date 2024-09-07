@@ -1,5 +1,0 @@
-<map id="loadSaves" name="loadSaves">
-<area shape="rect" id="Node000001" title="Funzione che carica, se esistono, gli ultimi progressi salvati." alt="" coords="5,5,88,32"/>
-<area shape="rect" id="Node000002" href="$features_8c.html#ad4446bcef11e73ce238dea2e95faee58" title="Funzione che restituisce il percorso in cui si trova l’eseguibile del programma." alt="" coords="136,5,202,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,16,120,16,120,21,88,21"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="reloadDialogue" name="reloadDialogue">
-<area shape="rect" id="Node000001" title="Funzione che in caso di cambiamento della finestra dei dialoghi, mette in pausa il dialogo presente i..." alt="" coords="5,5,113,32"/>
-<area shape="rect" id="Node000002" href="$features_8c.html#a64f0c284338052f5977f33a0647562c9" title="Funzione che ripulisce il buffer d’input adattata alla libreria di nCurses." alt="" coords="161,5,240,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,16,145,16,145,21,113,21"/>
-</map>

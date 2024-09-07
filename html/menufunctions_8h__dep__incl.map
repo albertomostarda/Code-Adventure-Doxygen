@@ -1,7 +1,0 @@
-<map id="menufunctions.h" name="menufunctions.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="48,5,165,32"/>
-<area shape="rect" id="Node000002" href="$features_8c.html" title="Libreria in cui sono presenti varie funzioni per il funzionamento del programma." alt="" coords="5,80,85,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,46,58,81,54,78,84,42"/>
-<area shape="rect" id="Node000003" href="$menufunctions_8c.html" title="Libreria in cui sono presenti le funzioni per il funzionamento del menu principale e il caricamento e..." alt="" coords="109,80,226,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="129,42,159,78,155,81,125,46"/>
-</map>
